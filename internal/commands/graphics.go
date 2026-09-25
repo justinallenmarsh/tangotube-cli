@@ -13,8 +13,6 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/sys/unix"
-
 	"github.com/justinallenmarsh/tangotube-cli/internal/brand"
 )
 
@@ -46,7 +44,7 @@ func (a *App) graphics() graphics {
 	case "none", "off", "0":
 		return noGraphics
 	}
-	if !a.Interactive() || a.Env("TMUX") != "" || strings.HasPrefix(a.Env("TERM"), "screen") {
+	if !a.Interactive() || a.Plain || a.Env("TMUX") != "" || strings.HasPrefix(a.Env("TERM"), "screen") {
 		// tmux keeps images to itself unless told to pass them through, and
 		// a stray escape is worse than a blocky logo.
 		return noGraphics
@@ -71,11 +69,11 @@ func (a *App) cellPixels() (float64, float64) {
 	if a.Cell != nil {
 		return a.Cell()
 	}
-	ws, err := unix.IoctlGetWinsize(int(os.Stdout.Fd()), unix.TIOCGWINSZ)
-	if err != nil || ws.Xpixel == 0 || ws.Ypixel == 0 || ws.Col == 0 || ws.Row == 0 {
+	w, ok := windowPixels(os.Stdout)
+	if !ok || w.xpixel == 0 || w.ypixel == 0 || w.cols == 0 || w.rows == 0 {
 		return 10, 21
 	}
-	return float64(ws.Xpixel) / float64(ws.Col), float64(ws.Ypixel) / float64(ws.Row)
+	return float64(w.xpixel) / float64(w.cols), float64(w.ypixel) / float64(w.rows)
 }
 
 // The terminal is told only how wide (or tall) an image is, in cells, and

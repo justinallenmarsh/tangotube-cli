@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"os/exec"
 	"runtime"
 	"strings"
 	"time"
@@ -106,8 +105,6 @@ func newVersion(a *App) *cobra.Command {
 	}
 }
 
-const installCommand = "curl -fsSL https://tangotube.tv/install-cli | bash"
-
 // latestReleaseURL answers {"tag_name": "v0.2.0"}. TANGOTUBE_RELEASES_URL
 // points it elsewhere for tests.
 const latestReleaseURL = "https://api.github.com/repos/justinallenmarsh/tangotube-cli/releases/latest"
@@ -119,12 +116,15 @@ type upgradePlan struct {
 }
 
 func planUpgrade(self, home string, env func(string) string) upgradePlan {
+	// Windows paths compare as slashes, so one set of rules reads both.
+	slash := func(p string) string { return strings.TrimRight(strings.ReplaceAll(p, `\`, "/"), "/") }
 	gobins := []string{env("GOBIN")}
 	if gopath := env("GOPATH"); gopath != "" {
 		gobins = append(gobins, gopath+"/bin")
 	}
 	gobins = append(gobins, home+"/go/bin")
-	dir := dirOf(self)
+	self = slash(self)
+	dir := self[:max(strings.LastIndex(self, "/"), 0)]
 	switch {
 	case strings.Contains(self, "/mise/installs/"):
 		return upgradePlan{"mise", "mise upgrade github:justinallenmarsh/tangotube-cli"}
@@ -132,7 +132,7 @@ func planUpgrade(self, home string, env func(string) string) upgradePlan {
 		return upgradePlan{"source", "git pull && make build"}
 	}
 	for _, bin := range gobins {
-		if bin != "" && dir == strings.TrimRight(bin, "/") {
+		if bin != "" && dir == slash(bin) {
 			return upgradePlan{"go", "go install github.com/justinallenmarsh/tangotube-cli/cmd/tt@latest"}
 		}
 	}
@@ -194,7 +194,7 @@ prints that command instead of running someone else's package manager. Under
 			if !a.Interactive() || plan.Method != "script" {
 				return a.Printer().Success(output.NewEnvelope(data, summary+" Upgrade with the command below.", plan.Command), nil)
 			}
-			run := exec.Command("bash", "-c", installCommand)
+			run := installer()
 			run.Stdout, run.Stderr, run.Stdin = a.Out, a.Err, a.In
 			run.Env = append(os.Environ(), "TANGOTUBE_BIN_DIR="+dirOf(self), "TANGOTUBE_SKIP_SETUP=1", "TANGOTUBE_VERSION="+latest)
 			if err := run.Run(); err != nil {

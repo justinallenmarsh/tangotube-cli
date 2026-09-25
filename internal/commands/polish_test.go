@@ -59,6 +59,19 @@ func TestPlanUpgradeFollowsHowTTWasInstalled(t *testing.T) {
 			t.Errorf("%s: %s, want %s", self, got, want)
 		}
 	}
+
+	winEnv := func(k string) string { return map[string]string{"GOPATH": `C:\Users\d\go`}[k] }
+	windows := map[string]string{
+		`C:\Users\d\AppData\Local\mise\installs\github-justinallenmarsh-tangotube-cli\0.1.0\tt.exe`: "mise",
+		`C:\Users\d\go\bin\tt.exe`:                    "go",
+		`C:\Users\d\AppData\Local\Programs\tt\tt.exe`: "script",
+	}
+	for self, want := range windows {
+		if got := planUpgrade(self, `C:\Users\d`, winEnv).Method; got != want {
+			t.Errorf("%s: %s, want %s", self, got, want)
+		}
+	}
+
 	Version = "dev"
 	if got := planUpgrade("/home/d/.local/bin/tt", "/home/d", env).Method; got != "source" {
 		t.Errorf("a dev build upgrades from source, got %s", got)

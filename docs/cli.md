@@ -689,7 +689,8 @@ tt looks for a token in this order:
 1. `--token`
 2. `TANGOTUBE_TOKEN`
 3. the OS keyring (service `tangotube`)
-4. `~/.config/tangotube/token`, mode 0600
+4. `~/.config/tangotube/token`, mode 0600 (on Windows
+   `%AppData%\tangotube\token`; the keyring is the Credential Manager)
 
 `TANGOTUBE_NO_KEYRING=1` keeps it in the file, for headless boxes.
 `tt auth status` says who you are, the token's scopes, and where it lives —

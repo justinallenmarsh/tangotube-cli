@@ -7,6 +7,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"runtime"
 	"strings"
 	"time"
 
@@ -48,10 +49,16 @@ func NewStore(baseURL string) *Store {
 	return &Store{Host: host, Env: os.Getenv, Keyring: timeoutKeyring{}, ConfigDir: ConfigDir()}
 }
 
-// ConfigDir is $XDG_CONFIG_HOME/tangotube, or ~/.config/tangotube.
+// ConfigDir is $XDG_CONFIG_HOME/tangotube, or ~/.config/tangotube, or on
+// Windows %AppData%\tangotube.
 func ConfigDir() string {
 	if dir := os.Getenv("XDG_CONFIG_HOME"); dir != "" {
 		return filepath.Join(dir, "tangotube")
+	}
+	if runtime.GOOS == "windows" {
+		if dir, err := os.UserConfigDir(); err == nil {
+			return filepath.Join(dir, "tangotube")
+		}
 	}
 	home, _ := os.UserHomeDir()
 	return filepath.Join(home, ".config", "tangotube")
@@ -94,6 +101,8 @@ func (s *Store) Save(token string) (string, error) {
 			return SourceKeyring, nil
 		}
 	}
+	// On Windows the modes only keep the file writable; what keeps it private
+	// is that %AppData% belongs to the user.
 	if err := os.MkdirAll(filepath.Dir(s.FilePath()), 0o700); err != nil {
 		return "", err
 	}

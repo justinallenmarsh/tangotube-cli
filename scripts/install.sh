@@ -18,7 +18,8 @@ die() { printf '  tt: %s\n' "$*" >&2; exit 1; }
 case "$(uname -s)" in
   Darwin) os=darwin ;;
   Linux) os=linux ;;
-  *) die "tt ships for macOS and Linux; on anything else, build it from https://github.com/$REPO" ;;
+  MINGW* | MSYS* | CYGWIN*) die "on Windows, install from PowerShell: irm https://raw.githubusercontent.com/$REPO/main/scripts/install.ps1 | iex" ;;
+  *) die "tt ships for macOS, Linux and Windows; on anything else, build it from https://github.com/$REPO" ;;
 esac
 case "$(uname -m)" in
   x86_64 | amd64) arch=amd64 ;;

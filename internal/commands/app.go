@@ -45,10 +45,13 @@ type App struct {
 	Flags    Flags
 	TTY      bool // stdout is a terminal
 	StdinTTY bool // stdin is a terminal: someone is there to watch
-	Width    int
-	Height   int
-	Home     string
-	Cwd      string
+	// Plain is a terminal that cannot read escape sequences: an old Windows
+	// console. It gets no colour, links, pictures or animation.
+	Plain  bool
+	Width  int
+	Height int
+	Home   string
+	Cwd    string
 
 	// Cell reports a terminal cell's size in pixels. Tests swap it out; nil
 	// asks the terminal.
@@ -65,13 +68,14 @@ func NewApp() *App {
 	home, _ := os.UserHomeDir()
 	cwd, _ := os.Getwd()
 	tty := term.IsTerminal(int(os.Stdout.Fd()))
-	width, height := 0, 0
+	width, height, plain := 0, 0, false
 	if tty {
 		width, height, _ = term.GetSize(int(os.Stdout.Fd()))
+		plain = !enableEscapes(os.Stdout)
 	}
 	return &App{
 		Out: os.Stdout, Err: os.Stderr, In: os.Stdin, Env: os.Getenv,
-		TTY: tty, StdinTTY: term.IsTerminal(int(os.Stdin.Fd())), Width: width, Height: height,
+		TTY: tty, StdinTTY: term.IsTerminal(int(os.Stdin.Fd())), Plain: plain, Width: width, Height: height,
 		Home: home, Cwd: cwd,
 		Browser: openBrowser, NewStore: auth.NewStore,
 	}
@@ -100,12 +104,14 @@ func (a *App) Printer() *output.Printer {
 		p.Mode = output.Human
 	}
 	p.Pretty = a.TTY && !a.Flags.Agent
-	links := p.Mode == output.Human && a.Env("TERM") != "dumb" && a.Env("TT_NO_LINKS") == ""
-	if p.Mode == output.Human && a.Env("NO_COLOR") == "" && a.Env("TERM") != "dumb" {
+	escapes := p.Mode == output.Human && a.Env("TERM") != "dumb" && !a.Plain
+	links := escapes && a.Env("TT_NO_LINKS") == ""
+	if escapes && a.Env("NO_COLOR") == "" {
 		ct := a.Env("COLORTERM")
 		p.Style = output.Style{
-			Enabled:   true,
-			TrueColor: ct == "truecolor" || ct == "24bit",
+			Enabled: true,
+			// Windows Terminal draws 24-bit colour and says so only with WT_SESSION.
+			TrueColor: ct == "truecolor" || ct == "24bit" || a.Env("WT_SESSION") != "",
 			DarkBG:    darkBackground(a.Env("COLORFGBG")),
 		}
 	}

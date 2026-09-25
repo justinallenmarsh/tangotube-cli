@@ -7,7 +7,7 @@ builds:
     binary: tt
     env:
       - CGO_ENABLED=0
-    goos: [darwin, linux]
+    goos: [darwin, linux, windows]
     goarch: [amd64, arm64]
     flags: [-trimpath]
     ldflags:
@@ -20,7 +20,12 @@ archives:
   - formats: [tar.gz]
     # No version in the name, so /releases/latest/download/tt_linux_amd64.tar.gz
     # always means the newest one. scripts/install.sh depends on it.
+    # scripts/install.ps1 likewise reads tt_windows_amd64.zip; the binary
+    # inside is tt.exe.
     name_template: "tt_{{ .Os }}_{{ .Arch }}"
+    format_overrides:
+      - goos: windows
+        formats: [zip]
     files: [LICENSE, README.md]
 
 checksum:

@@ -1,6 +1,6 @@
 name: Release
 
-# A tag like v0.1.0 builds darwin/linux × amd64/arm64 and a checksums.txt.
+# A tag like v0.1.0 builds darwin/linux/windows × amd64/arm64 and a checksums.txt.
 # scripts/install.sh and `mise use -g github:justinallenmarsh/tangotube-cli`
 # both read /releases/latest, so a tag is all it takes to ship.
 on:

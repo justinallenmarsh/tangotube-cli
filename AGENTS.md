@@ -50,5 +50,6 @@ Against a local TangoTube: `TANGOTUBE_DEV=1 ./bin/tt …` (localhost:3000), or
 - Description: `TangoTube CLI and agent skill`
 - Topics: `tango`, `cli`, `agent-skills`, `golang`
 - License: MIT (`LICENSE`)
-- Releases: GoReleaser (`.goreleaser.yaml`) — darwin/linux × amd64/arm64 and
+- Releases: GoReleaser (`.goreleaser.yaml`) — darwin/linux/windows × amd64/arm64 (zip with `tt.exe` for
+  Windows) and
   `checksums.txt`. Tag `vX.Y.Z` and run `goreleaser release --clean`.

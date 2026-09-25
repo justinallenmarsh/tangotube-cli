@@ -12,6 +12,12 @@ Argentine tango videos, in the terminal and in your coding agent's hands.
 curl -fsSL https://tangotube.tv/install-cli | bash
 ```
 
+On Windows, in PowerShell:
+
+```powershell
+irm https://raw.githubusercontent.com/justinallenmarsh/tangotube-cli/main/scripts/install.ps1 | iex
+```
+
 With mise:
 
 ```bash

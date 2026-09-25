@@ -104,7 +104,7 @@ func (a *App) runChecks(cmd *cobra.Command) []Check {
 	onPath, err := exec.LookPath("tt")
 	switch {
 	case err != nil:
-		checks = append(checks, Check{"tt", "warn", fmt.Sprintf("%s at %s, not on your PATH", Version, tilde(self, a.Home)), "curl -fsSL https://tangotube.tv/install-cli | bash"})
+		checks = append(checks, Check{"tt", "warn", fmt.Sprintf("%s at %s, not on your PATH", Version, tilde(self, a.Home)), installCommand})
 	default:
 		checks = append(checks, Check{"tt", "ok", fmt.Sprintf("%s at %s", Version, tilde(onPath, a.Home)), ""})
 	}
