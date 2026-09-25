@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "Deleting “Scratch pad” (1 video) cannot be undone. Say --yes to go ahead.",
+    "hint": "tt playlist delete scratch --yes",
+    "retryable": false
+  }
+}

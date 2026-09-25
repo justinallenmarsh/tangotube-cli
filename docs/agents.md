@@ -75,13 +75,15 @@ claude mcp add tangotube -- tt mcp
 `tt mcp` serves the catalogue — `search`, `facets`, `resolve`, `home`,
 `catalogue_list`, `video_show`, `performance_show`, `entity_show`,
 `song_versions`, `partners`, `clip_list`, `clip_create`, `clip_tags` — and the signed-in person's library: `like`,
-`likes`, `history`, `history_edit`, `playlists`, `playlist_edit`, `follow`,
+`likes`, `history`, `history_edit`, `playlists`, `playlist_edit`, `playlist_delete`, `follow`,
 `following`, `practice`, `saved_searches`, `notifications`, and `clip_edit` —
 and helping name videos: `queue`, `identify_search`, `suggest`, `confirm`,
 `agree`, `report`, `tag_suggest` (`video_show` takes `identity`).
 The tools that change things take an `action` (`playlist_edit` with `create`,
 `add`, `move`…). Each tool returns the same envelope the CLI prints, and uses
-the token `tt` already has; clearing history needs `confirm: true`.
+the token `tt` already has; clearing history needs `confirm: true`, and
+`playlist_delete` only previews (the title and how many videos) until it is
+called with `confirm: true`.
 
 With an operator's admin token (`tt auth login --admin`), `tt mcp` also serves
 `admin_report`, `admin_coverage`, `admin_desk`, `admin_describe`,

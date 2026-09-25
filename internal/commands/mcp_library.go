@@ -158,10 +158,10 @@ func libraryTools() []mcpTool {
 		},
 		{
 			Name: "playlist_edit",
-			Description: "Make and change the signed-in person's playlists: create (title), update (title, description, visibility), delete, " +
-				"add or remove a video, or move a video to a position (1 is first). Adding a video already there leaves it put.",
+			Description: "Make and change the signed-in person's playlists: create (title), update (title, description, visibility), " +
+				"add or remove a video, or move a video to a position (1 is first). Adding a video already there leaves it put. Deleting one is playlist_delete.",
 			InputSchema: schema([]string{"action"}, map[string]any{
-				"action": enum("What to do.", "create", "update", "delete", "add", "remove", "move"),
+				"action": enum("What to do.", "create", "update", "add", "remove", "move"),
 				"id":     str("The playlist's slug; every action but create."), "title": str("Title, for create and update."),
 				"description": str("For create and update."), "visibility": enum("Who can see it.", "private", "unlisted", "public"),
 				"video": str("YouTube id: for add, remove, move; optional first video for create."), "position": num("For move: 1 is first."),
@@ -187,7 +187,7 @@ func libraryTools() []mcpTool {
 				case "update":
 					return cl.Do(c, http.MethodPatch, playlistPath(id), nil, body(args, "title", "description", "visibility"), true)
 				case "delete":
-					return cl.Do(c, http.MethodDelete, playlistPath(id), nil, nil, true)
+					return nil, Usage("Deleting a playlist is playlist_delete, which shows what would go first", "playlist_delete")
 				case "add":
 					if err := need(args, "video"); err != nil {
 						return nil, err
@@ -204,6 +204,17 @@ func libraryTools() []mcpTool {
 					}
 					return cl.Do(c, http.MethodPut, playlistPath(id, "/order"), nil, map[string]any{"video_id": video, "position": args["position"]}, true)
 				}
+			},
+		},
+		{
+			Name: "playlist_delete",
+			Description: "Delete one of the signed-in person's playlists. CANNOT be undone; the videos stay on TangoTube. " +
+				"Without confirm it only previews: the title and how many videos. confirm only after the person agrees.",
+			InputSchema: schema([]string{"id"}, map[string]any{
+				"id": str("The playlist's slug."), "dry_run": boolean("Show what would be deleted."), "confirm": boolean(confirmChange),
+			}),
+			call: func(c context.Context, cl *api.Client, args map[string]any) (*output.Envelope, error) {
+				return cl.Do(c, http.MethodDelete, playlistPath(arg(args, "id")), query(args, "dry_run", "confirm"), nil, true)
 			},
 		},
 		{

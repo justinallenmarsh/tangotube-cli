@@ -236,16 +236,26 @@ func newPlaylistEdit(a *App) *cobra.Command {
 }
 
 func newPlaylistDelete(a *App) *cobra.Command {
-	return &cobra.Command{
-		Use:     "delete ID",
-		Short:   "Delete one of your playlists. The videos stay on TangoTube.",
-		Example: "  tt playlist delete di-sarli-for-sunday",
-		Args:    exactArgs(1, "tt playlist delete ID"),
+	var yes bool
+	cmd := &cobra.Command{
+		Use:   "delete ID --yes",
+		Short: "Delete one of your playlists. Cannot be undone; asks for --yes.",
+		Long: `Delete one of your playlists. This cannot be undone. The videos stay on
+TangoTube. Without --yes nothing is deleted: the answer names the playlist
+and how many videos it holds, and exits 1.`,
+		Example: "  tt playlist delete di-sarli-for-sunday --yes",
+		Args:    exactArgs(1, "tt playlist delete ID --yes"),
 		RunE: func(cmd *cobra.Command, args []string) error {
-			env, err := a.Client().Do(ctx(cmd), http.MethodDelete, playlistPath(args[0]), nil, nil, true)
+			var q url.Values
+			if yes {
+				q = url.Values{"confirm": {"true"}}
+			}
+			env, err := a.Client().Do(ctx(cmd), http.MethodDelete, playlistPath(args[0]), q, nil, true)
 			return a.Show(env, err, nil)
 		},
 	}
+	cmd.Flags().BoolVar(&yes, "yes", false, "Yes, delete it.")
+	return cmd
 }
 
 func newPlaylistAdd(a *App) *cobra.Command {
@@ -261,15 +271,17 @@ func newPlaylistAdd(a *App) *cobra.Command {
 			return nil
 		},
 		RunE: func(cmd *cobra.Command, args []string) error {
-			var env *output.Envelope
-			var err error
+			// One request, so the answer names every video it added and
+			// each one that was already there.
+			ids := make([]string, 0, len(args)-1)
 			for _, video := range args[1:] {
-				env, err = a.Client().Do(ctx(cmd), http.MethodPost, playlistPath(args[0], "/items"), nil,
-					map[string]any{"video_id": NormalizeID(video)}, true)
-				if err != nil {
-					break
-				}
+				ids = append(ids, NormalizeID(video))
 			}
+			body := map[string]any{"video_ids": ids}
+			if len(ids) == 1 {
+				body = map[string]any{"video_id": ids[0]}
+			}
+			env, err := a.Client().Do(ctx(cmd), http.MethodPost, playlistPath(args[0], "/items"), nil, body, true)
 			return a.Show(env, err, renderPlaylistChange)
 		},
 	}

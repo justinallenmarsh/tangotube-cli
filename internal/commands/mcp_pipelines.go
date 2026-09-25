@@ -107,6 +107,7 @@ var destructiveTools = map[string]bool{
 	"admin_dancer_merge": true, "admin_image_add": true, "admin_image": true, "admin_review": true, "admin_audio": true,
 	"admin_suggestion": true, "admin_inbox": true, "admin_tag": true, "admin_user": true, "admin_performance_recredit": true,
 	"admin_payload": true, "admin_job": true, "admin_cron": true, "admin_rebuild": true, "admin_announcement": true,
+	"playlist_delete": true,
 }
 
 const confirmChange = "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview."

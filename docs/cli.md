@@ -235,7 +235,7 @@ tt playlist rename di-sarli-for-sunday "Sunday night"
 tt playlist edit di-sarli-for-sunday --visibility public
 tt playlist remove di-sarli-for-sunday uGwRPRusbC0
 tt playlist list
-tt playlist delete di-sarli-for-sunday
+tt playlist delete di-sarli-for-sunday --yes # there is no undo; without --yes it says what would go
 
 tt follow dancer "noelia hurtado"
 tt follow event planetango --level all_activity   # personalized, all_activity, or muted

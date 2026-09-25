@@ -174,9 +174,18 @@ func Handler() http.Handler {
 		case r.Method == http.MethodDelete && strings.HasPrefix(path, "playlists/") && strings.Contains(path, "/items/"):
 			serve(w, 200, "playlist_removed.json")
 		case r.Method == http.MethodDelete && strings.HasPrefix(path, "playlists/"):
+			if q.Get("confirm") != "true" {
+				serve(w, 400, "playlist_delete_refused.json")
+				return
+			}
 			serve(w, 200, "playlist_deleted.json")
 		case r.Method == http.MethodPost && strings.HasPrefix(path, "playlists/") && strings.HasSuffix(path, "/items"):
-			serve(w, 201, "playlist_added.json")
+			// Several videos come in one request, named together.
+			if ids, _ := readBody(r)["video_ids"].([]any); len(ids) > 1 {
+				serve(w, 201, "playlist_added.json")
+				return
+			}
+			serve(w, 201, "playlist_added_one.json")
 		case r.Method == http.MethodPut && strings.HasPrefix(path, "playlists/") && strings.HasSuffix(path, "/order"):
 			serve(w, 200, "playlist_moved.json")
 		case r.Method == http.MethodGet && strings.HasPrefix(path, "playlists/"):

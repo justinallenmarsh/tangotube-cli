@@ -758,7 +758,7 @@
       "scope": "read"
     },
     {
-      "description": "Make and change the signed-in person's playlists: create (title), update (title, description, visibility), delete, add or remove a video, or move a video to a position (1 is first). Adding a video already there leaves it put.",
+      "description": "Make and change the signed-in person's playlists: create (title), update (title, description, visibility), add or remove a video, or move a video to a position (1 is first). Adding a video already there leaves it put. Deleting one is playlist_delete.",
       "destructive": false,
       "inputSchema": {
         "additionalProperties": false,
@@ -768,7 +768,6 @@
             "enum": [
               "create",
               "update",
-              "delete",
               "add",
               "remove",
               "move"
@@ -811,6 +810,33 @@
         "type": "object"
       },
       "name": "playlist_edit",
+      "scope": "write"
+    },
+    {
+      "description": "Delete one of the signed-in person's playlists. CANNOT be undone; the videos stay on TangoTube. Without confirm it only previews: the title and how many videos. confirm only after the person agrees.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would be deleted.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "The playlist's slug.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "name": "playlist_delete",
       "scope": "write"
     },
     {

@@ -38,7 +38,7 @@ Without a shell, the same tools are the connector `https://tangotube.tv/mcp` (`/
 - `--year` is when the **music was recorded** (`--year-from 1951 --year-to 1954`); `--uploaded`, the video.
 - Times: `1:12`, `h:mm:ss` or seconds; clips run 2 s–5 min, tagged from `tt clip tags`. A YouTube link is an id.
 - A write answers with the thing as it now is; doing it twice is doing it once ("Already …").
-- Ask before anything that cannot be undone: `tt history clear --yes`, `tt playlist delete`, `tt clip delete`.
+- Ask before anything that cannot be undone: `tt history clear --yes`, `tt playlist delete ID --yes`, `tt clip delete`.
 
 ## The envelope
 
