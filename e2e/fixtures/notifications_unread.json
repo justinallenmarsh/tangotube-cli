@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "data": {
+    "notifications": [
+      {
+        "id": 2,
+        "type": "new_videos_from_followed",
+        "message": "Leandro Oliver posted 4 new videos",
+        "read": false,
+        "at": "2026-09-24T17:03:33Z",
+        "url": "https://tangotube.tv/dancers/leandro-oliver"
+      },
+      {
+        "id": 1,
+        "type": "clip_liked",
+        "message": "Mirrored User 1880 liked your clip “Sacada into the cross”",
+        "read": false,
+        "at": "2026-09-24T17:03:33Z",
+        "url": "https://tangotube.tv/clips/sacada-into-the-cross"
+      }
+    ],
+    "total": 2,
+    "unread": 2,
+    "next_cursor": null
+  },
+  "summary": "2 unread",
+  "breadcrumbs": [
+    "tt notifications read"
+  ]
+}

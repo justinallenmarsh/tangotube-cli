@@ -1,0 +1,226 @@
+{
+  "ok": true,
+  "data": {
+    "videos": [
+      {
+        "video": {
+          "id": "k-shh3fWESA",
+          "youtube_id": "k-shh3fWESA",
+          "title": "Miguel Angel Zotto _Diana Guspero Golden  Tango Viterbo 28 maggio 2017",
+          "watch_url": "https://tangotube.tv/watch?v=k-shh3fWESA",
+          "duration_s": 650,
+          "dancers": [
+            {
+              "name": "Miguel Angel Zotto",
+              "slug": "miguel-angel-zotto",
+              "role": "leader"
+            },
+            {
+              "name": "Daiana Guspero",
+              "slug": "daiana-guspero",
+              "role": "follower"
+            }
+          ],
+          "couple": null,
+          "orchestra": null,
+          "song": null,
+          "year": null,
+          "event": null,
+          "channel": "Rossana Capogna",
+          "youtube_views": 359483,
+          "links": {
+            "tangotube": "https://tangotube.tv/watch?v=k-shh3fWESA",
+            "youtube": "https://www.youtube.com/watch?v=k-shh3fWESA",
+            "channel": "https://www.youtube.com/channel/UC3ueHE5iYhpB33YwO03mDgA"
+          },
+          "uploaded_on": "2017-05-28",
+          "style": [],
+          "techniques": [],
+          "clips_count": 0,
+          "related_video_ids": null
+        },
+        "open": [
+          {
+            "fact": "song",
+            "state": "proposed",
+            "value": "A mis viejos · Anibal Troilo",
+            "how": "proposed by the YouTube panel",
+            "proposal": {
+              "name": "A mis viejos · Anibal Troilo",
+              "slug": "a-mis-viejos-anibal-troilo"
+            },
+            "suggestion": null,
+            "disputable": false,
+            "credits": []
+          },
+          {
+            "fact": "event",
+            "state": "missing",
+            "value": null,
+            "how": null,
+            "proposal": null,
+            "suggestion": null,
+            "disputable": false,
+            "credits": []
+          }
+        ],
+        "ask": [
+          "song",
+          "event"
+        ]
+      },
+      {
+        "video": {
+          "id": "KICHdm0zuCQ",
+          "youtube_id": "KICHdm0zuCQ",
+          "title": "Sebastian Achaval y Roxana Suarez 2011 Tokyo Int'l Tango Festival Day2",
+          "watch_url": "https://tangotube.tv/watch?v=KICHdm0zuCQ",
+          "duration_s": 563,
+          "dancers": [
+            {
+              "name": "Sebastián Achaval",
+              "slug": "sebastian-achaval",
+              "role": "leader"
+            },
+            {
+              "name": "Daiana Guspero",
+              "slug": "daiana-guspero",
+              "role": "follower"
+            },
+            {
+              "name": "Roxana Suárez",
+              "slug": "roxana-suarez",
+              "role": "follower"
+            }
+          ],
+          "couple": {
+            "slug": "sebastian-achaval-roxana-suarez",
+            "name": "Sebastián Achaval & Roxana Suárez"
+          },
+          "orchestra": null,
+          "song": null,
+          "year": null,
+          "event": null,
+          "channel": "snowfieldin",
+          "youtube_views": 316403,
+          "links": {
+            "tangotube": "https://tangotube.tv/watch?v=KICHdm0zuCQ",
+            "youtube": "https://www.youtube.com/watch?v=KICHdm0zuCQ",
+            "channel": "https://www.youtube.com/channel/UCySj4ccfKMzImNrV8_grlQg"
+          },
+          "uploaded_on": "2012-06-11",
+          "style": [],
+          "techniques": [],
+          "clips_count": 0,
+          "related_video_ids": null
+        },
+        "open": [
+          {
+            "fact": "song",
+            "state": "proposed",
+            "value": "Tres esquinas · Angel D'Agostino",
+            "how": "proposed by the YouTube panel",
+            "proposal": {
+              "name": "Tres esquinas · Angel D'Agostino",
+              "slug": "tres-esquinas-angel-d-agostino"
+            },
+            "suggestion": null,
+            "disputable": false,
+            "credits": []
+          },
+          {
+            "fact": "event",
+            "state": "missing",
+            "value": null,
+            "how": null,
+            "proposal": null,
+            "suggestion": null,
+            "disputable": false,
+            "credits": []
+          }
+        ],
+        "ask": [
+          "song",
+          "event"
+        ]
+      },
+      {
+        "video": {
+          "id": "QeK7RSdT3mA",
+          "youtube_id": "QeK7RSdT3mA",
+          "title": "Michael Nadtochi & Eleonora Kalganova Vals January 17 2016",
+          "watch_url": "https://tangotube.tv/watch?v=QeK7RSdT3mA",
+          "duration_s": 180,
+          "dancers": [
+            {
+              "name": "Michael Nadtochi",
+              "slug": "michael-nadtochi",
+              "role": "leader"
+            },
+            {
+              "name": "Eleonora Kalganova",
+              "slug": "eleonora-kalganova",
+              "role": "follower"
+            }
+          ],
+          "couple": {
+            "slug": "michael-nadtochi-eleonora-kalganova",
+            "name": "Michael Nadtochi & Eleonora Kalganova"
+          },
+          "orchestra": null,
+          "song": null,
+          "year": null,
+          "event": null,
+          "channel": "Avis Boone",
+          "youtube_views": 304965,
+          "links": {
+            "tangotube": "https://tangotube.tv/watch?v=QeK7RSdT3mA",
+            "youtube": "https://www.youtube.com/watch?v=QeK7RSdT3mA",
+            "channel": "https://www.youtube.com/channel/UCfE7pU-lvBrLLZLUSyWkTwA"
+          },
+          "uploaded_on": "2016-01-20",
+          "style": [],
+          "techniques": [],
+          "clips_count": 0,
+          "related_video_ids": null
+        },
+        "open": [
+          {
+            "fact": "song",
+            "state": "proposed",
+            "value": "A Magaldi · Alfredo De Angelis",
+            "how": "proposed by the YouTube panel",
+            "proposal": {
+              "name": "A Magaldi · Alfredo De Angelis",
+              "slug": "a-magaldi-alfredo-de-angelis"
+            },
+            "suggestion": null,
+            "disputable": false,
+            "credits": []
+          },
+          {
+            "fact": "event",
+            "state": "missing",
+            "value": null,
+            "how": null,
+            "proposal": null,
+            "suggestion": null,
+            "disputable": false,
+            "credits": []
+          }
+        ],
+        "ask": [
+          "song",
+          "event"
+        ]
+      }
+    ],
+    "total": 11838,
+    "next_cursor": "2"
+  },
+  "summary": "11,838 videos with something to name, each with an answer waiting for a yes",
+  "breadcrumbs": [
+    "tt video show k-shh3fWESA --identity",
+    "tt suggest k-shh3fWESA --song a-mis-viejos-anibal-troilo --agree"
+  ]
+}

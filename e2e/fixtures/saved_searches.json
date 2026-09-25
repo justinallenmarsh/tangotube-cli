@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "data": {
+    "saved_searches": [
+      {
+        "id": 2,
+        "name": "Noelia classes",
+        "filters": {
+          "query": "noelia",
+          "category": "class"
+        },
+        "sort": "newest",
+        "command": "tt search noelia --kind class --sort newest",
+        "url": "https://tangotube.tv/search?category=class&query=noelia&sort=newest",
+        "updated_at": "2026-09-24T17:03:41Z"
+      },
+      {
+        "id": 1,
+        "name": "Di Sarli vals",
+        "filters": {
+          "genre": "vals",
+          "orchestra": "carlos-di-sarli"
+        },
+        "sort": null,
+        "command": "tt search --orchestra carlos-di-sarli --genre vals",
+        "url": "https://tangotube.tv/search?genre=vals&orchestra=carlos-di-sarli",
+        "updated_at": "2026-09-24T17:03:41Z"
+      }
+    ],
+    "total": 2,
+    "next_cursor": null
+  },
+  "summary": "2 saved searches",
+  "breadcrumbs": [
+    "tt search noelia --kind class --sort newest"
+  ]
+}

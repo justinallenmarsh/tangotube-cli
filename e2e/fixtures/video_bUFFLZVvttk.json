@@ -1,0 +1,120 @@
+{
+  "ok": true,
+  "data": {
+    "id": "bUFFLZVvttk",
+    "youtube_id": "bUFFLZVvttk",
+    "title": "Vanessa Gauch and Esref Tekinalp – Se dice de mí (Betty la Fea)",
+    "watch_url": "https://tangotube.tv/watch?v=bUFFLZVvttk",
+    "duration_s": 188,
+    "dancers": [
+      {
+        "name": "Esref Tekinalp",
+        "slug": "esref-tekinalp",
+        "role": "leader",
+        "titles": []
+      },
+      {
+        "name": "Vanessa Gauch",
+        "slug": "vanessa-gauch",
+        "role": "follower",
+        "titles": []
+      }
+    ],
+    "couple": {
+      "slug": "esref-tekinalp-vanessa-gauch",
+      "name": "Esref Tekinalp & Vanessa Gauch"
+    },
+    "orchestra": {
+      "name": "Quinteto Pirincho (Francisco Canaro)",
+      "slug": "quinteto-pirincho-francisco-canaro"
+    },
+    "song": {
+      "title": "Se dice de mi",
+      "slug": "se-dice-de-mi-quinteto-pirincho-francisco-canaro",
+      "genre": "milonga",
+      "recorded_on": "1954-08-02",
+      "singer": null,
+      "composer": "Francisco Canaro",
+      "lyricist": "Ivo Pelay",
+      "has_lyrics": true,
+      "links": {
+        "tangotube": "https://tangotube.tv/songs/se-dice-de-mi-quinteto-pirincho-francisco-canaro",
+        "spotify": "https://open.spotify.com/track/5HSeZFWhgvyHZpwmPHEa22",
+        "youtube_music": null,
+        "el_recodo": "https://www.el-recodo.com/music?T=se%20dice%20de%20mi"
+      }
+    },
+    "year": 1954,
+    "event": {
+      "title": "TangoLovers Festival",
+      "slug": "tangolovers-festival",
+      "city": "Athens",
+      "country": "Greece",
+      "start_date": "2017-02-02",
+      "end_date": "2017-02-05"
+    },
+    "channel": "030tango",
+    "youtube_views": 9799465,
+    "links": {
+      "tangotube": "https://tangotube.tv/watch?v=bUFFLZVvttk",
+      "youtube": "https://www.youtube.com/watch?v=bUFFLZVvttk",
+      "channel": "https://www.youtube.com/channel/UCtdgMR0bmogczrZNpPaO66Q"
+    },
+    "uploaded_on": "2018-06-22",
+    "style": [],
+    "techniques": [],
+    "clips_count": 0,
+    "related_video_ids": [
+      "6Jx_DaeF8bA",
+      "bm3VVxS0pwc",
+      "zvLSjzWVvf0",
+      "rF91lfJf4Qs",
+      "yvdBXTAQ_2M",
+      "OJQ3Uz83g5Y"
+    ],
+    "other_angles": [],
+    "performance_session": {
+      "occasion": "TangoLovers Festival",
+      "position": 1,
+      "total": 3,
+      "previous": null,
+      "next": {
+        "id": "zvLSjzWVvf0",
+        "song": "El simpático",
+        "orchestra": "Juan D'Arienzo",
+        "watch_url": "https://tangotube.tv/watch?v=zvLSjzWVvf0"
+      },
+      "dances": [
+        {
+          "id": "bUFFLZVvttk",
+          "song": "Se dice de mi",
+          "orchestra": "Quinteto Pirincho (Francisco Canaro)",
+          "watch_url": "https://tangotube.tv/watch?v=bUFFLZVvttk",
+          "current": true
+        },
+        {
+          "id": "zvLSjzWVvf0",
+          "song": "El simpático",
+          "orchestra": "Juan D'Arienzo",
+          "watch_url": "https://tangotube.tv/watch?v=zvLSjzWVvf0",
+          "current": false
+        },
+        {
+          "id": "J5pRhPf8dPU",
+          "song": "Derecho viejo",
+          "orchestra": "Osvaldo Pugliese",
+          "watch_url": "https://tangotube.tv/watch?v=J5pRhPf8dPU",
+          "current": false
+        }
+      ]
+    },
+    "performance": 72020
+  },
+  "summary": "Esref Tekinalp & Vanessa Gauch · Se dice de mi · Quinteto Pirincho (Francisco Canaro) 1954 · TangoLovers Festival",
+  "breadcrumbs": [
+    "tt open bUFFLZVvttk",
+    "tt dancer show esref-tekinalp",
+    "tt video show zvLSjzWVvf0",
+    "tt video show 6Jx_DaeF8bA"
+  ]
+}

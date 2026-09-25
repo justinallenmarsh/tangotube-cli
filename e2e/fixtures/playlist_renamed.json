@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "data": {
+    "id": "scratch",
+    "title": "Scratch pad",
+    "description": null,
+    "visibility": "private",
+    "videos_count": 0,
+    "owner": "CLI Dancer",
+    "mine": true,
+    "url": "https://tangotube.tv/playlists/scratch",
+    "updated_at": "2026-09-24T16:54:00Z",
+    "videos": [],
+    "next_cursor": null,
+    "total": 0
+  },
+  "summary": "Saved “Scratch pad” (private)",
+  "breadcrumbs": [
+    "tt playlist add scratch VIDEO",
+    "tt playlist list"
+  ]
+}

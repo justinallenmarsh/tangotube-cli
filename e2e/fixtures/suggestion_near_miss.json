@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "“Sebastian Achavall” is not exactly any dancer we have. Did you mean Sebastián Achaval (sebastian-achaval)? Pass the slug.",
+    "hint": "tt identify search dancer \"Sebastian Achavall\"",
+    "retryable": false
+  }
+}

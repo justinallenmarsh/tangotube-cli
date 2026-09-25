@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "data": {
+    "confirmed": true,
+    "already": false,
+    "verified": false,
+    "dancers": {
+      "fact": "dancers",
+      "state": "settled",
+      "value": "Miguel Angel Zotto",
+      "how": "matched automatically",
+      "proposal": null,
+      "suggestion": null,
+      "disputable": true,
+      "credits": [
+        {
+          "name": "Miguel Angel Zotto",
+          "slug": "miguel-angel-zotto",
+          "role": null
+        }
+      ]
+    }
+  },
+  "summary": "Confirmed. The dancers are verified once enough people agree",
+  "breadcrumbs": [
+    "tt video show k-shh3fWESA --identity"
+  ]
+}

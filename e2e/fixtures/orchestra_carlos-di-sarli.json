@@ -1,0 +1,214 @@
+{
+  "ok": true,
+  "data": {
+    "slug": "carlos-di-sarli",
+    "name": "Carlos Di Sarli",
+    "videos_count": 12030,
+    "songs_count": 391,
+    "top_songs": [
+      {
+        "slug": "indio-manso-carlos-di-sarli",
+        "title": "Indio manso",
+        "videos_count": 268,
+        "year": 1958
+      },
+      {
+        "slug": "esta-noche-de-luna-carlos-di-sarli",
+        "title": "Esta noche de luna",
+        "videos_count": 196,
+        "year": 1943
+      },
+      {
+        "slug": "tus-palabras-y-la-noche-carlos-di-sarli",
+        "title": "Tus palabras y la noche",
+        "videos_count": 191,
+        "year": 1954
+      },
+      {
+        "slug": "tormenta-carlos-di-sarli",
+        "title": "Tormenta",
+        "videos_count": 176,
+        "year": 1954
+      },
+      {
+        "slug": "tu-el-cielo-y-tu-carlos-di-sarli",
+        "title": "Tu, el cielo y tu",
+        "videos_count": 172,
+        "year": 1944
+      },
+      {
+        "slug": "derrotado-carlos-di-sarli",
+        "title": "Derrotado",
+        "videos_count": 160,
+        "year": 1956
+      },
+      {
+        "slug": "duerme-mi-amor-carlos-di-sarli",
+        "title": "Duerme mi amor",
+        "videos_count": 129,
+        "year": 1958
+      },
+      {
+        "slug": "una-fija-carlos-di-sarli",
+        "title": "Una fija",
+        "videos_count": 127,
+        "year": 1954
+      },
+      {
+        "slug": "cantemos-corazon-carlos-di-sarli",
+        "title": "Cantemos corazón",
+        "videos_count": 120,
+        "year": 1956
+      },
+      {
+        "slug": "nada-carlos-di-sarli",
+        "title": "Nada",
+        "videos_count": 114,
+        "year": 1944
+      }
+    ],
+    "recorded": {
+      "from": 1929,
+      "to": 1958
+    },
+    "top_singers": [
+      {
+        "name": "Roberto Rufino",
+        "count": 818
+      },
+      {
+        "name": "Alberto Podestá",
+        "count": 721
+      },
+      {
+        "name": "Roberto Florio",
+        "count": 617
+      },
+      {
+        "name": "Jorge Duran",
+        "count": 417
+      },
+      {
+        "name": "Mario Pomar",
+        "count": 412
+      }
+    ],
+    "links": {
+      "tangotube": "https://tangotube.tv/orchestras/carlos-di-sarli"
+    },
+    "videos": [
+      {
+        "id": "Adlf7jcsII4",
+        "youtube_id": "Adlf7jcsII4",
+        "title": "The tango Caminada! 😍 Leandro Capparelli with the incredible Maestro Carlitos Peréz! ❤️#tango #dance",
+        "watch_url": "https://tangotube.tv/watch?v=Adlf7jcsII4",
+        "duration_s": 16,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          }
+        ],
+        "couple": null,
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Siete palabras",
+          "slug": "siete-palabras-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1945-08-29",
+          "singer": null,
+          "composer": "Juan Maglio",
+          "lyricist": "Alfredo Bigeschi",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/siete-palabras-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/42ECqB3IFRvgVKXMFcPU1a",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=siete%20palabras"
+          }
+        },
+        "year": 1945,
+        "event": null,
+        "channel": "Tango Expo",
+        "youtube_views": 1895347,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=Adlf7jcsII4",
+          "youtube": "https://www.youtube.com/watch?v=Adlf7jcsII4",
+          "channel": "https://www.youtube.com/channel/UCWRYo0eXhgDBE1WBYXTUM5Q"
+        },
+        "uploaded_on": "2026-01-13",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "u80wfkhscII",
+        "youtube_id": "u80wfkhscII",
+        "title": "Milongueros El Chino Perico y Paola Tachetti @ yoTango",
+        "watch_url": "https://tangotube.tv/watch?v=u80wfkhscII",
+        "duration_s": 182,
+        "dancers": [
+          {
+            "name": "El Chino Perico",
+            "slug": "el-chino-perico",
+            "role": "leader"
+          },
+          {
+            "name": "Paola Tacchetti",
+            "slug": "paola-tacchetti",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "el-chino-perico-paola-tacchetti",
+          "name": "El Chino Perico & Paola Tacchetti"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Nueve puntos",
+          "slug": "nueve-puntos-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1952-04-08",
+          "singer": null,
+          "composer": "Francisco Canaro",
+          "lyricist": null,
+          "has_lyrics": false,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/nueve-puntos-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/2D7hpOGrl6UWsKuK4SUDuZ",
+            "youtube_music": "https://music.youtube.com/watch?v=7IhZ_W8Xd9Y",
+            "el_recodo": "https://www.el-recodo.com/music?T=nueve%20puntos"
+          }
+        },
+        "year": 1952,
+        "event": null,
+        "channel": "yo Tango",
+        "youtube_views": 1875308,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=u80wfkhscII",
+          "youtube": "https://www.youtube.com/watch?v=u80wfkhscII",
+          "channel": "https://www.youtube.com/channel/UCAApa6oVE5sM7aMR2VOB-PQ"
+        },
+        "uploaded_on": "2017-02-17",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      }
+    ]
+  },
+  "summary": "Carlos Di Sarli · 12,030 videos · 391 songs",
+  "breadcrumbs": [
+    "tt search --orchestra carlos-di-sarli",
+    "tt song show indio-manso-carlos-di-sarli",
+    "tt video show Adlf7jcsII4"
+  ]
+}

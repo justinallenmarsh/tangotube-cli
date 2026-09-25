@@ -1,0 +1,2851 @@
+{
+  "tools": [
+    {
+      "description": "Search Argentine tango performance videos by text, dancer, leader, follower, couple, orchestra, song, event, channel, genre, kind of video, recording year, upload year — or browse the whole catalogue with sort alone. Through practice clips: technique and style. Names or slugs both work.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel": {
+            "description": "YouTube channel title or id.",
+            "type": "string"
+          },
+          "couple": {
+            "description": "Couple: both names, or the slug.",
+            "type": "string"
+          },
+          "cursor": {
+            "description": "next_cursor from the previous page.",
+            "type": "string"
+          },
+          "dancer": {
+            "description": "Dancer name or slug.",
+            "type": "string"
+          },
+          "event": {
+            "description": "Event name or slug.",
+            "type": "string"
+          },
+          "follower": {
+            "description": "A dancer who follows.",
+            "type": "string"
+          },
+          "genre": {
+            "description": "tango, vals, or milonga.",
+            "type": "string"
+          },
+          "hd": {
+            "description": "Only HD.",
+            "type": "boolean"
+          },
+          "kind": {
+            "description": "performance, class, workshop, interview, competition…",
+            "type": "string"
+          },
+          "leader": {
+            "description": "A dancer who leads.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "orchestra": {
+            "description": "Orchestra name or slug.",
+            "type": "string"
+          },
+          "q": {
+            "description": "Free text, as typed into the site's search box.",
+            "type": "string"
+          },
+          "song": {
+            "description": "Song title or slug.",
+            "type": "string"
+          },
+          "sort": {
+            "enum": [
+              "browse",
+              "trending",
+              "popular",
+              "newest",
+              "oldest",
+              "hidden-gems"
+            ],
+            "type": "string"
+          },
+          "style": {
+            "description": "milonguero, salon, nuevo, or stage.",
+            "type": "string"
+          },
+          "technique": {
+            "description": "A clip tag such as sacada.",
+            "type": "string"
+          },
+          "uploaded": {
+            "description": "Year the video went up.",
+            "type": "integer"
+          },
+          "year": {
+            "description": "Year the music was recorded.",
+            "type": "integer"
+          },
+          "year_from": {
+            "description": "Recorded in or after.",
+            "type": "integer"
+          },
+          "year_to": {
+            "description": "Recorded in or before.",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "name": "search",
+      "scope": null
+    },
+    {
+      "description": "Count what a search holds before reading it: leaders, followers, couples, orchestras, songs, events, channels, genres, kinds of video, and a histogram of the years the music was recorded. Counts are performances. Same filters as search.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel": {
+            "description": "YouTube channel title or id.",
+            "type": "string"
+          },
+          "couple": {
+            "description": "Couple: both names, or the slug.",
+            "type": "string"
+          },
+          "dancer": {
+            "description": "Dancer name or slug.",
+            "type": "string"
+          },
+          "event": {
+            "description": "Event name or slug.",
+            "type": "string"
+          },
+          "follower": {
+            "description": "A dancer who follows.",
+            "type": "string"
+          },
+          "genre": {
+            "description": "tango, vals, or milonga.",
+            "type": "string"
+          },
+          "hd": {
+            "description": "Only HD.",
+            "type": "boolean"
+          },
+          "kind": {
+            "description": "performance, class, workshop, interview, competition…",
+            "type": "string"
+          },
+          "leader": {
+            "description": "A dancer who leads.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Options per facet, up to 25.",
+            "type": "integer"
+          },
+          "orchestra": {
+            "description": "Orchestra name or slug.",
+            "type": "string"
+          },
+          "q": {
+            "description": "Free text.",
+            "type": "string"
+          },
+          "song": {
+            "description": "Song title or slug.",
+            "type": "string"
+          },
+          "uploaded": {
+            "description": "Year the video went up.",
+            "type": "integer"
+          },
+          "year": {
+            "description": "Year the music was recorded.",
+            "type": "integer"
+          },
+          "year_from": {
+            "description": "Recorded in or after.",
+            "type": "integer"
+          },
+          "year_to": {
+            "description": "Recorded in or before.",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "name": "facets",
+      "scope": null
+    },
+    {
+      "description": "What a typed name means before searching: matching dancers, couples, orchestras, songs, events and channels, and how search would read the words as filters. Offers a spelling when nothing matches.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "q": {
+            "description": "The words, like \"di sarli noelia\".",
+            "type": "string"
+          }
+        },
+        "required": [
+          "q"
+        ],
+        "type": "object"
+      },
+      "name": "resolve",
+      "scope": null
+    },
+    {
+      "description": "What the front page of tangotube.tv shows today: trending, new uploads, the featured dancer, orchestra, song, event and channel, classes, hidden gems, the Mundial — each with the search that shows all of it.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "home",
+      "scope": null
+    },
+    {
+      "description": "List the catalogue a page at a time: dancers, couples, orchestras, songs, events, channels, singers, or Mundial champions. Use it to enumerate instead of guessing names.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "description": "events: the kind of event; champions: pista (salon) or escenario.",
+            "type": "string"
+          },
+          "champion": {
+            "description": "dancers: only Mundial champions.",
+            "type": "boolean"
+          },
+          "continent": {
+            "description": "events: a continent.",
+            "type": "string"
+          },
+          "country": {
+            "description": "events: a country.",
+            "type": "string"
+          },
+          "cursor": {
+            "description": "next_cursor from the previous page.",
+            "type": "string"
+          },
+          "decade": {
+            "description": "songs: like 1940.",
+            "type": "integer"
+          },
+          "era": {
+            "description": "orchestras: golden-age or contemporary.",
+            "type": "string"
+          },
+          "genre": {
+            "description": "songs: tango, vals, or milonga.",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "dancers",
+              "couples",
+              "orchestras",
+              "songs",
+              "events",
+              "channels",
+              "singers",
+              "champions"
+            ],
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "min_videos": {
+            "description": "couples: filmed at least this often.",
+            "type": "integer"
+          },
+          "orchestra": {
+            "description": "songs, singers: an orchestra's name or slug.",
+            "type": "string"
+          },
+          "q": {
+            "description": "Only names matching these words.",
+            "type": "string"
+          },
+          "role": {
+            "description": "dancers: leader or follower.",
+            "type": "string"
+          },
+          "sort": {
+            "description": "Each list's orders; popular is the default.",
+            "type": "string"
+          },
+          "year": {
+            "description": "champions: one year's Mundial.",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "kind"
+        ],
+        "type": "object"
+      },
+      "name": "catalogue_list",
+      "scope": null
+    },
+    {
+      "description": "One performance by its YouTube id: dancers, song, orchestra, year, event, clips, related videos. With identity: each fact settled, proposed (and by what), or missing, and any answer waiting for a yes.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "description": "The YouTube id.",
+            "type": "string"
+          },
+          "identity": {
+            "description": "Add what TangoTube knows and how.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "name": "video_show",
+      "scope": null
+    },
+    {
+      "description": "A dancer, couple, orchestra, song, event or channel by slug, with its performances. A channel's slug is its YouTube id.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "include": {
+            "description": "Dancers only: any of timeline, tour, repertoire, comma-separated.",
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "dancer",
+              "couple",
+              "orchestra",
+              "song",
+              "event",
+              "channel"
+            ],
+            "type": "string"
+          },
+          "lyrics": {
+            "description": "Songs only: include the lyrics, Spanish and English (en_source says when the English is a machine translation).",
+            "type": "boolean"
+          },
+          "slug": {
+            "description": "The slug, like noelia-hurtado or carlos-di-sarli.",
+            "type": "string"
+          },
+          "year": {
+            "description": "Events only: one edition.",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "kind",
+          "slug"
+        ],
+        "type": "object"
+      },
+      "name": "entity_show",
+      "scope": null
+    },
+    {
+      "description": "The other recordings of a song's composition: the same tango by other orchestras or singers, most danced first.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "description": "The song's slug.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "slug"
+        ],
+        "type": "object"
+      },
+      "name": "song_versions",
+      "scope": null
+    },
+    {
+      "description": "One dance and every video of it (the cameras that filmed it, by channel, length and views), the couple, the song with its credits, the occasion, and the couple's other dances that occasion in order. The id is the YouTube id of any video of the dance, or the performance id video_show returns as performance.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "description": "A YouTube id of any video of the dance, or a performance id.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "name": "performance_show",
+      "scope": null
+    },
+    {
+      "description": "Who a dancer has danced with on camera, most filmed together first, each with the couple's slug. Depth 2 adds who those partners dance with: nodes carry ring (0 the dancer, 1 a partner, 2 a partner's partner), edges are partnerships weighted by videos.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "depth": {
+            "description": "1 (default) for partners, 2 to add their partners.",
+            "enum": [
+              1,
+              2
+            ],
+            "type": "integer"
+          },
+          "slug": {
+            "description": "The dancer's slug, like noelia-hurtado.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "slug"
+        ],
+        "type": "object"
+      },
+      "name": "partners",
+      "scope": null
+    },
+    {
+      "description": "Practice clips: on one video, tagged with a technique or style, of a dancer, or the user's own (mine).",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "dancer": {
+            "description": "Dancer name or slug.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "mine": {
+            "type": "boolean"
+          },
+          "style": {
+            "description": "Style tag.",
+            "type": "string"
+          },
+          "technique": {
+            "description": "Clip tag.",
+            "type": "string"
+          },
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "clip_list",
+      "scope": null
+    },
+    {
+      "description": "Make a practice clip on a video for the signed-in user. Times are m:ss or seconds; tags come from clip_tags.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "end": {
+            "description": "End, m:ss.",
+            "type": "string"
+          },
+          "start": {
+            "description": "Start, m:ss.",
+            "type": "string"
+          },
+          "tags": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "title": {
+            "description": "Optional title.",
+            "type": "string"
+          },
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          },
+          "visibility": {
+            "description": "private, unlisted, or public.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "video",
+          "start",
+          "end"
+        ],
+        "type": "object"
+      },
+      "name": "clip_create",
+      "scope": "write"
+    },
+    {
+      "description": "The techniques and styles a clip can be tagged with.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "clip_tags",
+      "scope": null
+    },
+    {
+      "description": "Like or unlike a video (by YouTube id) or a practice clip (by slug). Liking twice is liking once; liking someone's clip tells them.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "clip": {
+            "description": "Clip slug.",
+            "type": "string"
+          },
+          "unlike": {
+            "description": "Take the like back instead.",
+            "type": "boolean"
+          },
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "like",
+      "scope": "write"
+    },
+    {
+      "description": "What the signed-in person has liked: videos (filterable like the site's liked page) or clips.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "description": "Kind of video: performance, class…",
+            "type": "string"
+          },
+          "channel": {
+            "description": "YouTube channel title or id.",
+            "type": "string"
+          },
+          "cursor": {
+            "description": "next_cursor from the last page.",
+            "type": "string"
+          },
+          "event": {
+            "description": "Event name or slug.",
+            "type": "string"
+          },
+          "follower": {
+            "description": "A dancer who follows.",
+            "type": "string"
+          },
+          "genre": {
+            "description": "tango, vals, or milonga.",
+            "type": "string"
+          },
+          "kind": {
+            "description": "What to list.",
+            "enum": [
+              "videos",
+              "clips"
+            ],
+            "type": "string"
+          },
+          "leader": {
+            "description": "A dancer who leads.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "orchestra": {
+            "description": "Orchestra name or slug.",
+            "type": "string"
+          },
+          "q": {
+            "description": "A word in the title.",
+            "type": "string"
+          },
+          "sort": {
+            "description": "Order.",
+            "enum": [
+              "recent",
+              "newest",
+              "popular"
+            ],
+            "type": "string"
+          },
+          "year": {
+            "description": "Year filmed.",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "name": "likes",
+      "scope": "read"
+    },
+    {
+      "description": "Watch history, newest first, with the site's history filters. Each entry: watched_at, progress_s, completed, video.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "description": "Kind of video: performance, class…",
+            "type": "string"
+          },
+          "channel": {
+            "description": "YouTube channel title or id.",
+            "type": "string"
+          },
+          "cursor": {
+            "description": "next_cursor from the last page.",
+            "type": "string"
+          },
+          "event": {
+            "description": "Event name or slug.",
+            "type": "string"
+          },
+          "follower": {
+            "description": "A dancer who follows.",
+            "type": "string"
+          },
+          "genre": {
+            "description": "tango, vals, or milonga.",
+            "type": "string"
+          },
+          "leader": {
+            "description": "A dancer who leads.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "orchestra": {
+            "description": "Orchestra name or slug.",
+            "type": "string"
+          },
+          "q": {
+            "description": "A word in the title.",
+            "type": "string"
+          },
+          "sort": {
+            "description": "Order.",
+            "enum": [
+              "recent",
+              "oldest",
+              "popular"
+            ],
+            "type": "string"
+          },
+          "year": {
+            "description": "Year filmed.",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "name": "history",
+      "scope": "read"
+    },
+    {
+      "description": "Change watch history: add a watch (at backdates it, ISO 8601), remove one video, or clear all (confirm must be true).",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "description": "What to do.",
+            "enum": [
+              "add",
+              "remove",
+              "clear"
+            ],
+            "type": "string"
+          },
+          "at": {
+            "description": "When it was watched, for add: 2024-05-02T21:30:00Z.",
+            "type": "string"
+          },
+          "confirm": {
+            "description": "Must be true to clear.",
+            "type": "boolean"
+          },
+          "video": {
+            "description": "YouTube id, for add and remove.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "type": "object"
+      },
+      "name": "history_edit",
+      "scope": "write"
+    },
+    {
+      "description": "The signed-in person's playlists; or with id, one playlist (anyone's public or unlisted, or your own) and its videos in order.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "cursor": {
+            "description": "next_cursor.",
+            "type": "string"
+          },
+          "id": {
+            "description": "A playlist's slug, to show that one.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "q": {
+            "description": "A word in the title.",
+            "type": "string"
+          },
+          "sort": {
+            "description": "Order of the list.",
+            "enum": [
+              "recent",
+              "oldest",
+              "alphabetical",
+              "largest"
+            ],
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "playlists",
+      "scope": "read"
+    },
+    {
+      "description": "Make and change the signed-in person's playlists: create (title), update (title, description, visibility), delete, add or remove a video, or move a video to a position (1 is first). Adding a video already there leaves it put.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "description": "What to do.",
+            "enum": [
+              "create",
+              "update",
+              "delete",
+              "add",
+              "remove",
+              "move"
+            ],
+            "type": "string"
+          },
+          "description": {
+            "description": "For create and update.",
+            "type": "string"
+          },
+          "id": {
+            "description": "The playlist's slug; every action but create.",
+            "type": "string"
+          },
+          "position": {
+            "description": "For move: 1 is first.",
+            "type": "integer"
+          },
+          "title": {
+            "description": "Title, for create and update.",
+            "type": "string"
+          },
+          "video": {
+            "description": "YouTube id: for add, remove, move; optional first video for create.",
+            "type": "string"
+          },
+          "visibility": {
+            "description": "Who can see it.",
+            "enum": [
+              "private",
+              "unlisted",
+              "public"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "type": "object"
+      },
+      "name": "playlist_edit",
+      "scope": "write"
+    },
+    {
+      "description": "Follow or unfollow a dancer, YouTube channel, or event, by name or slug; level sets how much the person hears. Following twice is following once; a first follow turns on the weekly email, as on the site.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "description": "What to follow.",
+            "enum": [
+              "dancer",
+              "channel",
+              "event"
+            ],
+            "type": "string"
+          },
+          "level": {
+            "description": "How much to hear.",
+            "enum": [
+              "personalized",
+              "all_activity",
+              "muted"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "description": "Name, slug, or channel id.",
+            "type": "string"
+          },
+          "unfollow": {
+            "description": "Stop following instead.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "kind",
+          "name"
+        ],
+        "type": "object"
+      },
+      "name": "follow",
+      "scope": "write"
+    },
+    {
+      "description": "Who the signed-in person follows; or with feed, what those dancers, channels and events posted in the last 30 days, a few videos from each (limit is per group).",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "cursor": {
+            "description": "next_cursor.",
+            "type": "string"
+          },
+          "feed": {
+            "description": "Their new videos instead of who they are.",
+            "type": "boolean"
+          },
+          "kind": {
+            "description": "Only one kind.",
+            "enum": [
+              "dancers",
+              "channels",
+              "events"
+            ],
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50; with feed, videos per group.",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "name": "following",
+      "scope": "read"
+    },
+    {
+      "description": "The practice list: clips the signed-in person saved to loop. action add or remove changes it; without one, it lists (filter by technique, style, genre, dancer, orchestra).",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "description": "Change the list instead of listing it.",
+            "enum": [
+              "add",
+              "remove"
+            ],
+            "type": "string"
+          },
+          "clip": {
+            "description": "Clip slug, for add and remove.",
+            "type": "string"
+          },
+          "cursor": {
+            "description": "next_cursor.",
+            "type": "string"
+          },
+          "dancer": {
+            "description": "Dancer name or slug.",
+            "type": "string"
+          },
+          "genre": {
+            "description": "tango, vals, or milonga.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "orchestra": {
+            "description": "Orchestra name or slug.",
+            "type": "string"
+          },
+          "q": {
+            "description": "A word in the title.",
+            "type": "string"
+          },
+          "sort": {
+            "description": "Order.",
+            "enum": [
+              "recent",
+              "oldest",
+              "popular"
+            ],
+            "type": "string"
+          },
+          "style": {
+            "description": "Style tag.",
+            "type": "string"
+          },
+          "technique": {
+            "description": "Clip tag, like sacada.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "practice",
+      "scope": "read"
+    },
+    {
+      "description": "Saved searches, each with the tt search command and site link that run it. action save stores search's filters under name (a name already used is replaced); remove deletes by name or id.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "description": "Change them instead of listing.",
+            "enum": [
+              "save",
+              "remove"
+            ],
+            "type": "string"
+          },
+          "channel": {
+            "description": "YouTube channel title or id.",
+            "type": "string"
+          },
+          "couple": {
+            "description": "Couple: both names, or the slug.",
+            "type": "string"
+          },
+          "dancer": {
+            "description": "Dancer name or slug.",
+            "type": "string"
+          },
+          "event": {
+            "description": "Event name or slug.",
+            "type": "string"
+          },
+          "follower": {
+            "description": "A dancer who follows.",
+            "type": "string"
+          },
+          "genre": {
+            "description": "tango, vals, or milonga.",
+            "type": "string"
+          },
+          "hd": {
+            "description": "Only HD.",
+            "type": "boolean"
+          },
+          "kind": {
+            "description": "performance, class, workshop, interview, competition…",
+            "type": "string"
+          },
+          "leader": {
+            "description": "A dancer who leads.",
+            "type": "string"
+          },
+          "name": {
+            "description": "The saved search's name (or id, for remove).",
+            "type": "string"
+          },
+          "orchestra": {
+            "description": "Orchestra name or slug.",
+            "type": "string"
+          },
+          "q": {
+            "description": "Free text, for save.",
+            "type": "string"
+          },
+          "song": {
+            "description": "Song title or slug.",
+            "type": "string"
+          },
+          "sort": {
+            "description": "Search order, for save.",
+            "type": "string"
+          },
+          "uploaded": {
+            "description": "Year the video went up.",
+            "type": "integer"
+          },
+          "year": {
+            "description": "Year the music was recorded.",
+            "type": "integer"
+          },
+          "year_from": {
+            "description": "Recorded in or after.",
+            "type": "integer"
+          },
+          "year_to": {
+            "description": "Recorded in or before.",
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "name": "saved_searches",
+      "scope": "read"
+    },
+    {
+      "description": "Notifications, newest first, each a sentence with the page it is about. mark_read marks them all read.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "cursor": {
+            "description": "next_cursor.",
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "mark_read": {
+            "description": "Mark every notification read.",
+            "type": "boolean"
+          },
+          "unread": {
+            "description": "Only unread ones.",
+            "type": "boolean"
+          }
+        },
+        "type": "object"
+      },
+      "name": "notifications",
+      "scope": "read"
+    },
+    {
+      "description": "Edit one of the signed-in person's clips. What is not given stays. tags replaces the tags; add_tags and remove_tags change them. Times are m:ss or seconds.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "add_tags": {
+            "description": "Tags to add.",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "description": {
+            "description": "What to watch for; empty clears it.",
+            "type": "string"
+          },
+          "end": {
+            "description": "New end, m:ss.",
+            "type": "string"
+          },
+          "id": {
+            "description": "Clip slug.",
+            "type": "string"
+          },
+          "remove_tags": {
+            "description": "Tags to take off.",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "start": {
+            "description": "New start, m:ss.",
+            "type": "string"
+          },
+          "tags": {
+            "description": "Replace the tags.",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "title": {
+            "description": "New title.",
+            "type": "string"
+          },
+          "visibility": {
+            "description": "Who can see it.",
+            "enum": [
+              "private",
+              "unlisted",
+              "public"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "name": "clip_edit",
+      "scope": "write"
+    },
+    {
+      "description": "Name a video's dancer, song, event, or kind, as the watch page asks. Only suggest what the person told you or confirmed. The answer says outcome: applied (on the video now) or queued (waiting for review); tell them which. For a dancer, reach says where it shows: occasion (their dancer page lists it now) or placing (once the video is placed, within 15 minutes); pass the summary on as written. Records by slug or exact name (identify_search finds them); a near miss is an error listing candidates. agree: true with song says it is the song the video already proposes, which applies at once. changes: several at once, all or nothing, each {fact: song|dancers|event|kind, op: add|replace|remove|withdraw, song|dancer|event|kind|name}.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "agree": {
+            "description": "With song: the one the video proposes.",
+            "type": "boolean"
+          },
+          "changes": {
+            "description": "A batch instead of one fact.",
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "dancer": {
+            "description": "Dancer slug or exact name.",
+            "type": "string"
+          },
+          "event": {
+            "description": "Event slug or exact name.",
+            "type": "string"
+          },
+          "fact": {
+            "description": "What is being named.",
+            "enum": [
+              "dancer",
+              "song",
+              "event",
+              "kind"
+            ],
+            "type": "string"
+          },
+          "kind": {
+            "description": "performance, class, practice…",
+            "type": "string"
+          },
+          "new": {
+            "description": "With dancer: somebody TangoTube does not have yet.",
+            "type": "boolean"
+          },
+          "note": {
+            "description": "How the person knows, for the reviewer.",
+            "type": "string"
+          },
+          "precision": {
+            "description": "With song: the tune and orchestra, or that recording.",
+            "enum": [
+              "rendition",
+              "take"
+            ],
+            "type": "string"
+          },
+          "role": {
+            "description": "With dancer.",
+            "enum": [
+              "leader",
+              "follower"
+            ],
+            "type": "string"
+          },
+          "song": {
+            "description": "Song slug or exact title.",
+            "type": "string"
+          },
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "video"
+        ],
+        "type": "object"
+      },
+      "name": "suggest",
+      "scope": "write"
+    },
+    {
+      "description": "Say the dancers credited on a video are right. Once per person; enough people confirming verifies them.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "video"
+        ],
+        "type": "object"
+      },
+      "name": "confirm",
+      "scope": "write"
+    },
+    {
+      "description": "Agree with somebody else's answer waiting on a video (its suggestion id is in video_show with identity). Three people agreeing applies it.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "suggestion": {
+            "description": "The suggestion's id.",
+            "type": "integer"
+          },
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "video",
+          "suggestion"
+        ],
+        "type": "object"
+      },
+      "name": "agree",
+      "scope": "write"
+    },
+    {
+      "description": "Say something on a video is wrong, as the report button does. Needs no account. dancer reports that one credit.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "dancer": {
+            "description": "The credited dancer who is wrong.",
+            "type": "string"
+          },
+          "kind": {
+            "description": "What is wrong.",
+            "enum": [
+              "wrong_dancer",
+              "wrong_role",
+              "wrong_song",
+              "wrong_event",
+              "wrong_kind",
+              "not_tango",
+              "duplicate",
+              "other"
+            ],
+            "type": "string"
+          },
+          "note": {
+            "description": "For whoever looks at it.",
+            "type": "string"
+          },
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "video",
+          "kind"
+        ],
+        "type": "object"
+      },
+      "name": "report",
+      "scope": null
+    },
+    {
+      "description": "Suggest a step name the clip tags do not have yet; an admin adds it. Three a day. A step that exists is added with clip_edit instead.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "clip": {
+            "description": "Clip slug.",
+            "type": "string"
+          },
+          "name": {
+            "description": "The step, e.g. calesita.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "clip",
+          "name"
+        ],
+        "type": "object"
+      },
+      "name": "tag_suggest",
+      "scope": "write"
+    },
+    {
+      "description": "Videos with something still to name (no song, dancers, or event), most watched first, with what is open on each and any proposal waiting for a yes. proposed: only those.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel": {
+            "description": "Channel title or YouTube id.",
+            "type": "string"
+          },
+          "cursor": {
+            "description": "next_cursor.",
+            "type": "string"
+          },
+          "dancer": {
+            "description": "Dancer name or slug.",
+            "type": "string"
+          },
+          "event": {
+            "description": "Event name or slug.",
+            "type": "string"
+          },
+          "fact": {
+            "description": "Only videos missing this.",
+            "enum": [
+              "song",
+              "dancers",
+              "event"
+            ],
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 25.",
+            "type": "integer"
+          },
+          "orchestra": {
+            "description": "Orchestra name or slug; a songless video counts by its proposed song.",
+            "type": "string"
+          },
+          "proposed": {
+            "description": "Only videos with an answer waiting for a yes.",
+            "type": "boolean"
+          }
+        },
+        "type": "object"
+      },
+      "name": "queue",
+      "scope": null
+    },
+    {
+      "description": "Find the song, dancer, or event to name a video with, as the watch page's picker does, and its slug. Songs come with orchestra and each recording's year.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "description": "What to find.",
+            "enum": [
+              "song",
+              "dancer",
+              "event"
+            ],
+            "type": "string"
+          },
+          "limit": {
+            "description": "Up to 25.",
+            "type": "integer"
+          },
+          "q": {
+            "description": "At least two letters.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "q"
+        ],
+        "type": "object"
+      },
+      "name": "identify_search",
+      "scope": null
+    },
+    {
+      "description": "Operator only. One admin screen as JSON: dashboard (catalogue size, imports, people, search, audio), pipeline (imports by day, channel syncs, audio), intake (this week's arrivals and how they were classified), search-quality (clicks, rank, zero-result queries), channels (scorecard), precision (how right each matching method is), jobs (queues, cron schedule and what is paused, failures by id and error; admin_job and admin_cron change them). Read-only.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "limit": {
+            "description": "channels only: how many, up to 200.",
+            "type": "integer"
+          },
+          "report": {
+            "description": "Which screen.",
+            "enum": [
+              "dashboard",
+              "pipeline",
+              "intake",
+              "search-quality",
+              "channels",
+              "precision",
+              "jobs"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "report"
+        ],
+        "type": "object"
+      },
+      "name": "admin_report",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. The coverage desk: without pile, the heartbeat (how much is named, every alarm); with pile, that pile of work, deepest first. Read-only.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "clock": {
+            "description": "Count from when a video was…",
+            "enum": [
+              "matched",
+              "arrived"
+            ],
+            "type": "string"
+          },
+          "pile": {
+            "description": "A pile of work.",
+            "enum": [
+              "holes",
+              "blank",
+              "panel",
+              "conflict",
+              "miss",
+              "label",
+              "print",
+              "payloads"
+            ],
+            "type": "string"
+          },
+          "q": {
+            "description": "Narrow the pile (3+ characters).",
+            "type": "string"
+          },
+          "window": {
+            "description": "Only the last…",
+            "enum": [
+              "24h",
+              "7d",
+              "all"
+            ],
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "admin_coverage",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Everything the record holds about one video: what each source said, what the ledger did, fact checks. Read-only.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "video"
+        ],
+        "type": "object"
+      },
+      "name": "admin_desk",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. A kind of record: its table and columns (for admin_query), enum values, links, and the admin verbs that change it. Without type, the kinds there are.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "description": "Kind of record.",
+            "enum": [
+              "video",
+              "dancer",
+              "couple",
+              "orchestra",
+              "singer",
+              "song",
+              "event",
+              "channel",
+              "performance"
+            ],
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "admin_describe",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Ask the catalogue a question in SQL: one SELECT, read-only, 5 second limit, 200 rows by default (limit up to 2000). Catalogue tables only (videos, dancers, couples, songs, orchestras, events, channels, performances, pipeline tables); never accounts, tokens, sessions, likes, watches or playlists. Aggregates, text, number, date, array and JSON functions only. admin_describe lists columns. A refusal says why; fix the SQL rather than retrying it.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "limit": {
+            "description": "Rows, up to 2000.",
+            "type": "integer"
+          },
+          "sql": {
+            "description": "One SELECT.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "sql"
+        ],
+        "type": "object"
+      },
+      "name": "admin_query",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. The audit log of operator changes, newest first: what changed, before and after, by whom, and whether admin_undo can put it back. kinds: true lists instead every verb the log holds, how often, and whether it undoes.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "cursor": {
+            "description": "next_cursor from the last page.",
+            "type": "string"
+          },
+          "kind": {
+            "description": "A verb (video.hide) or family (video, payload).",
+            "type": "string"
+          },
+          "kinds": {
+            "description": "List the verbs the log holds instead.",
+            "type": "boolean"
+          },
+          "limit": {
+            "description": "Up to 50.",
+            "type": "integer"
+          },
+          "mine": {
+            "description": "Only the caller's changes.",
+            "type": "boolean"
+          },
+          "since": {
+            "description": "A date (2026-09-01) or an age (24h, 7d, 2w).",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "admin_actions",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Put a recorded change back. Runs only while nothing has changed the same field since; otherwise the error names the field. Try dry_run first and tell the person what it would restore. Undoing another operator's change needs confirm, which only the person may give.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "description": "The action's id, from admin_actions.",
+            "type": "integer"
+          },
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would be restored.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "action"
+        ],
+        "type": "object"
+      },
+      "name": "admin_undo",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. hide (out of search and every list, still reachable by id), unhide, feature (leads the featured row), unfeature, label (dance form as a person's: form tango_family|folklore|other|not_dance), stamp (why no commercial song: status live_music|no_commercial_take|needs_human|none), reidentify (re-read for dancers/song/event in the background; not undoable). Recorded; all but reidentify undo with admin_undo. Use dry_run to preview; give a note.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "form": {
+            "description": "label only: the dance form.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why, kept with the record.",
+            "type": "string"
+          },
+          "status": {
+            "description": "stamp only: the status.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "hide",
+              "unhide",
+              "feature",
+              "unfeature",
+              "label",
+              "stamp",
+              "reidentify"
+            ],
+            "type": "string"
+          },
+          "video": {
+            "description": "YouTube id.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "video",
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_video",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Add up to 50 videos by YouTube id, fetched and identified in the background; ids already in the catalogue are named and left alone. Recorded. dry_run previews.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would be imported.",
+            "type": "boolean"
+          },
+          "ids": {
+            "description": "YouTube ids.",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "ids"
+        ],
+        "type": "object"
+      },
+      "name": "admin_video_import",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Change a record's facts; send only the fields to change (null clears one). Recorded, and undoable with admin_undo. Use dry_run first and tell the person what would change. Fields by type — clip: title, description, start_s, end_s (seconds), visibility (private|unlisted|public), tags (array of steps); dancer: name, nickname, bio, gender (male|female), primary_role (leader|follower|both|neither), reviewed (bool); event: title, city, country, start_date, end_date (YYYY-MM-DD), latitude, longitude; orchestra: name, bio; singer: name, reviewed (bool); song: title, singer (a singer slug), composer, author (lyricist), date (recorded, YYYY-MM-DD), spotify_track_id, el_recodo_song_id, youtube_music_video_id.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "fields": {
+            "description": "Field → new value.",
+            "type": "object"
+          },
+          "id": {
+            "description": "Its slug (a clip's id for clips).",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why, kept with the record.",
+            "type": "string"
+          },
+          "type": {
+            "description": "Kind of record.",
+            "enum": [
+              "clip",
+              "dancer",
+              "event",
+              "orchestra",
+              "singer",
+              "song"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "id",
+          "fields"
+        ],
+        "type": "object"
+      },
+      "name": "admin_edit",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. review (tango and trusted: shows and syncs), activate (show again), deactivate (out of every listing; needs confirm), reject-noise (not tango: every video taken out in bulk; needs confirm; CANNOT be undone), sync (fetch new videos now). State changes are recorded; review, activate and deactivate undo with admin_undo. Use dry_run first; confirm only after the person agrees.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "channel": {
+            "description": "YouTube channel id (UC...).",
+            "type": "string"
+          },
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "review",
+              "activate",
+              "deactivate",
+              "reject-noise",
+              "sync"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "channel",
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_channel",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Delete anyone's clip. CANNOT be undone (the record keeps what it was). dry_run first; confirm only after the person agrees.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "clip": {
+            "description": "The clip's id.",
+            "type": "string"
+          },
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would be deleted.",
+            "type": "boolean"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "clip"
+        ],
+        "type": "object"
+      },
+      "name": "admin_clip_delete",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Reload the Mundial champions roll from its checked-in file (idempotent). dry_run shows the editions, new titles, dancers it would create, and champions whose slug matches no dancer, any one of which stops the load with nothing loaded. Recorded.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what a load would do.",
+            "type": "boolean"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "admin_championships_load",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Set a song's lyrics (Spanish) and/or English translation. English given here is marked as a person's (lyrics_en_source human) unless machine is said. Recorded and undoable with admin_undo; dry_run shows the change by length.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "lyrics": {
+            "description": "Spanish lyrics.",
+            "type": "string"
+          },
+          "lyrics_en": {
+            "description": "English translation.",
+            "type": "string"
+          },
+          "lyrics_en_source": {
+            "description": "Who translated.",
+            "enum": [
+              "human",
+              "machine"
+            ],
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "song": {
+            "description": "Song slug.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "song"
+        ],
+        "type": "object"
+      },
+      "name": "admin_song_lyrics",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. The other spellings the matcher reads as a dancer: list, add (replay re-reads up to 500 videos whose titles carry it) or rm. Recorded and undoable with admin_undo. dry_run previews.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dancer": {
+            "description": "Dancer slug.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "replay": {
+            "description": "add only: re-read the videos whose titles carry it.",
+            "type": "boolean"
+          },
+          "spelling": {
+            "description": "The spelling, for add and rm.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "list",
+              "add",
+              "rm"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "dancer",
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_dancer_alias",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Fold a duplicate dancer (loser) into the real one (into): credits, couples, aliases, titles, followers and pictures move; the loser is deleted. CANNOT be undone. Always run dry_run first and show the person exactly what moves; confirm only after they say yes. The record keeps a full snapshot of the loser.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would move.",
+            "type": "boolean"
+          },
+          "into": {
+            "description": "Slug of the dancer that stays.",
+            "type": "string"
+          },
+          "loser": {
+            "description": "Slug of the duplicate, which is deleted.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loser",
+          "into"
+        ],
+        "type": "object"
+      },
+      "name": "admin_dancer_merge",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Add a picture to a dancer, orchestra or event: a portrait or a cover. source is an https address (TangoTube fetches it, public web only) or a file path on this machine. Judged by its bytes: JPEG, PNG or WebP, at most 10 MB, at least 200 px a side; a refusal says why. licence is required (unknown, own_work, permission, public_page, public_domain, cc); give credit when there is one. It is shown when primary is true or the page shows none. Couples, channels and singers have no picture of their own. Adding CANNOT be undone (admin_image takedown takes it off). Run dry_run first and tell the person what it read.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "credit": {
+            "description": "Who to credit.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "Show what would be added.",
+            "type": "boolean"
+          },
+          "kind": {
+            "description": "Which picture (default portrait).",
+            "enum": [
+              "portrait",
+              "cover"
+            ],
+            "type": "string"
+          },
+          "licence": {
+            "description": "Under what terms it may be shown.",
+            "enum": [
+              "unknown",
+              "own_work",
+              "permission",
+              "public_page",
+              "public_domain",
+              "cc"
+            ],
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "primary": {
+            "description": "Show it now in place of the current one.",
+            "type": "boolean"
+          },
+          "slug": {
+            "description": "Their slug.",
+            "type": "string"
+          },
+          "source": {
+            "description": "An https:// address, or a local file path.",
+            "type": "string"
+          },
+          "type": {
+            "description": "Whose picture.",
+            "enum": [
+              "dancer",
+              "orchestra",
+              "event"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "slug",
+          "source",
+          "licence"
+        ],
+        "type": "object"
+      },
+      "name": "admin_image_add",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. A dancer's, orchestra's or event's pictures (which one each kind shows, and those proposed, rejected or taken down), or with review, every proposed picture. Read-only.",
+      "destructive": false,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "limit": {
+            "description": "review only: up to 50.",
+            "type": "integer"
+          },
+          "review": {
+            "description": "List proposed pictures instead.",
+            "type": "boolean"
+          },
+          "slug": {
+            "description": "Their slug.",
+            "type": "string"
+          },
+          "type": {
+            "description": "Whose pictures.",
+            "enum": [
+              "dancer",
+              "orchestra",
+              "event"
+            ],
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "name": "admin_images",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. primary (show this picture for its kind), takedown (off the page, kept on the record; the page falls back to the newest picture still up or shows none — dry_run says which; needs confirm), accept or reject (a proposed picture; accept shows it when the page shows none). All four are recorded and undo with admin_undo. dry_run first; confirm only after the person agrees.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "The picture's id, from admin_images.",
+            "type": "integer"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "reason": {
+            "description": "takedown and reject: why.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "primary",
+              "takedown",
+              "accept",
+              "reject"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_image",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. The enrichment review piles. list: pile conflict (a confident panel disagrees with the stored song) or panel (a panel named a song the matcher would not apply); each bill carries its verbs as tt commands. accept (take the proposal; NOT undoable; a dancer proposal needs dancer or create_dancer), keep (close it and stamp the stored song manual), reject (close it; the video unchanged); keep and reject undo with admin_undo. dry_run first.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "create_dancer": {
+            "description": "accept, dancer proposals: create the dancer named.",
+            "type": "boolean"
+          },
+          "cursor": {
+            "description": "list: next_cursor.",
+            "type": "string"
+          },
+          "dancer": {
+            "description": "accept, dancer proposals: the dancer's slug.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "The proposal's id, from list.",
+            "type": "integer"
+          },
+          "limit": {
+            "description": "list: up to 50.",
+            "type": "integer"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "pile": {
+            "description": "list: which pile.",
+            "enum": [
+              "conflict",
+              "panel"
+            ],
+            "type": "string"
+          },
+          "q": {
+            "description": "list: narrow to a title or YouTube id.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "list",
+              "accept",
+              "keep",
+              "reject"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_review",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Audio match review. matches: the latest match per video, by default matched and not yet judged (status, judged). verdict: right, wrong or unsure, a fact check; wrong also rejects the proposal and takes audio's song back, and with song names the right one (rendition when the take is unknown). rerun: match again in the background (refingerprint fetches the audio first). Recorded; not undoable with admin_undo. dry_run first.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "cursor": {
+            "description": "matches: next_cursor.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "The match's id.",
+            "type": "integer"
+          },
+          "judged": {
+            "description": "matches: include judged ones.",
+            "type": "boolean"
+          },
+          "limit": {
+            "description": "matches: up to 50.",
+            "type": "integer"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "refingerprint": {
+            "description": "rerun: fetch the audio again.",
+            "type": "boolean"
+          },
+          "rendition": {
+            "description": "verdict wrong: the tune and orchestra are known, not the take.",
+            "type": "boolean"
+          },
+          "song": {
+            "description": "verdict wrong: the right song's slug.",
+            "type": "string"
+          },
+          "status": {
+            "description": "matches: which.",
+            "enum": [
+              "matched",
+              "weak",
+              "no_match",
+              "conflict",
+              "error"
+            ],
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "matches",
+              "verdict",
+              "rerun"
+            ],
+            "type": "string"
+          },
+          "verdict": {
+            "description": "verdict: what you heard.",
+            "enum": [
+              "right",
+              "wrong",
+              "unsure"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_audio",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Identification suggestions. list (status pending by default, or accepted, rejected, all). accept: applies it as a trusted author's applies (the credit or song through the ledger, the author's trust score up a point, the author told), and recredits a dancer onto the performance so their dancer page lists it. reject: the author's score down a point, the author told. Neither is undoable; run dry_run first and tell the person what would change.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "cursor": {
+            "description": "list: next_cursor.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "The suggestion's id.",
+            "type": "integer"
+          },
+          "limit": {
+            "description": "list: up to 50.",
+            "type": "integer"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "status": {
+            "description": "list: which.",
+            "enum": [
+              "pending",
+              "accepted",
+              "rejected",
+              "all"
+            ],
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "list",
+              "accept",
+              "reject"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_suggestion",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. The report inbox: what people flagged as wrong. list (status open by default, or resolved, dismissed, all). resolve (note says what was done) or dismiss (note says why not); note is required. A fact hidden by reports shows again once they are closed. Recorded; admin_undo reopens a report.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "cursor": {
+            "description": "list: next_cursor.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "The report's id.",
+            "type": "integer"
+          },
+          "limit": {
+            "description": "list: up to 50.",
+            "type": "integer"
+          },
+          "note": {
+            "description": "resolve or dismiss: what was done, or why not.",
+            "type": "string"
+          },
+          "status": {
+            "description": "list: which.",
+            "enum": [
+              "open",
+              "resolved",
+              "dismissed",
+              "all"
+            ],
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "list",
+              "resolve",
+              "dismiss"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_inbox",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Clip tags people suggested. pending: by tag, most suggested first, with the blocked tags. accept (into the vocabulary and onto every clip it was suggested for; the suggesters' trust up a point), reject (close its suggestions), block (off every clip, never suggested again; needs confirm), unblock (may be suggested again; clips are not re-tagged). Recorded; none undoes with admin_undo. dry_run first; confirm only after the person agrees.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "cursor": {
+            "description": "pending: next_cursor.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "limit": {
+            "description": "pending: up to 50.",
+            "type": "integer"
+          },
+          "name": {
+            "description": "The tag.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "pending",
+              "accept",
+              "reject",
+              "block",
+              "unblock"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_tag",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. A person's standing, by their email address: show (name, trust tier and score, supporter, counts of what they sent; never their address, role, password or tokens), trust (trusted: true trusts them whatever their score; score: 0 or more), supporter (true or false). Tiers: pending below 5, auto_apply from 5, trusted from 20. trust and supporter are recorded and undo with admin_undo. dry_run first. Roles and passwords cannot be changed here.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show what would change.",
+            "type": "boolean"
+          },
+          "email": {
+            "description": "Their email address.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "score": {
+            "description": "trust: the trust score.",
+            "type": "integer"
+          },
+          "supporter": {
+            "description": "supporter: on or off.",
+            "type": "boolean"
+          },
+          "trusted": {
+            "description": "trust: always trusted.",
+            "type": "boolean"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "show",
+              "trust",
+              "supporter"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb",
+          "email"
+        ],
+        "type": "object"
+      },
+      "name": "admin_user",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Bring a performance's credits up to date with its videos', so a dancer named on a dance that already had credits reaches their dancer page, pairings and search. Only adds; a credit no video carries is named (unsupported) and left. id is a performance id or any of its videos' YouTube ids. Recorded; not undoable. dry_run first.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Show the credits it would add.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "Performance id or YouTube id.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "name": "admin_performance_recredit",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. The payload ledger, the jumpstart loop over the API. export: a queue's work list (kind gender|family|song|credit|probe|withdrawal; limit up to 3000, 500 by default), each row with ref, context and decide, the shape of the answer. import: land decided rows (kind, agent claude|grok|human, rows: objects each with ref plus the decide keys; up to 5000) through the idempotent importer; a malformed row refuses the lot, named by its line. Always dry_run first and tell the person what it would apply. status: the payloads landed; counts true also counts the rows waiting per queue (a few seconds). show: one payload's rows (state applied|skipped|reverted). revert: put back what a payload, or one row (row: id or ref), overwrote; needs confirm, which only the person may give, and a reverted row is never re-applied. probe, credit and withdrawal refs name appearances: export and import against the same database. Not undoable with admin_undo.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "agent": {
+            "description": "import: who decided the rows.",
+            "enum": [
+              "claude",
+              "grok",
+              "human"
+            ],
+            "type": "string"
+          },
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "counts": {
+            "description": "status: also count each queue's waiting rows.",
+            "type": "boolean"
+          },
+          "cursor": {
+            "description": "status, show: next_cursor.",
+            "type": "string"
+          },
+          "dry_run": {
+            "description": "import, revert: say what would happen, write nothing.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "show, revert: the payload's id.",
+            "type": "integer"
+          },
+          "kind": {
+            "description": "export, import, status: the queue.",
+            "enum": [
+              "gender",
+              "family",
+              "song",
+              "credit",
+              "probe",
+              "withdrawal"
+            ],
+            "type": "string"
+          },
+          "limit": {
+            "description": "export: up to 3000; status, show: up to 50.",
+            "type": "integer"
+          },
+          "note": {
+            "description": "revert: why.",
+            "type": "string"
+          },
+          "row": {
+            "description": "revert: one row's id or ref.",
+            "type": "string"
+          },
+          "rows": {
+            "description": "import: the decided rows.",
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "state": {
+            "description": "show: which rows.",
+            "enum": [
+              "applied",
+              "skipped",
+              "reverted"
+            ],
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "export",
+              "import",
+              "status",
+              "show",
+              "revert"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_payload",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Background jobs (admin_report jobs shows the queues, schedule and failures). runs: the allowlist, each with what it does and its args. run: start one (name channel-sync|place-new-videos|reindex|refresh-couples|harvest-descriptions|harvest-panels|audio-sweep|fingerprint|sitemap|availability-check; args like {\"mode\":\"full\"}); the answer states its cost. Every channel, a full placement walk, a full or listings reindex and the audio sweep need confirm, which only the person may give. retry: run a failed job again (id from jobs failures). discard: take a waiting job off the queue (needs confirm). Recorded; not undoable. dry_run first.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "args": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "run: the job's arguments.",
+            "type": "object"
+          },
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Say what would happen, start nothing.",
+            "type": "boolean"
+          },
+          "id": {
+            "description": "retry, discard: the job's id (a UUID).",
+            "type": "string"
+          },
+          "name": {
+            "description": "run: the job's name.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "runs",
+              "run",
+              "retry",
+              "discard"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_job",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. Pause or resume a scheduled job by its key (from admin_report jobs), with GoodJob's own switch. A paused job does not run until resumed. Recorded; admin_undo puts it back. dry_run first.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Say what would change.",
+            "type": "boolean"
+          },
+          "key": {
+            "description": "The schedule's key, like generate_sitemap.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "pause",
+              "resume"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb",
+          "key"
+        ],
+        "type": "object"
+      },
+      "name": "admin_cron",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. One rebuild step, run in the background: occasions, editions, appearances, views, dances, links, pairings, establish, partnerships, refresh-music, refresh-families or refresh-roles. Each walks a whole table: dry_run states the cost, and it runs only with confirm, which only the person may give. A dancer merge already rebuilds the kept dancer's partnerships. Recorded; not undoable.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "State the cost, start nothing.",
+            "type": "boolean"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "step": {
+            "description": "The step.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "step"
+        ],
+        "type": "object"
+      },
+      "name": "admin_rebuild",
+      "scope": "admin"
+    },
+    {
+      "description": "Operator only. The banner across the top of the site. list: every one, live, scheduled or ended. create: title and body required; link (https://… or /path), link_text, style info|sponsor|feedback, audience everyone|signed_in|signed_out, starts_at, ends_at (dates), position; dry_run first and show the person the wording. end: take one down now; admin_undo puts it back.",
+      "destructive": true,
+      "inputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "audience": {
+            "description": "create: who sees it.",
+            "enum": [
+              "everyone",
+              "signed_in",
+              "signed_out"
+            ],
+            "type": "string"
+          },
+          "body": {
+            "description": "create: the line under it.",
+            "type": "string"
+          },
+          "confirm": {
+            "description": "The person agreed to this change. Without it nothing changes: the answer is the dry_run preview.",
+            "type": "boolean"
+          },
+          "dry_run": {
+            "description": "Say what would change.",
+            "type": "boolean"
+          },
+          "ends_at": {
+            "description": "create: when it comes down; never by default.",
+            "type": "string"
+          },
+          "id": {
+            "description": "end: the announcement's id.",
+            "type": "integer"
+          },
+          "link": {
+            "description": "create: where it leads.",
+            "type": "string"
+          },
+          "link_text": {
+            "description": "create: the link's words.",
+            "type": "string"
+          },
+          "note": {
+            "description": "Why.",
+            "type": "string"
+          },
+          "position": {
+            "description": "create: lowest shows first.",
+            "type": "integer"
+          },
+          "starts_at": {
+            "description": "create: when it goes up (2026-10-01); now by default.",
+            "type": "string"
+          },
+          "style": {
+            "description": "create: how it looks.",
+            "enum": [
+              "info",
+              "sponsor",
+              "feedback"
+            ],
+            "type": "string"
+          },
+          "title": {
+            "description": "create: the headline.",
+            "type": "string"
+          },
+          "verb": {
+            "description": "What to do.",
+            "enum": [
+              "list",
+              "create",
+              "end"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verb"
+        ],
+        "type": "object"
+      },
+      "name": "admin_announcement",
+      "scope": "admin"
+    }
+  ]
+}

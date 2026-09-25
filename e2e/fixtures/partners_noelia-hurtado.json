@@ -1,0 +1,594 @@
+{
+  "ok": true,
+  "data": {
+    "dancer": {
+      "name": "Noelia Hurtado",
+      "slug": "noelia-hurtado",
+      "videos_count": 2719
+    },
+    "depth": 1,
+    "partners_count": 37,
+    "nodes": [
+      {
+        "id": 2453,
+        "name": "Noelia Hurtado",
+        "slug": "noelia-hurtado",
+        "ring": 0,
+        "videos": 2314,
+        "career_videos": 2719
+      },
+      {
+        "id": 1068,
+        "name": "Carlitos Espinoza",
+        "slug": "carlitos-espinoza",
+        "ring": 1,
+        "videos": 1562,
+        "career_videos": 2720,
+        "couple": "carlitos-espinoza-noelia-hurtado"
+      },
+      {
+        "id": 985,
+        "name": "Pablo Rodriguez",
+        "slug": "pablo-rodriguez",
+        "ring": 1,
+        "videos": 264,
+        "career_videos": 1134,
+        "couple": "pablo-rodriguez-noelia-hurtado"
+      },
+      {
+        "id": 802,
+        "name": "Facundo de la Cruz",
+        "slug": "facundo-de-la-cruz",
+        "ring": 1,
+        "videos": 202,
+        "career_videos": 501,
+        "couple": "facundo-de-la-cruz-noelia-hurtado"
+      },
+      {
+        "id": 1118,
+        "name": "Gaston Torelli",
+        "slug": "gaston-torelli",
+        "ring": 1,
+        "videos": 41,
+        "career_videos": 740,
+        "couple": "gaston-torelli-noelia-hurtado"
+      },
+      {
+        "id": 314,
+        "name": "Aoniken Quiroga",
+        "slug": "aoniken-quiroga",
+        "ring": 1,
+        "videos": 24,
+        "career_videos": 713,
+        "couple": "aoniken-quiroga-noelia-hurtado"
+      },
+      {
+        "id": 1113,
+        "name": "Sebastián Arce",
+        "slug": "sebastian-arce",
+        "ring": 1,
+        "videos": 22,
+        "career_videos": 1745,
+        "couple": "sebastian-arce-noelia-hurtado"
+      },
+      {
+        "id": 771,
+        "name": "Juan David Vargas",
+        "slug": "juan-david-vargas",
+        "ring": 1,
+        "videos": 20,
+        "career_videos": 315,
+        "couple": "juan-david-vargas-noelia-hurtado"
+      },
+      {
+        "id": 1040,
+        "name": "Octavio Fernández",
+        "slug": "octavio-fernandez",
+        "ring": 1,
+        "videos": 18,
+        "career_videos": 738,
+        "couple": "octavio-fernandez-noelia-hurtado"
+      },
+      {
+        "id": 8905,
+        "name": "OSCAR ARCE",
+        "slug": "oscar-arce",
+        "ring": 1,
+        "videos": 14,
+        "career_videos": 33,
+        "couple": "noelia-hurtado-oscar-arce"
+      },
+      {
+        "id": 517,
+        "name": "Pablo Giorgini",
+        "slug": "pablo-giorgini",
+        "ring": 1,
+        "videos": 13,
+        "career_videos": 336,
+        "couple": "pablo-giorgini-noelia-hurtado"
+      },
+      {
+        "id": 1050,
+        "name": "Facundo Piñero",
+        "slug": "facundo-pinero",
+        "ring": 1,
+        "videos": 10,
+        "career_videos": 1224,
+        "couple": "facundo-pinero-noelia-hurtado"
+      },
+      {
+        "id": 8687,
+        "name": "Marie Joseba",
+        "slug": "marie-joseba",
+        "ring": 1,
+        "videos": 10,
+        "career_videos": 23,
+        "couple": "noelia-hurtado-marie-joseba"
+      },
+      {
+        "id": 574,
+        "name": "Lautaro Peyrelongue",
+        "slug": "lautaro-peyrelongue",
+        "ring": 1,
+        "videos": 9,
+        "career_videos": 78,
+        "couple": "lautaro-peyrelongue-noelia-hurtado"
+      },
+      {
+        "id": 539,
+        "name": "Horacio Pebete Godoy",
+        "slug": "horacio-pebete-godoy",
+        "ring": 1,
+        "videos": 8,
+        "career_videos": 1065,
+        "couple": "horacio-pebete-godoy-noelia-hurtado"
+      },
+      {
+        "id": 1036,
+        "name": "Javier Rodríguez",
+        "slug": "javier-rodriguez",
+        "ring": 1,
+        "videos": 8,
+        "career_videos": 1898,
+        "couple": "javier-rodriguez-noelia-hurtado"
+      },
+      {
+        "id": 1062,
+        "name": "Pablo Inza",
+        "slug": "pablo-inza",
+        "ring": 1,
+        "videos": 7,
+        "career_videos": 660,
+        "couple": "pablo-inza-noelia-hurtado"
+      },
+      {
+        "id": 9529,
+        "name": "Carlos Chacón",
+        "slug": "carlos-chacon",
+        "ring": 1,
+        "videos": 6,
+        "career_videos": 18,
+        "couple": "noelia-hurtado-carlos-chacon"
+      },
+      {
+        "id": 1051,
+        "name": "Fernando Carrasco",
+        "slug": "fernando-carrasco",
+        "ring": 1,
+        "videos": 5,
+        "career_videos": 478,
+        "couple": "fernando-carrasco-noelia-hurtado"
+      },
+      {
+        "id": 1067,
+        "name": "Carlos Gavito",
+        "slug": "carlos-gavito",
+        "ring": 1,
+        "videos": 5,
+        "career_videos": 423,
+        "couple": "carlos-gavito-noelia-hurtado"
+      },
+      {
+        "id": 2396,
+        "name": "Roxana Suárez",
+        "slug": "roxana-suarez",
+        "ring": 1,
+        "videos": 5,
+        "career_videos": 2450,
+        "couple": "roxana-suarez-noelia-hurtado"
+      },
+      {
+        "id": 9655,
+        "name": "Matías Álvarez",
+        "slug": "matias-alvarez",
+        "ring": 1,
+        "videos": 5,
+        "career_videos": 65,
+        "couple": "noelia-hurtado-matias-alvarez"
+      },
+      {
+        "id": 57,
+        "name": "Damian Esell",
+        "slug": "damian-esell",
+        "ring": 1,
+        "videos": 5,
+        "career_videos": 194,
+        "couple": "damian-esell-noelia-hurtado"
+      },
+      {
+        "id": 9638,
+        "name": "Aníbal Corniglio",
+        "slug": "anibal-corniglio",
+        "ring": 1,
+        "videos": 5,
+        "career_videos": 126,
+        "couple": "noelia-hurtado-anibal-corniglio"
+      },
+      {
+        "id": 9751,
+        "name": "Facundo Gran",
+        "slug": "facundo-gran",
+        "ring": 1,
+        "videos": 5,
+        "career_videos": 5,
+        "couple": "noelia-hurtado-facundo-gran"
+      },
+      {
+        "id": 741,
+        "name": "Anibal Lautaro",
+        "slug": "anibal-lautaro",
+        "ring": 1,
+        "videos": 4,
+        "career_videos": 201,
+        "couple": "anibal-lautaro-noelia-hurtado"
+      },
+      {
+        "id": 5332,
+        "name": "Lucas Paez",
+        "slug": "lucas-paez",
+        "ring": 1,
+        "videos": 4,
+        "career_videos": 57,
+        "couple": "noelia-hurtado-lucas-paez"
+      },
+      {
+        "id": 5612,
+        "name": "Oliver Koch",
+        "slug": "oliver-koch",
+        "ring": 1,
+        "videos": 4,
+        "career_videos": 9,
+        "couple": "noelia-hurtado-oliver-koch"
+      },
+      {
+        "id": 9168,
+        "name": "FEDERICO QUIJANO",
+        "slug": "federico-quijano",
+        "ring": 1,
+        "videos": 4,
+        "career_videos": 10,
+        "couple": "noelia-hurtado-federico-quijano"
+      },
+      {
+        "id": 1099,
+        "name": "Mariano Chicho Frúmboli",
+        "slug": "mariano-chicho-frumboli",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 3221,
+        "couple": "mariano-chicho-frumboli-noelia-hurtado"
+      },
+      {
+        "id": 7662,
+        "name": "Patricio Noé Crom",
+        "slug": "patricio-noe-crom",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 36,
+        "couple": "noelia-hurtado-patricio-noe-crom"
+      },
+      {
+        "id": 8069,
+        "name": "Hernán Lazarte",
+        "slug": "hernan-lazarte",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 9,
+        "couple": "noelia-hurtado-hernan-lazarte"
+      },
+      {
+        "id": 8365,
+        "name": "Facundo Delacruz",
+        "slug": "facundo-delacruz",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 4,
+        "couple": "noelia-hurtado-facundo-delacruz"
+      },
+      {
+        "id": 14238,
+        "name": "Max Pitruzzella",
+        "slug": "max-pitruzzella",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 7,
+        "couple": "noelia-hurtado-max-pitruzzella"
+      },
+      {
+        "id": 14310,
+        "name": "SIN RUMBO Normy",
+        "slug": "sin-rumbo-normy",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 44,
+        "couple": "noelia-hurtado-sin-rumbo-normy"
+      },
+      {
+        "id": 8676,
+        "name": "Fabian Irusquibelar",
+        "slug": "fabian-irusquibelar",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 200,
+        "couple": "noelia-hurtado-fabian-irusquibelar"
+      },
+      {
+        "id": 179,
+        "name": "Fabián Peralta",
+        "slug": "fabian-peralta",
+        "ring": 1,
+        "videos": 2,
+        "career_videos": 936,
+        "couple": "fabian-peralta-noelia-hurtado"
+      },
+      {
+        "id": 563,
+        "name": "David Palo",
+        "slug": "david-palo",
+        "ring": 1,
+        "videos": 2,
+        "career_videos": 250,
+        "couple": "david-palo-noelia-hurtado"
+      }
+    ],
+    "edges": [
+      {
+        "a": 1050,
+        "b": 2396,
+        "videos": 11
+      },
+      {
+        "a": 1099,
+        "b": 2453,
+        "videos": 3
+      },
+      {
+        "a": 179,
+        "b": 2453,
+        "videos": 2
+      },
+      {
+        "a": 1036,
+        "b": 2396,
+        "videos": 8
+      },
+      {
+        "a": 1118,
+        "b": 2453,
+        "videos": 41
+      },
+      {
+        "a": 1099,
+        "b": 2396,
+        "videos": 21
+      },
+      {
+        "a": 1113,
+        "b": 2453,
+        "videos": 22
+      },
+      {
+        "a": 57,
+        "b": 2453,
+        "videos": 5
+      },
+      {
+        "a": 2453,
+        "b": 9638,
+        "videos": 5
+      },
+      {
+        "a": 2453,
+        "b": 9529,
+        "videos": 6
+      },
+      {
+        "a": 1062,
+        "b": 2453,
+        "videos": 7
+      },
+      {
+        "a": 802,
+        "b": 2396,
+        "videos": 2
+      },
+      {
+        "a": 1051,
+        "b": 2453,
+        "videos": 5
+      },
+      {
+        "a": 563,
+        "b": 2453,
+        "videos": 2
+      },
+      {
+        "a": 574,
+        "b": 2453,
+        "videos": 9
+      },
+      {
+        "a": 2453,
+        "b": 14310,
+        "videos": 3
+      },
+      {
+        "a": 2453,
+        "b": 7662,
+        "videos": 3
+      },
+      {
+        "a": 517,
+        "b": 2453,
+        "videos": 13
+      },
+      {
+        "a": 741,
+        "b": 2396,
+        "videos": 3
+      },
+      {
+        "a": 741,
+        "b": 2453,
+        "videos": 4
+      },
+      {
+        "a": 1050,
+        "b": 2453,
+        "videos": 10
+      },
+      {
+        "a": 2453,
+        "b": 9168,
+        "videos": 4
+      },
+      {
+        "a": 2453,
+        "b": 5332,
+        "videos": 4
+      },
+      {
+        "a": 1068,
+        "b": 2396,
+        "videos": 54
+      },
+      {
+        "a": 2453,
+        "b": 5612,
+        "videos": 4
+      },
+      {
+        "a": 1067,
+        "b": 2453,
+        "videos": 5
+      },
+      {
+        "a": 2396,
+        "b": 2453,
+        "videos": 5
+      },
+      {
+        "a": 314,
+        "b": 2453,
+        "videos": 24
+      },
+      {
+        "a": 1036,
+        "b": 1067,
+        "videos": 12
+      },
+      {
+        "a": 771,
+        "b": 2453,
+        "videos": 20
+      },
+      {
+        "a": 2453,
+        "b": 8069,
+        "videos": 3
+      },
+      {
+        "a": 2453,
+        "b": 8365,
+        "videos": 3
+      },
+      {
+        "a": 2453,
+        "b": 8687,
+        "videos": 10
+      },
+      {
+        "a": 2453,
+        "b": 8905,
+        "videos": 14
+      },
+      {
+        "a": 539,
+        "b": 2453,
+        "videos": 8
+      },
+      {
+        "a": 2453,
+        "b": 9751,
+        "videos": 5
+      },
+      {
+        "a": 2453,
+        "b": 14238,
+        "videos": 3
+      },
+      {
+        "a": 985,
+        "b": 2453,
+        "videos": 264
+      },
+      {
+        "a": 2453,
+        "b": 8676,
+        "videos": 3
+      },
+      {
+        "a": 802,
+        "b": 2453,
+        "videos": 202
+      },
+      {
+        "a": 9638,
+        "b": 9655,
+        "videos": 4
+      },
+      {
+        "a": 2453,
+        "b": 9655,
+        "videos": 5
+      },
+      {
+        "a": 1068,
+        "b": 2453,
+        "videos": 1562
+      },
+      {
+        "a": 1040,
+        "b": 2453,
+        "videos": 18
+      },
+      {
+        "a": 1036,
+        "b": 2453,
+        "videos": 8
+      },
+      {
+        "a": 1051,
+        "b": 1067,
+        "videos": 7
+      }
+    ]
+  },
+  "summary": "Noelia Hurtado · 37 partners · most often Carlitos Espinoza (1,562 videos)",
+  "breadcrumbs": [
+    "tt couple show carlitos-espinoza-noelia-hurtado",
+    "tt partners noelia-hurtado --depth 2",
+    "tt partners carlitos-espinoza",
+    "tt dancer show noelia-hurtado"
+  ]
+}

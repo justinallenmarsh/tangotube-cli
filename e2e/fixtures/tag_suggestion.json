@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "data": {
+    "suggestion": {
+      "name": "cross_system",
+      "status": "pending",
+      "clip": "parallel-cross-sacada-turn-linear-exit"
+    }
+  },
+  "summary": "Suggested “cross system” for “Parallel Cross, Sacada Turn, Linear Exit” — an admin adds new steps",
+  "breadcrumbs": [
+    "tt clip show parallel-cross-sacada-turn-linear-exit"
+  ]
+}

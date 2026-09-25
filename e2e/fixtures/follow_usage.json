@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "--level is one of personalized, all_activity or muted.",
+    "hint": null,
+    "retryable": false
+  }
+}

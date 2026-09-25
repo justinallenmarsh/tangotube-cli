@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "data": {
+    "suggestion": {
+      "id": 14,
+      "fact": "dancer",
+      "value": "Roxana Suárez",
+      "role": "follower",
+      "status": "pending"
+    },
+    "outcome": "queued",
+    "verified": null,
+    "reason": "review",
+    "fact": {
+      "fact": "dancers",
+      "state": "settled",
+      "value": "Sebastián Achaval · Roxana Suárez",
+      "how": "matched automatically",
+      "proposal": null,
+      "suggestion": null,
+      "disputable": true,
+      "credits": [
+        {
+          "name": "Sebastián Achaval",
+          "slug": "sebastian-achaval",
+          "role": null
+        },
+        {
+          "name": "Roxana Suárez",
+          "slug": "roxana-suarez",
+          "role": null
+        }
+      ]
+    }
+  },
+  "summary": "Sent for review — somebody will check it",
+  "breadcrumbs": [
+    "tt video show KICHdm0zuCQ --identity",
+    "tt queue"
+  ]
+}

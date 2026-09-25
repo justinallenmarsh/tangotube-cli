@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "data": {
+    "suggestion": {
+      "id": 10,
+      "fact": "song",
+      "value": "Milonga criolla · Francisco Canaro",
+      "status": "accepted"
+    },
+    "outcome": "applied",
+    "verified": true,
+    "reason": "agreement",
+    "fact": {
+      "fact": "song",
+      "state": "settled",
+      "value": "Milonga criolla · Francisco Canaro",
+      "how": "a person",
+      "proposal": null,
+      "suggestion": null,
+      "disputable": false,
+      "credits": []
+    }
+  },
+  "summary": "Applied — that is two sources agreeing, so it is on the video now",
+  "breadcrumbs": [
+    "tt video show p6owMk_o_8A --identity",
+    "tt queue"
+  ]
+}

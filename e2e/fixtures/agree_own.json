@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "That is your own answer; somebody else has to agree with it.",
+    "hint": null,
+    "retryable": false
+  }
+}

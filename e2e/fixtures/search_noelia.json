@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "data": {
+    "videos": [
+      {
+        "id": "mL9WdjoNhlE",
+        "youtube_id": "mL9WdjoNhlE",
+        "title": "Noelia Hurtado and Carlitos Espinoza – Venganza #NoeliayCarlitos",
+        "watch_url": "https://tangotube.tv/watch?v=mL9WdjoNhlE",
+        "duration_s": 239,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Anibal Troilo",
+          "slug": "anibal-troilo"
+        },
+        "song": {
+          "title": "Marinera",
+          "slug": "marinera-anibal-troilo",
+          "genre": "tango",
+          "recorded_on": "1959-06-04",
+          "singer": "Angel Cardenas",
+          "composer": "Pedro Laurenz",
+          "lyricist": "Carlos Marín",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/marinera-anibal-troilo",
+            "spotify": "https://open.spotify.com/track/05LqaHWLREFKZwWB5l4q0i",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=marinera"
+          }
+        },
+        "year": 1959,
+        "event": {
+          "title": "Lyon Tango Festival",
+          "slug": "lyon-tango-festival",
+          "city": "Lyon",
+          "country": "France",
+          "start_date": "2019-05-09",
+          "end_date": "2019-05-14"
+        },
+        "channel": "030tango",
+        "youtube_views": 8237,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=mL9WdjoNhlE",
+          "youtube": "https://www.youtube.com/watch?v=mL9WdjoNhlE",
+          "channel": "https://www.youtube.com/channel/UCtdgMR0bmogczrZNpPaO66Q"
+        },
+        "uploaded_on": "2018-03-28",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "2S_EPrCMyiU",
+        "youtube_id": "2S_EPrCMyiU",
+        "title": "Noelia Hurtado & Carlos Espinoza, Sorbos amargos (WinterTangoNapoli 2019, 1/4)",
+        "watch_url": "https://tangotube.tv/watch?v=2S_EPrCMyiU",
+        "duration_s": 241,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Lucio Demare",
+          "slug": "lucio-demare"
+        },
+        "song": {
+          "title": "Sorbos amargos",
+          "slug": "sorbos-amargos-lucio-demare",
+          "genre": "tango",
+          "recorded_on": "1942-11-10",
+          "singer": "Juan Carlos Miranda",
+          "composer": "Lucio Demare",
+          "lyricist": "Agustín Irusta y Roberto Fugazot",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/sorbos-amargos-lucio-demare",
+            "spotify": "https://open.spotify.com/track/0DgIe7WPqfHGJbGev67sUc",
+            "youtube_music": "https://music.youtube.com/watch?v=JL61NPhvBTg",
+            "el_recodo": "https://www.el-recodo.com/music?T=sorbos%20amargos"
+          }
+        },
+        "year": 1942,
+        "event": {
+          "title": "WinterTangoNapoli",
+          "slug": "wintertangonapoli",
+          "city": "Napoli",
+          "country": "Italy",
+          "start_date": null,
+          "end_date": null
+        },
+        "channel": "genali",
+        "youtube_views": 13066,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=2S_EPrCMyiU",
+          "youtube": "https://www.youtube.com/watch?v=2S_EPrCMyiU",
+          "channel": "https://www.youtube.com/channel/UCPx1BQxsY3gt54F_-kjQv6A"
+        },
+        "uploaded_on": "2019-11-11",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      }
+    ],
+    "total": 1419,
+    "next_cursor": "2",
+    "filters": {
+      "dancer": {
+        "slug": "noelia-hurtado",
+        "name": "Noelia Hurtado",
+        "also": [
+          {
+            "slug": "noelia-barsi",
+            "name": "Noelia Barsi"
+          },
+          {
+            "slug": "noelia-coletti",
+            "name": "Noelia Coletti"
+          },
+          {
+            "slug": "noelia-urquiza",
+            "name": "Noelia Urquiza"
+          }
+        ],
+        "from_query": true
+      },
+      "query": "noelia"
+    }
+  },
+  "summary": "1,419 performances · Noelia Hurtado · 1942–1959",
+  "breadcrumbs": [
+    "tt video show mL9WdjoNhlE",
+    "tt open mL9WdjoNhlE",
+    "tt search --dancer noelia-barsi",
+    "tt search \"noelia\" --limit 2 --cursor 2"
+  ]
+}

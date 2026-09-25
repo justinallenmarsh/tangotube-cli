@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "not_found",
+    "message": "No video with that id.",
+    "hint": "tt search \"di sarli\"",
+    "retryable": false
+  }
+}

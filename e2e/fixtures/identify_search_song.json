@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "data": {
+    "kind": "song",
+    "candidates": [
+      {
+        "slug": "la-mulateada-carlos-di-sarli",
+        "name": "La mulateada",
+        "videos": 54,
+        "orchestra": "Carlos Di Sarli",
+        "genre": "milonga",
+        "recordings": [
+          {
+            "slug": "la-mulateada-carlos-di-sarli",
+            "year": 1941,
+            "label": "RCA Victor",
+            "videos": 54
+          }
+        ]
+      },
+      {
+        "slug": "la-trampera-anibal-troilo",
+        "name": "La trampera",
+        "videos": 15,
+        "orchestra": "Anibal Troilo",
+        "genre": "milonga",
+        "recordings": [
+          {
+            "slug": "la-trampera-anibal-troilo",
+            "videos": 15
+          }
+        ]
+      },
+      {
+        "slug": "la-bordona-anibal-troilo",
+        "name": "La bordona",
+        "videos": 12,
+        "orchestra": "Anibal Troilo",
+        "genre": "tango",
+        "recordings": [
+          {
+            "slug": "la-bordona-anibal-troilo",
+            "year": 1958,
+            "label": "Odeon",
+            "videos": 12
+          },
+          {
+            "slug": "la-bordona-anibal-troilo",
+            "videos": 0
+          }
+        ]
+      }
+    ]
+  },
+  "summary": "3 songs for “la mulateada”",
+  "breadcrumbs": [
+    "tt song show la-mulateada-carlos-di-sarli"
+  ]
+}

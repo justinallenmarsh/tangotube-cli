@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "data": {
+    "kind": "dancer",
+    "id": "leandro-oliver",
+    "name": "Leandro Oliver",
+    "following": true,
+    "level": "personalized",
+    "since": "2026-09-24T16:57:34Z",
+    "url": "https://tangotube.tv/dancers/leandro-oliver"
+  },
+  "summary": "Following Leandro Oliver · weekly email of their new videos is on (Settings turns it off)",
+  "breadcrumbs": [
+    "tt following --feed",
+    "tt follow dancer leandro-oliver --level all_activity"
+  ]
+}

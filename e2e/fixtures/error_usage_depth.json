@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "depth is 1 or 2.",
+    "hint": "tt partners noelia-hurtado --depth 2",
+    "retryable": false
+  }
+}

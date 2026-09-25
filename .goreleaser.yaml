@@ -1,0 +1,30 @@
+version: 2
+
+project_name: tt
+
+builds:
+  - main: ./cmd/tt
+    binary: tt
+    env:
+      - CGO_ENABLED=0
+    goos: [darwin, linux]
+    goarch: [amd64, arm64]
+    flags: [-trimpath]
+    ldflags:
+      - -s -w
+      - -X github.com/justinallenmarsh/tangotube-cli/internal/commands.Version={{ .Version }}
+      - -X github.com/justinallenmarsh/tangotube-cli/internal/commands.Commit={{ .ShortCommit }}
+      - -X github.com/justinallenmarsh/tangotube-cli/internal/commands.Date={{ .Date }}
+
+archives:
+  - formats: [tar.gz]
+    # No version in the name, so /releases/latest/download/tt_linux_amd64.tar.gz
+    # always means the newest one. scripts/install.sh depends on it.
+    name_template: "tt_{{ .Os }}_{{ .Arch }}"
+    files: [LICENSE, README.md]
+
+checksum:
+  name_template: checksums.txt
+
+changelog:
+  disable: true

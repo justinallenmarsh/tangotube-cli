@@ -1,0 +1,277 @@
+{
+  "ok": true,
+  "data": {
+    "videos": [
+      {
+        "id": "2ByaUQXeAeo",
+        "youtube_id": "2ByaUQXeAeo",
+        "title": "Carlitos Espinosa e Noelia Hurtado 1/8",
+        "watch_url": "https://tangotube.tv/watch?v=2ByaUQXeAeo",
+        "duration_s": 188,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Cuando el amor muere",
+          "slug": "cuando-el-amor-muere-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1941-08-02",
+          "singer": "Carlos Acuña",
+          "composer": "Alfredo Malerba",
+          "lyricist": "Héctor Marcó",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/cuando-el-amor-muere-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/66jpnblQkPOngiFwEEyUW3",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=cuando%20el%20amor%20muere"
+          }
+        },
+        "year": 1941,
+        "event": null,
+        "channel": "Afonso Duarte",
+        "youtube_views": 1656,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=2ByaUQXeAeo",
+          "youtube": "https://www.youtube.com/watch?v=2ByaUQXeAeo",
+          "channel": "https://www.youtube.com/channel/UChzdoUtSyc3M3Z8Zud6oPqg"
+        },
+        "uploaded_on": "2018-06-03",
+        "style": [
+          "salon"
+        ],
+        "techniques": [
+          "sacada"
+        ],
+        "clips_count": 1,
+        "related_video_ids": null,
+        "clips": [
+          {
+            "id": "sacada-1-cuando-el-amor-muere",
+            "video_id": "2ByaUQXeAeo",
+            "start_s": 30,
+            "end_s": 42,
+            "tags": [
+              "sacada",
+              "salon"
+            ],
+            "title": "Sacada 1 — Cuando el amor muere",
+            "visibility": "public",
+            "watch_url": "https://tangotube.tv/watch?v=2ByaUQXeAeo&start=30&end=42",
+            "clip_url": "https://tangotube.tv/clips/sacada-1-cuando-el-amor-muere",
+            "mine": false
+          }
+        ]
+      },
+      {
+        "id": "gwPGEva5wj4",
+        "youtube_id": "gwPGEva5wj4",
+        "title": "Carlos Espinoza & Noelia Hurtado, 1-4, Planetango 15, Moscow, Russia, 2015",
+        "watch_url": "https://tangotube.tv/watch?v=gwPGEva5wj4",
+        "duration_s": 212,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Cuando el amor muere",
+          "slug": "cuando-el-amor-muere-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1941-08-02",
+          "singer": "Carlos Acuña",
+          "composer": "Alfredo Malerba",
+          "lyricist": "Héctor Marcó",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/cuando-el-amor-muere-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/66jpnblQkPOngiFwEEyUW3",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=cuando%20el%20amor%20muere"
+          }
+        },
+        "year": 1941,
+        "event": {
+          "title": "Planetango",
+          "slug": "planetango",
+          "city": "Moscow",
+          "country": "Russia",
+          "start_date": null,
+          "end_date": null
+        },
+        "channel": "Prischepov TV",
+        "youtube_views": 10719,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=gwPGEva5wj4",
+          "youtube": "https://www.youtube.com/watch?v=gwPGEva5wj4",
+          "channel": "https://www.youtube.com/channel/UCCoOxQMnmwZ-jhezbLfSUgQ"
+        },
+        "uploaded_on": "2015-11-01",
+        "style": [
+          "salon"
+        ],
+        "techniques": [
+          "sacada"
+        ],
+        "clips_count": 1,
+        "related_video_ids": null,
+        "clips": [
+          {
+            "id": "sacada-2-cuando-el-amor-muere",
+            "video_id": "gwPGEva5wj4",
+            "start_s": 40,
+            "end_s": 52,
+            "tags": [
+              "sacada",
+              "salon"
+            ],
+            "title": "Sacada 2 — Cuando el amor muere",
+            "visibility": "public",
+            "watch_url": "https://tangotube.tv/watch?v=gwPGEva5wj4&start=40&end=52",
+            "clip_url": "https://tangotube.tv/clips/sacada-2-cuando-el-amor-muere",
+            "mine": false
+          }
+        ]
+      },
+      {
+        "id": "uGwRPRusbC0",
+        "youtube_id": "uGwRPRusbC0",
+        "title": "Carlos Espinoza & Noelia Hurtado ❤ @ Lyon Tango Festival 2019 - Volver A Sonar (Carlos Di Sarli ...)",
+        "watch_url": "https://tangotube.tv/watch?v=uGwRPRusbC0",
+        "duration_s": 219,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Volver a soñar",
+          "slug": "volver-a-sonar-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1940-10-08",
+          "singer": "Roberto Rufino",
+          "composer": "Andrés Fraga",
+          "lyricist": "Francisco García Jiménez",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/volver-a-sonar-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/0a6ZIoZrFJPM9rDpyaCLhi",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=volver%20a%20so%C3%B1ar"
+          }
+        },
+        "year": 1940,
+        "event": {
+          "title": "Lyon Tango Festival",
+          "slug": "lyon-tango-festival",
+          "city": "Lyon",
+          "country": "France",
+          "start_date": "2019-05-09",
+          "end_date": "2019-05-14"
+        },
+        "channel": "Armelle tango",
+        "youtube_views": 23486,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=uGwRPRusbC0",
+          "youtube": "https://www.youtube.com/watch?v=uGwRPRusbC0",
+          "channel": "https://www.youtube.com/channel/UClmH-sr3jJH1i8tE6odtONQ"
+        },
+        "uploaded_on": "2019-05-11",
+        "style": [
+          "salon"
+        ],
+        "techniques": [
+          "sacada"
+        ],
+        "clips_count": 1,
+        "related_video_ids": null,
+        "clips": [
+          {
+            "id": "sacada-3-volver-a-sonar",
+            "video_id": "uGwRPRusbC0",
+            "start_s": 50,
+            "end_s": 62,
+            "tags": [
+              "sacada",
+              "salon"
+            ],
+            "title": "Sacada 3 — Volver a soñar",
+            "visibility": "public",
+            "watch_url": "https://tangotube.tv/watch?v=uGwRPRusbC0&start=50&end=62",
+            "clip_url": "https://tangotube.tv/clips/sacada-3-volver-a-sonar",
+            "mine": false
+          }
+        ]
+      }
+    ],
+    "total": 3,
+    "next_cursor": null,
+    "filters": {
+      "dancer": {
+        "slug": "noelia-hurtado",
+        "name": "Noelia Hurtado"
+      },
+      "orchestra": {
+        "slug": "carlos-di-sarli",
+        "name": "Carlos Di Sarli"
+      },
+      "query": "sacada",
+      "q": "sacada",
+      "technique": "sacada"
+    }
+  },
+  "summary": "3 videos with practice clips · “sacada” · Noelia Hurtado · Carlos Di Sarli · 1940–1941",
+  "breadcrumbs": [
+    "tt open sacada-1-cuando-el-amor-muere",
+    "tt clip show sacada-1-cuando-el-amor-muere",
+    "tt video show 2ByaUQXeAeo",
+    "tt open 2ByaUQXeAeo"
+  ]
+}

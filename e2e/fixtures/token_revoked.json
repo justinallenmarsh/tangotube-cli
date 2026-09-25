@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "data": {
+    "revoked": "issued by rake"
+  },
+  "summary": "Revoked “issued by rake”.",
+  "breadcrumbs": [
+    "tt auth login"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "data": {
+    "techniques": [
+      "barrida",
+      "boleo",
+      "cadencia",
+      "caminata",
+      "colgada",
+      "corrida",
+      "cortado",
+      "cruzada",
+      "enrosque",
+      "gancho",
+      "giro",
+      "lapiz",
+      "media_luna",
+      "molinete",
+      "ocho",
+      "parada",
+      "puente",
+      "sacada",
+      "salida",
+      "sandwich",
+      "sentada",
+      "traspie",
+      "volcada"
+    ],
+    "styles": [
+      "milonguero",
+      "nuevo",
+      "salon",
+      "stage"
+    ]
+  },
+  "summary": "23 techniques · 4 styles",
+  "breadcrumbs": [
+    "tt search --technique sacada",
+    "tt clip list --technique boleo"
+  ]
+}

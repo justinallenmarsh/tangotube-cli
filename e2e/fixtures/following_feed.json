@@ -1,0 +1,592 @@
+{
+  "ok": true,
+  "data": {
+    "groups": [
+      {
+        "kind": "event",
+        "id": "tango-cazino",
+        "name": "Tango Cazino",
+        "recent": true,
+        "count": 18,
+        "videos": [
+          {
+            "id": "EJv04w-mZaM",
+            "youtube_id": "EJv04w-mZaM",
+            "title": "Yanick Wyler & Eugenia Parrilla - Tango Cazino 2026 - 15th Edition",
+            "watch_url": "https://tangotube.tv/watch?v=EJv04w-mZaM",
+            "duration_s": 255,
+            "dancers": [
+              {
+                "name": "Yanick Wyler",
+                "slug": "yanick-wyler",
+                "role": "leader"
+              },
+              {
+                "name": "Eugenia Parrilla",
+                "slug": "eugenia-parrilla",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "yanick-wyler-eugenia-parrilla",
+              "name": "Yanick Wyler & Eugenia Parrilla"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": {
+              "title": "Tango Cazino",
+              "slug": "tango-cazino",
+              "city": "Cluj-Napoca",
+              "country": "Romania",
+              "start_date": null,
+              "end_date": null
+            },
+            "channel": "Tango Cazino",
+            "youtube_views": 16,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=EJv04w-mZaM",
+              "youtube": "https://www.youtube.com/watch?v=EJv04w-mZaM",
+              "channel": "https://www.youtube.com/channel/UC2EyGIesuSnNx5-Kohy1PGg"
+            },
+            "uploaded_on": "2026-09-18",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          },
+          {
+            "id": "Z_KNYFD481w",
+            "youtube_id": "Z_KNYFD481w",
+            "title": "Yanick Wyler & Eugenia Parrilla - Tango Cazino 2026 - 15th Edition",
+            "watch_url": "https://tangotube.tv/watch?v=Z_KNYFD481w",
+            "duration_s": 252,
+            "dancers": [
+              {
+                "name": "Yanick Wyler",
+                "slug": "yanick-wyler",
+                "role": "leader"
+              },
+              {
+                "name": "Eugenia Parrilla",
+                "slug": "eugenia-parrilla",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "yanick-wyler-eugenia-parrilla",
+              "name": "Yanick Wyler & Eugenia Parrilla"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": {
+              "title": "Tango Cazino",
+              "slug": "tango-cazino",
+              "city": "Cluj-Napoca",
+              "country": "Romania",
+              "start_date": null,
+              "end_date": null
+            },
+            "channel": "Tango Cazino",
+            "youtube_views": 19,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=Z_KNYFD481w",
+              "youtube": "https://www.youtube.com/watch?v=Z_KNYFD481w",
+              "channel": "https://www.youtube.com/channel/UC2EyGIesuSnNx5-Kohy1PGg"
+            },
+            "uploaded_on": "2026-09-17",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          },
+          {
+            "id": "mB1Pef-tskU",
+            "youtube_id": "mB1Pef-tskU",
+            "title": "Yanick Wyler & Eugenia Parrilla - Tango Cazino 2026 - 15th Edition",
+            "watch_url": "https://tangotube.tv/watch?v=mB1Pef-tskU",
+            "duration_s": 149,
+            "dancers": [
+              {
+                "name": "Yanick Wyler",
+                "slug": "yanick-wyler",
+                "role": "leader"
+              },
+              {
+                "name": "Eugenia Parrilla",
+                "slug": "eugenia-parrilla",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "yanick-wyler-eugenia-parrilla",
+              "name": "Yanick Wyler & Eugenia Parrilla"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": {
+              "title": "Tango Cazino",
+              "slug": "tango-cazino",
+              "city": "Cluj-Napoca",
+              "country": "Romania",
+              "start_date": null,
+              "end_date": null
+            },
+            "channel": "Tango Cazino",
+            "youtube_views": 27,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=mB1Pef-tskU",
+              "youtube": "https://www.youtube.com/watch?v=mB1Pef-tskU",
+              "channel": "https://www.youtube.com/channel/UC2EyGIesuSnNx5-Kohy1PGg"
+            },
+            "uploaded_on": "2026-09-16",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          }
+        ]
+      },
+      {
+        "kind": "dancer",
+        "id": "cyntia-palacios",
+        "name": "Cyntia Palacios",
+        "recent": false,
+        "count": 37,
+        "videos": [
+          {
+            "id": "6L366jjT2SM",
+            "youtube_id": "6L366jjT2SM",
+            "title": "Semifinal Mundial de tango Ronda 17 - Usina del arte 29 Agosto 2026",
+            "watch_url": "https://tangotube.tv/watch?v=6L366jjT2SM",
+            "duration_s": 510,
+            "dancers": [
+              {
+                "name": "Andres Laza Moreno",
+                "slug": "andres-laza-moreno",
+                "role": "leader"
+              },
+              {
+                "name": "Fabián Peralta",
+                "slug": "fabian-peralta",
+                "role": "leader"
+              },
+              {
+                "name": "Leandro Oliver",
+                "slug": "leandro-oliver",
+                "role": "leader"
+              },
+              {
+                "name": "Cyntia Palacios",
+                "slug": "cyntia-palacios",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Inés Bogado",
+                "slug": "maria-ines-bogado",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Silvia",
+                "slug": "maria-silvia",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "leandro-oliver-cyntia-palacios",
+              "name": "Leandro Oliver & Cyntia Palacios"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": null,
+            "channel": "Charly Ayala",
+            "youtube_views": 524,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=6L366jjT2SM",
+              "youtube": "https://www.youtube.com/watch?v=6L366jjT2SM",
+              "channel": "https://www.youtube.com/channel/UCV6ZFfOW-0AhuAL3w7j-kFQ"
+            },
+            "uploaded_on": "2026-09-01",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          },
+          {
+            "id": "Wey79ht0ayY",
+            "youtube_id": "Wey79ht0ayY",
+            "title": "31 August 2026",
+            "watch_url": "https://tangotube.tv/watch?v=Wey79ht0ayY",
+            "duration_s": 574,
+            "dancers": [
+              {
+                "name": "Andres Laza Moreno",
+                "slug": "andres-laza-moreno",
+                "role": "leader"
+              },
+              {
+                "name": "Fabián Peralta",
+                "slug": "fabian-peralta",
+                "role": "leader"
+              },
+              {
+                "name": "Facundo Barrionuevo",
+                "slug": "facundo-barrionuevo",
+                "role": "leader"
+              },
+              {
+                "name": "Leandro Oliver",
+                "slug": "leandro-oliver",
+                "role": "leader"
+              },
+              {
+                "name": "Agustina Juanbelz",
+                "slug": "agustina-juanbelz",
+                "role": "follower"
+              },
+              {
+                "name": "Cyntia Palacios",
+                "slug": "cyntia-palacios",
+                "role": "follower"
+              },
+              {
+                "name": "Jésica Gómez",
+                "slug": "jesica-gomez",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Inés Bogado",
+                "slug": "maria-ines-bogado",
+                "role": "follower"
+              },
+              {
+                "name": "Miguel García",
+                "slug": "miguel-garcia",
+                "role": "follower"
+              },
+              {
+                "name": "Sandra Martinez",
+                "slug": "sandra-martinez",
+                "role": "follower"
+              },
+              {
+                "name": "Utha Callen",
+                "slug": "utha-callen",
+                "role": "follower"
+              },
+              {
+                "name": "Victoria Pesci",
+                "slug": "victoria-pesci",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "facundo-barrionuevo-agustina-juanbelz",
+              "name": "Facundo Barrionuevo & Agustina Juanbelz"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": null,
+            "channel": "Mundial de tango",
+            "youtube_views": 12,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=Wey79ht0ayY",
+              "youtube": "https://www.youtube.com/watch?v=Wey79ht0ayY",
+              "channel": "https://www.youtube.com/channel/UC_Kf2HL7ujOWuXlKST4ccCQ"
+            },
+            "uploaded_on": "2026-08-31",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          },
+          {
+            "id": "qb4bdK_tWQU",
+            "youtube_id": "qb4bdK_tWQU",
+            "title": "Semifinal Mundial de tango Ronda 14 - Usina del arte 29 Agosto 2026",
+            "watch_url": "https://tangotube.tv/watch?v=qb4bdK_tWQU",
+            "duration_s": 575,
+            "dancers": [
+              {
+                "name": "Andres Laza Moreno",
+                "slug": "andres-laza-moreno",
+                "role": "leader"
+              },
+              {
+                "name": "Fabián Peralta",
+                "slug": "fabian-peralta",
+                "role": "leader"
+              },
+              {
+                "name": "Leandro Oliver",
+                "slug": "leandro-oliver",
+                "role": "leader"
+              },
+              {
+                "name": "Cyntia Palacios",
+                "slug": "cyntia-palacios",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Inés Bogado",
+                "slug": "maria-ines-bogado",
+                "role": "follower"
+              },
+              {
+                "name": "ORLANDO NIETO",
+                "slug": "orlando-nieto",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "leandro-oliver-cyntia-palacios",
+              "name": "Leandro Oliver & Cyntia Palacios"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": null,
+            "channel": "Charly Ayala",
+            "youtube_views": 583,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=qb4bdK_tWQU",
+              "youtube": "https://www.youtube.com/watch?v=qb4bdK_tWQU",
+              "channel": "https://www.youtube.com/channel/UCV6ZFfOW-0AhuAL3w7j-kFQ"
+            },
+            "uploaded_on": "2026-08-31",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          }
+        ]
+      },
+      {
+        "kind": "dancer",
+        "id": "leandro-oliver",
+        "name": "Leandro Oliver",
+        "recent": false,
+        "count": 37,
+        "videos": [
+          {
+            "id": "6L366jjT2SM",
+            "youtube_id": "6L366jjT2SM",
+            "title": "Semifinal Mundial de tango Ronda 17 - Usina del arte 29 Agosto 2026",
+            "watch_url": "https://tangotube.tv/watch?v=6L366jjT2SM",
+            "duration_s": 510,
+            "dancers": [
+              {
+                "name": "Andres Laza Moreno",
+                "slug": "andres-laza-moreno",
+                "role": "leader"
+              },
+              {
+                "name": "Fabián Peralta",
+                "slug": "fabian-peralta",
+                "role": "leader"
+              },
+              {
+                "name": "Leandro Oliver",
+                "slug": "leandro-oliver",
+                "role": "leader"
+              },
+              {
+                "name": "Cyntia Palacios",
+                "slug": "cyntia-palacios",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Inés Bogado",
+                "slug": "maria-ines-bogado",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Silvia",
+                "slug": "maria-silvia",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "leandro-oliver-cyntia-palacios",
+              "name": "Leandro Oliver & Cyntia Palacios"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": null,
+            "channel": "Charly Ayala",
+            "youtube_views": 524,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=6L366jjT2SM",
+              "youtube": "https://www.youtube.com/watch?v=6L366jjT2SM",
+              "channel": "https://www.youtube.com/channel/UCV6ZFfOW-0AhuAL3w7j-kFQ"
+            },
+            "uploaded_on": "2026-09-01",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          },
+          {
+            "id": "Wey79ht0ayY",
+            "youtube_id": "Wey79ht0ayY",
+            "title": "31 August 2026",
+            "watch_url": "https://tangotube.tv/watch?v=Wey79ht0ayY",
+            "duration_s": 574,
+            "dancers": [
+              {
+                "name": "Andres Laza Moreno",
+                "slug": "andres-laza-moreno",
+                "role": "leader"
+              },
+              {
+                "name": "Fabián Peralta",
+                "slug": "fabian-peralta",
+                "role": "leader"
+              },
+              {
+                "name": "Facundo Barrionuevo",
+                "slug": "facundo-barrionuevo",
+                "role": "leader"
+              },
+              {
+                "name": "Leandro Oliver",
+                "slug": "leandro-oliver",
+                "role": "leader"
+              },
+              {
+                "name": "Agustina Juanbelz",
+                "slug": "agustina-juanbelz",
+                "role": "follower"
+              },
+              {
+                "name": "Cyntia Palacios",
+                "slug": "cyntia-palacios",
+                "role": "follower"
+              },
+              {
+                "name": "Jésica Gómez",
+                "slug": "jesica-gomez",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Inés Bogado",
+                "slug": "maria-ines-bogado",
+                "role": "follower"
+              },
+              {
+                "name": "Miguel García",
+                "slug": "miguel-garcia",
+                "role": "follower"
+              },
+              {
+                "name": "Sandra Martinez",
+                "slug": "sandra-martinez",
+                "role": "follower"
+              },
+              {
+                "name": "Utha Callen",
+                "slug": "utha-callen",
+                "role": "follower"
+              },
+              {
+                "name": "Victoria Pesci",
+                "slug": "victoria-pesci",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "facundo-barrionuevo-agustina-juanbelz",
+              "name": "Facundo Barrionuevo & Agustina Juanbelz"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": null,
+            "channel": "Mundial de tango",
+            "youtube_views": 12,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=Wey79ht0ayY",
+              "youtube": "https://www.youtube.com/watch?v=Wey79ht0ayY",
+              "channel": "https://www.youtube.com/channel/UC_Kf2HL7ujOWuXlKST4ccCQ"
+            },
+            "uploaded_on": "2026-08-31",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          },
+          {
+            "id": "qb4bdK_tWQU",
+            "youtube_id": "qb4bdK_tWQU",
+            "title": "Semifinal Mundial de tango Ronda 14 - Usina del arte 29 Agosto 2026",
+            "watch_url": "https://tangotube.tv/watch?v=qb4bdK_tWQU",
+            "duration_s": 575,
+            "dancers": [
+              {
+                "name": "Andres Laza Moreno",
+                "slug": "andres-laza-moreno",
+                "role": "leader"
+              },
+              {
+                "name": "Fabián Peralta",
+                "slug": "fabian-peralta",
+                "role": "leader"
+              },
+              {
+                "name": "Leandro Oliver",
+                "slug": "leandro-oliver",
+                "role": "leader"
+              },
+              {
+                "name": "Cyntia Palacios",
+                "slug": "cyntia-palacios",
+                "role": "follower"
+              },
+              {
+                "name": "Maria Inés Bogado",
+                "slug": "maria-ines-bogado",
+                "role": "follower"
+              },
+              {
+                "name": "ORLANDO NIETO",
+                "slug": "orlando-nieto",
+                "role": "follower"
+              }
+            ],
+            "couple": {
+              "slug": "leandro-oliver-cyntia-palacios",
+              "name": "Leandro Oliver & Cyntia Palacios"
+            },
+            "orchestra": null,
+            "song": null,
+            "year": null,
+            "event": null,
+            "channel": "Charly Ayala",
+            "youtube_views": 583,
+            "links": {
+              "tangotube": "https://tangotube.tv/watch?v=qb4bdK_tWQU",
+              "youtube": "https://www.youtube.com/watch?v=qb4bdK_tWQU",
+              "channel": "https://www.youtube.com/channel/UCV6ZFfOW-0AhuAL3w7j-kFQ"
+            },
+            "uploaded_on": "2026-08-31",
+            "style": [],
+            "techniques": [],
+            "clips_count": 0,
+            "related_video_ids": null
+          }
+        ]
+      }
+    ],
+    "days": 30
+  },
+  "summary": "55 new videos from 3 follows · last 30 days",
+  "breadcrumbs": [
+    "tt video show EJv04w-mZaM",
+    "tt following"
+  ]
+}

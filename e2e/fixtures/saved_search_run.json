@@ -1,0 +1,214 @@
+{
+  "ok": true,
+  "data": {
+    "videos": [
+      {
+        "id": "_zDlQzQA3-U",
+        "youtube_id": "_zDlQzQA3-U",
+        "title": "Vals “Rosamel”. Chicho Frumboli and Juana Sepulveda. Мариано Чичо Фрумболи и Хуана Сепульведа.",
+        "watch_url": "https://tangotube.tv/watch?v=_zDlQzQA3-U",
+        "duration_s": 193,
+        "dancers": [
+          {
+            "name": "Mariano Chicho Frúmboli",
+            "slug": "mariano-chicho-frumboli",
+            "role": "leader"
+          },
+          {
+            "name": "Juana Sepulveda",
+            "slug": "juana-sepulveda",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "mariano-chicho-frumboli-juana-sepulveda",
+          "name": "Mariano Chicho Frúmboli & Juana Sepulveda"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Rosamel",
+          "slug": "rosamel-carlos-di-sarli",
+          "genre": "vals",
+          "recorded_on": "1940-12-11",
+          "singer": "Roberto Rufino",
+          "composer": "Carlos Di Sarli",
+          "lyricist": "A. T. Oro",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/rosamel-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/2xmdNUZI7ybqbOvP1QyU7a",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=rosamel"
+          }
+        },
+        "year": 1940,
+        "event": {
+          "title": "Planetango",
+          "slug": "planetango",
+          "city": "Moscow",
+          "country": "Russia",
+          "start_date": null,
+          "end_date": null
+        },
+        "channel": "Tengiz Mosidze channel",
+        "youtube_views": 201616,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=_zDlQzQA3-U",
+          "youtube": "https://www.youtube.com/watch?v=_zDlQzQA3-U",
+          "channel": "https://www.youtube.com/channel/UC2m7kza71x306eDN9t8AKMg"
+        },
+        "uploaded_on": "2020-05-15",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "MdgE-cUCdDY",
+        "youtube_id": "MdgE-cUCdDY",
+        "title": "Eleonora Kalganova and Michael Nadtochi – Alma mía",
+        "watch_url": "https://tangotube.tv/watch?v=MdgE-cUCdDY",
+        "duration_s": 171,
+        "dancers": [
+          {
+            "name": "Michael Nadtochi",
+            "slug": "michael-nadtochi",
+            "role": "leader"
+          },
+          {
+            "name": "Eleonora Kalganova",
+            "slug": "eleonora-kalganova",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "michael-nadtochi-eleonora-kalganova",
+          "name": "Michael Nadtochi & Eleonora Kalganova"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Alma mia",
+          "slug": "alma-mia-carlos-di-sarli",
+          "genre": "vals",
+          "recorded_on": "1940-02-15",
+          "singer": "Roberto Rufino",
+          "composer": "Diego Centeno",
+          "lyricist": "Héctor Marcó",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/alma-mia-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/1GstC84FVAjmLC0XMvITS3",
+            "youtube_music": "https://music.youtube.com/watch?v=e4vPt_T-uOc",
+            "el_recodo": "https://www.el-recodo.com/music?T=alma%20mia"
+          }
+        },
+        "year": 1940,
+        "event": {
+          "title": "Tango Tage Halle",
+          "slug": "tango-tage-halle",
+          "city": "Halle",
+          "country": "Germany",
+          "start_date": "2016-10-27",
+          "end_date": "2016-10-30"
+        },
+        "channel": "030tango",
+        "youtube_views": 56175,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=MdgE-cUCdDY",
+          "youtube": "https://www.youtube.com/watch?v=MdgE-cUCdDY",
+          "channel": "https://www.youtube.com/channel/UCtdgMR0bmogczrZNpPaO66Q"
+        },
+        "uploaded_on": "2018-04-10",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "fE4jC6nDGpo",
+        "youtube_id": "fE4jC6nDGpo",
+        "title": "Maricel Giacomini & Bruno Gibertoni, 1-4, Moscow, Milonga \"Planetango\" 25.11.2015",
+        "watch_url": "https://tangotube.tv/watch?v=fE4jC6nDGpo",
+        "duration_s": 190,
+        "dancers": [
+          {
+            "name": "Bruno Gibertoni",
+            "slug": "bruno-gibertoni",
+            "role": "leader"
+          },
+          {
+            "name": "Maricel Giacomini",
+            "slug": "maricel-giacomini",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "bruno-gibertoni-maricel-giacomini",
+          "name": "Bruno Gibertoni & Maricel Giacomini"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Ausencia",
+          "slug": "ausencia-carlos-di-sarli",
+          "genre": "vals",
+          "recorded_on": "1940-08-05",
+          "singer": "Agustin Volpe",
+          "composer": "Carlos Gardel y José Razzano",
+          "lyricist": "Francisco Bianco",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/ausencia-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/6h6ImT4TM0rRjfTrQowNj6",
+            "youtube_music": "https://music.youtube.com/watch?v=EqoyJIMLDMQ",
+            "el_recodo": "https://www.el-recodo.com/music?T=ausencia"
+          }
+        },
+        "year": 1940,
+        "event": {
+          "title": "Planetango",
+          "slug": "planetango",
+          "city": "Moscow",
+          "country": "Russia",
+          "start_date": null,
+          "end_date": null
+        },
+        "channel": "Prischepov TV",
+        "youtube_views": 996,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=fE4jC6nDGpo",
+          "youtube": "https://www.youtube.com/watch?v=fE4jC6nDGpo",
+          "channel": "https://www.youtube.com/channel/UCCoOxQMnmwZ-jhezbLfSUgQ"
+        },
+        "uploaded_on": "2015-11-26",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      }
+    ],
+    "total": 47,
+    "next_cursor": "2",
+    "filters": {
+      "orchestra": {
+        "slug": "carlos-di-sarli",
+        "name": "Carlos Di Sarli"
+      },
+      "genre": "vals"
+    }
+  },
+  "summary": "47 performances · Carlos Di Sarli · vals · 1940",
+  "breadcrumbs": [
+    "tt video show _zDlQzQA3-U",
+    "tt open _zDlQzQA3-U",
+    "tt search --orchestra \"carlos-di-sarli\" --genre vals --limit 3 --cursor 2"
+  ]
+}

@@ -1,0 +1,1 @@
+{"ok":true,"data":{"searches_7d":0,"searches_30d":0,"click_through_rate":0.0,"mean_clicked_position":null,"mean_reciprocal_rank":null,"zero_result_rate":0.0,"clicked_position_histogram":[],"top_queries":[],"zero_result_queries":[]},"summary":"0 searches in 7 days · click-through 0.0% · no results 0.0%","breadcrumbs":["tt admin search-quality --jq '.zero_result_queries'"]}

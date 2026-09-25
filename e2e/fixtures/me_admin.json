@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "data": {
+    "user": {
+      "name": "Operator",
+      "email": "operator@example.com"
+    },
+    "token": {
+      "name": "tt admin on a laptop",
+      "scopes": [
+        "read",
+        "write",
+        "admin"
+      ],
+      "minted_by": "rake",
+      "created_at": "2026-09-24T20:45:16+02:00",
+      "last_used_at": "2026-09-24T21:01:39+02:00",
+      "expires_at": "2026-12-23T20:45:16+01:00",
+      "admin": true
+    }
+  },
+  "summary": "Signed in as operator@example.com · read, write, admin · expires 2026-12-23",
+  "breadcrumbs": [
+    "tt clip list --mine",
+    "tt search \"di sarli\""
+  ]
+}

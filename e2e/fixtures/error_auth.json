@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "auth",
+    "message": "That token is not valid. It may have been revoked.",
+    "hint": "tt auth login",
+    "retryable": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "Clearing all your history needs confirm=true.",
+    "hint": "tt history clear --yes",
+    "retryable": false
+  }
+}

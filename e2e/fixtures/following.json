@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "data": {
+    "follows": [
+      {
+        "kind": "channel",
+        "id": "UCtdgMR0bmogczrZNpPaO66Q",
+        "name": "030tango",
+        "following": true,
+        "level": "personalized",
+        "since": "2026-09-24T16:57:35Z",
+        "url": "https://tangotube.tv/channels/UCtdgMR0bmogczrZNpPaO66Q"
+      },
+      {
+        "kind": "event",
+        "id": "tango-cazino",
+        "name": "Tango Cazino",
+        "following": true,
+        "level": "all_activity",
+        "since": "2026-09-24T16:57:34Z",
+        "url": "https://tangotube.tv/events/tango-cazino"
+      },
+      {
+        "kind": "dancer",
+        "id": "cyntia-palacios",
+        "name": "Cyntia Palacios",
+        "following": true,
+        "level": "personalized",
+        "since": "2026-09-24T16:57:34Z",
+        "url": "https://tangotube.tv/dancers/cyntia-palacios"
+      },
+      {
+        "kind": "dancer",
+        "id": "leandro-oliver",
+        "name": "Leandro Oliver",
+        "following": true,
+        "level": "personalized",
+        "since": "2026-09-24T16:57:34Z",
+        "url": "https://tangotube.tv/dancers/leandro-oliver"
+      }
+    ],
+    "total": 4,
+    "counts": {
+      "dancers": 2,
+      "channels": 1,
+      "events": 1
+    },
+    "next_cursor": null
+  },
+  "summary": "2 dancers · 1 channel · 1 event",
+  "breadcrumbs": [
+    "tt following --feed"
+  ]
+}

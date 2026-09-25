@@ -1,0 +1,1 @@
+{"ok":false,"error":{"code":"usage","message":"Blocking “cross_system” closes 1 suggestion and keeps it from being suggested again. Say --yes to go ahead, or --dry-run to see it first.","hint":"tt admin tag block cross_system --yes","retryable":false}}

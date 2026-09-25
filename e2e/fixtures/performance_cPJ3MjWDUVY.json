@@ -1,0 +1,91 @@
+{
+  "ok": true,
+  "data": {
+    "id": 76192,
+    "dancers": [
+      {
+        "name": "Cristian Palomo",
+        "slug": "cristian-palomo",
+        "role": "leader"
+      },
+      {
+        "name": "Melisa Sacchi",
+        "slug": "melisa-sacchi",
+        "role": "follower"
+      }
+    ],
+    "couple": {
+      "slug": "cristian-palomo-melisa-sacchi",
+      "name": "Cristian Palomo & Melisa Sacchi"
+    },
+    "occasion": {
+      "event": null,
+      "kind": "competition",
+      "date": "2016-08-31"
+    },
+    "dance": {
+      "position": 1,
+      "song": {
+        "title": "Rondando tu esquina",
+        "slug": "rondando-tu-esquina-osvaldo-pugliese",
+        "genre": "tango",
+        "recorded_on": "1945-07-18",
+        "singer": "Roberto Chanel",
+        "composer": "Charlo",
+        "lyricist": "Enrique Cadícamo",
+        "has_lyrics": true,
+        "links": {
+          "tangotube": "https://tangotube.tv/songs/rondando-tu-esquina-osvaldo-pugliese",
+          "spotify": "https://open.spotify.com/track/2rPbICg7EDNctce8QKBRJS",
+          "youtube_music": null,
+          "el_recodo": "https://www.el-recodo.com/music?T=rondando%20tu%20esquina"
+        }
+      },
+      "orchestra": {
+        "name": "Osvaldo Pugliese",
+        "slug": "osvaldo-pugliese"
+      },
+      "year": 1945,
+      "videos": [
+        {
+          "id": "cPJ3MjWDUVY",
+          "title": "Mundial de Tango 2016, Final Pista, El Baile de los Campenoes, Melisa Sacchi y Cristian Palomo",
+          "channel": "Jose Paulo Santos",
+          "duration_s": 206,
+          "youtube_views": 143238,
+          "uploaded_on": "2016-08-31",
+          "watch_url": "https://tangotube.tv/watch?v=cPJ3MjWDUVY",
+          "youtube_url": "https://www.youtube.com/watch?v=cPJ3MjWDUVY",
+          "current": true
+        },
+        {
+          "id": "Oc8mDJPaM4c",
+          "title": "Mundial de tango 2016, Final Pista, El Baile del Campeón Pista, Cristian Palomo, Melisa Sacchi",
+          "channel": "AiresDeMilonga",
+          "duration_s": 213,
+          "youtube_views": 76455,
+          "uploaded_on": "2016-08-31",
+          "watch_url": "https://tangotube.tv/watch?v=Oc8mDJPaM4c",
+          "youtube_url": "https://www.youtube.com/watch?v=Oc8mDJPaM4c",
+          "current": false
+        },
+        {
+          "id": "F9_DUCcaZco",
+          "title": "Cristian Palomo y Melisa Sacchi - Campeones mundiales de Tango Pista 2016",
+          "channel": "Tangotrazo",
+          "duration_s": 259,
+          "youtube_views": 17373,
+          "uploaded_on": "2016-08-31",
+          "watch_url": "https://tangotube.tv/watch?v=F9_DUCcaZco",
+          "youtube_url": "https://www.youtube.com/watch?v=F9_DUCcaZco",
+          "current": false
+        }
+      ]
+    }
+  },
+  "summary": "Cristian Palomo & Melisa Sacchi · Rondando tu esquina · 3 videos",
+  "breadcrumbs": [
+    "tt open Oc8mDJPaM4c",
+    "tt video show cPJ3MjWDUVY"
+  ]
+}

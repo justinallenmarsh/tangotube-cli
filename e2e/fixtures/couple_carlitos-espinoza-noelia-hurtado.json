@@ -1,0 +1,587 @@
+{
+  "ok": true,
+  "data": {
+    "slug": "carlitos-espinoza-noelia-hurtado",
+    "name": "Carlitos Espinoza & Noelia Hurtado",
+    "dancers": [
+      {
+        "slug": "carlitos-espinoza",
+        "name": "Carlitos Espinoza"
+      },
+      {
+        "slug": "noelia-hurtado",
+        "name": "Noelia Hurtado"
+      }
+    ],
+    "videos_count": 1562,
+    "active": {
+      "from": 2011,
+      "to": 2026
+    },
+    "top_orchestras": [
+      {
+        "name": "Juan D'Arienzo",
+        "slug": "juan-d-arienzo",
+        "count": 368
+      },
+      {
+        "name": "Osvaldo Pugliese",
+        "slug": "osvaldo-pugliese",
+        "count": 155
+      },
+      {
+        "name": "Anibal Troilo",
+        "slug": "anibal-troilo",
+        "count": 129
+      },
+      {
+        "name": "Rodolfo Biagi",
+        "slug": "rodolfo-biagi",
+        "count": 35
+      },
+      {
+        "name": "Ricardo Tanturi",
+        "slug": "ricardo-tanturi",
+        "count": 33
+      }
+    ],
+    "links": {
+      "tangotube": "https://tangotube.tv/couples/carlitos-espinoza-noelia-hurtado"
+    },
+    "videos": [
+      {
+        "id": "AvPg6x6ox4o",
+        "youtube_id": "AvPg6x6ox4o",
+        "title": "Pure Beauty - Carlitos Espinoza y Noelia Hurtado @ Belgrade Tango Encuentro 2017 1/5",
+        "watch_url": "https://tangotube.tv/watch?v=AvPg6x6ox4o",
+        "duration_s": 293,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": null,
+        "song": null,
+        "year": null,
+        "event": {
+          "title": "Belgrade Tango Encuentro",
+          "slug": "belgrade-tango-encuentro",
+          "city": "Belgrade",
+          "country": "Serbia",
+          "start_date": "2016-04-20",
+          "end_date": "2016-04-26"
+        },
+        "channel": "Tango Natural",
+        "youtube_views": 1139521,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=AvPg6x6ox4o",
+          "youtube": "https://www.youtube.com/watch?v=AvPg6x6ox4o",
+          "channel": "https://www.youtube.com/channel/UCOrxTg3siBOMD0XwoDKWC5A"
+        },
+        "uploaded_on": "2017-04-28",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "qqL911qU3VE",
+        "youtube_id": "qqL911qU3VE",
+        "title": "Carlos Espinoza & Noelia Hurtado and Solo Tango Orquesta (La tupungatina) Planetango-11",
+        "watch_url": "https://tangotube.tv/watch?v=qqL911qU3VE",
+        "duration_s": 271,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Solo Tango Orquesta",
+          "slug": "solo-tango-orquesta"
+        },
+        "song": {
+          "title": "La Tupungatina",
+          "slug": "la-tupungatina-solo-tango-orquesta",
+          "genre": "tango",
+          "recorded_on": null,
+          "singer": null,
+          "composer": null,
+          "lyricist": null,
+          "has_lyrics": false,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/la-tupungatina-solo-tango-orquesta",
+            "spotify": "https://open.spotify.com/track/2VuMSoV7aufouUMFJuMSYG",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=la%20tupungatina"
+          }
+        },
+        "year": null,
+        "event": {
+          "title": "Planetango",
+          "slug": "planetango",
+          "city": "Moscow",
+          "country": "Russia",
+          "start_date": null,
+          "end_date": null
+        },
+        "channel": "Хосе Хуан",
+        "youtube_views": 1046906,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=qqL911qU3VE",
+          "youtube": "https://www.youtube.com/watch?v=qqL911qU3VE",
+          "channel": "https://www.youtube.com/channel/UCdjq0KCPXhvIreYHkfnSX5g"
+        },
+        "uploaded_on": "2013-11-02",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "P_UvG_JG5K0",
+        "youtube_id": "P_UvG_JG5K0",
+        "title": "Milonga \"De Mis Amores\". Noelia Hurtado and Carlos Espinoza with “Solo Tango orquesta”.  Танго 2015.",
+        "watch_url": "https://tangotube.tv/watch?v=P_UvG_JG5K0",
+        "duration_s": 130,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": null,
+        "song": null,
+        "year": null,
+        "event": {
+          "title": "Planetango",
+          "slug": "planetango",
+          "city": "Moscow",
+          "country": "Russia",
+          "start_date": null,
+          "end_date": null
+        },
+        "channel": "Tengiz Mosidze channel",
+        "youtube_views": 888972,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=P_UvG_JG5K0",
+          "youtube": "https://www.youtube.com/watch?v=P_UvG_JG5K0",
+          "channel": "https://www.youtube.com/channel/UC2m7kza71x306eDN9t8AKMg"
+        },
+        "uploaded_on": "2015-11-06",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "0EXPYei13_E",
+        "youtube_id": "0EXPYei13_E",
+        "title": "Noelia Hurtado y Carlitos Espinoza -  Cachirulo #TangoMoment",
+        "watch_url": "https://tangotube.tv/watch?v=0EXPYei13_E",
+        "duration_s": 56,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Anibal Troilo",
+          "slug": "anibal-troilo"
+        },
+        "song": {
+          "title": "Cachirulo",
+          "slug": "cachirulo-anibal-troilo",
+          "genre": "tango",
+          "recorded_on": "1941-03-04",
+          "singer": null,
+          "composer": "Francisco Cafiero",
+          "lyricist": null,
+          "has_lyrics": false,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/cachirulo-anibal-troilo",
+            "spotify": "https://open.spotify.com/track/58ZoLfWvxvj38igjmyI58Q",
+            "youtube_music": "https://music.youtube.com/watch?v=zau9QsXxutM",
+            "el_recodo": "https://www.el-recodo.com/music?T=cachirulo"
+          }
+        },
+        "year": 1941,
+        "event": null,
+        "channel": "Abrazo tv",
+        "youtube_views": 824048,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=0EXPYei13_E",
+          "youtube": "https://www.youtube.com/watch?v=0EXPYei13_E",
+          "channel": "https://www.youtube.com/channel/UC86nm4Acm2jUYJJk4DyaN-w"
+        },
+        "uploaded_on": "2021-12-27",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "WwRlL689PCk",
+        "youtube_id": "WwRlL689PCk",
+        "title": "El Cachivache Quinteto - Carlitos y Noelia - PUNK TANGO",
+        "watch_url": "https://tangotube.tv/watch?v=WwRlL689PCk",
+        "duration_s": 295,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": null,
+        "song": null,
+        "year": null,
+        "event": null,
+        "channel": "El Cachivache Quinteto Tango",
+        "youtube_views": 664008,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=WwRlL689PCk",
+          "youtube": "https://www.youtube.com/watch?v=WwRlL689PCk",
+          "channel": "https://www.youtube.com/channel/UCD3GFnm3hXuD2wnh20attYQ"
+        },
+        "uploaded_on": "2015-03-17",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "YB9yuW6jZP4",
+        "youtube_id": "YB9yuW6jZP4",
+        "title": "Noelia Hurtado & Carlitos Espinoza - MILONGA",
+        "watch_url": "https://tangotube.tv/watch?v=YB9yuW6jZP4",
+        "duration_s": 158,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Pedro Laurenz",
+          "slug": "pedro-laurenz"
+        },
+        "song": {
+          "title": "La vida es una milonga",
+          "slug": "la-vida-es-una-milonga-pedro-laurenz",
+          "genre": "milonga",
+          "recorded_on": "1941-09-05",
+          "singer": "Martin Podesta",
+          "composer": "Fernando Montoni y Rodolfo Sciammarella",
+          "lyricist": "Fernando Montoni y Rodolfo Sciammarella",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/la-vida-es-una-milonga-pedro-laurenz",
+            "spotify": "https://open.spotify.com/track/2P4vvsYMvHZVedK58AhhA3",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=la%20vida%20es%20una%20milonga"
+          }
+        },
+        "year": 1941,
+        "event": null,
+        "channel": "Tango Henryk Gajewski ",
+        "youtube_views": 509781,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=YB9yuW6jZP4",
+          "youtube": "https://www.youtube.com/watch?v=YB9yuW6jZP4",
+          "channel": "https://www.youtube.com/channel/UCp5e5y69xiUdGSw-ANTkYcA"
+        },
+        "uploaded_on": "2013-06-16",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "BxhgspokY9o",
+        "youtube_id": "BxhgspokY9o",
+        "title": "Tango: Noelia Hurtado y Carlitos Espinoza, 25/04/2015, Brussels Tango Festival #2/3",
+        "watch_url": "https://tangotube.tv/watch?v=BxhgspokY9o",
+        "duration_s": 179,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Juan D'Arienzo",
+          "slug": "juan-d-arienzo"
+        },
+        "song": {
+          "title": "Bien Pulenta",
+          "slug": "bien-pulenta-juan-d-arienzo",
+          "genre": "tango",
+          "recorded_on": "1950-05-05",
+          "singer": "Alberto Echague",
+          "composer": "Juan D'Arienzo y Héctor Varela",
+          "lyricist": "Carlos Waiss",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/bien-pulenta-juan-d-arienzo",
+            "spotify": "https://open.spotify.com/track/2oaphqhjnsn109Y7Y9aezg",
+            "youtube_music": "https://music.youtube.com/watch?v=JZUevAMhZYY",
+            "el_recodo": "https://www.el-recodo.com/music?T=bien%20pulenta"
+          }
+        },
+        "year": 1950,
+        "event": {
+          "title": "Brussels Tango Festival",
+          "slug": "brussels-tango-festival",
+          "city": "Brussels",
+          "country": "Belgium",
+          "start_date": "2016-04-28",
+          "end_date": "2016-05-02"
+        },
+        "channel": "TC Tango",
+        "youtube_views": 392176,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=BxhgspokY9o",
+          "youtube": "https://www.youtube.com/watch?v=BxhgspokY9o",
+          "channel": "https://www.youtube.com/channel/UCPSEBKNWfeUQR22qpdYAIgg"
+        },
+        "uploaded_on": "2015-05-04",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "oWSugQxwpEA",
+        "youtube_id": "oWSugQxwpEA",
+        "title": "Noelia Hurtado and Carlitos Espinoza – Violetas, Berlin 2016 #NoeliayCarlitos",
+        "watch_url": "https://tangotube.tv/watch?v=oWSugQxwpEA",
+        "duration_s": 180,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Alberto Castillo",
+          "slug": "alberto-castillo"
+        },
+        "song": {
+          "title": "Violetas",
+          "slug": "violetas-alberto-castillo",
+          "genre": "vals",
+          "recorded_on": "1948-05-12",
+          "singer": "Dir. Enrique Alessio",
+          "composer": "Juan Maglio",
+          "lyricist": "Francisco Brancatti",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/violetas-alberto-castillo",
+            "spotify": "https://open.spotify.com/track/737PVCYld2vO0jnFGOeL8U",
+            "youtube_music": "https://music.youtube.com/watch?v=qPqK8u_bcEo",
+            "el_recodo": "https://www.el-recodo.com/music?id=6398"
+          }
+        },
+        "year": 1948,
+        "event": null,
+        "channel": "030tango",
+        "youtube_views": 366420,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=oWSugQxwpEA",
+          "youtube": "https://www.youtube.com/watch?v=oWSugQxwpEA",
+          "channel": "https://www.youtube.com/channel/UCtdgMR0bmogczrZNpPaO66Q"
+        },
+        "uploaded_on": "2018-03-03",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "kQoR38C6LCA",
+        "youtube_id": "kQoR38C6LCA",
+        "title": "Carlitos & Noelia (2/5) - Rome Tango Meeting 2014",
+        "watch_url": "https://tangotube.tv/watch?v=kQoR38C6LCA",
+        "duration_s": 222,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Osvaldo Pugliese",
+          "slug": "osvaldo-pugliese"
+        },
+        "song": {
+          "title": "Dicha pasada",
+          "slug": "dicha-pasada-osvaldo-pugliese",
+          "genre": "tango",
+          "recorded_on": "1958-11-19",
+          "singer": "Miguel Montero",
+          "composer": "Guillermo Barbieri",
+          "lyricist": "Guillermo Barbieri",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/dicha-pasada-osvaldo-pugliese",
+            "spotify": "https://open.spotify.com/track/3nl9vJTTPqPIYSZUjswPaT",
+            "youtube_music": "https://music.youtube.com/watch?v=VYuG1VdGBKI",
+            "el_recodo": "https://www.el-recodo.com/music?T=dicha%20pasada"
+          }
+        },
+        "year": 1958,
+        "event": null,
+        "channel": "ducatidoc",
+        "youtube_views": 365929,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=kQoR38C6LCA",
+          "youtube": "https://www.youtube.com/watch?v=kQoR38C6LCA",
+          "channel": "https://www.youtube.com/channel/UCtBxJsF2AKhPgFSN2MAetUQ"
+        },
+        "uploaded_on": "2014-06-30",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "lvWm08bvNLQ",
+        "youtube_id": "lvWm08bvNLQ",
+        "title": "Noelia Hurtado & Carlitos Espinoza",
+        "watch_url": "https://tangotube.tv/watch?v=lvWm08bvNLQ",
+        "duration_s": 152,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": null,
+        "song": null,
+        "year": null,
+        "event": null,
+        "channel": "BorisTube7",
+        "youtube_views": 354867,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=lvWm08bvNLQ",
+          "youtube": "https://www.youtube.com/watch?v=lvWm08bvNLQ",
+          "channel": "https://www.youtube.com/channel/UCpk0omVygMxCtsZF_5wAxug"
+        },
+        "uploaded_on": "2013-09-28",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      }
+    ]
+  },
+  "summary": "Carlitos Espinoza & Noelia Hurtado · 1,562 videos",
+  "breadcrumbs": [
+    "tt search --couple carlitos-espinoza-noelia-hurtado",
+    "tt dancer show carlitos-espinoza",
+    "tt dancer show noelia-hurtado",
+    "tt video show AvPg6x6ox4o"
+  ]
+}

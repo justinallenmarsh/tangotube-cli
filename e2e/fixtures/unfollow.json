@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "data": {
+    "kind": "dancer",
+    "id": "noelia-hurtado",
+    "name": "Noelia Hurtado",
+    "following": false
+  },
+  "summary": "Unfollowed Noelia Hurtado",
+  "breadcrumbs": [
+    "tt following"
+  ]
+}

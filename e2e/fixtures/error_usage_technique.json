@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "--technique and --style search practice clips, which can be narrowed by --dancer, --orchestra, --song and --genre, but not by --event.",
+    "hint": "tt search --technique sacada --dancer \"noelia hurtado\"",
+    "retryable": false
+  }
+}

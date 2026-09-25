@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "data": {
+    "id": "2ByaUQXeAeo",
+    "youtube_id": "2ByaUQXeAeo",
+    "title": "Carlitos Espinosa e Noelia Hurtado 1/8",
+    "watch_url": "https://tangotube.tv/watch?v=2ByaUQXeAeo",
+    "duration_s": 188,
+    "dancers": [
+      {
+        "name": "Carlitos Espinoza",
+        "slug": "carlitos-espinoza",
+        "role": "leader",
+        "titles": []
+      },
+      {
+        "name": "Noelia Hurtado",
+        "slug": "noelia-hurtado",
+        "role": "follower",
+        "titles": []
+      }
+    ],
+    "couple": {
+      "slug": "carlitos-espinoza-noelia-hurtado",
+      "name": "Carlitos Espinoza & Noelia Hurtado"
+    },
+    "orchestra": {
+      "name": "Carlos Di Sarli",
+      "slug": "carlos-di-sarli"
+    },
+    "song": {
+      "title": "Cuando el amor muere",
+      "slug": "cuando-el-amor-muere-carlos-di-sarli",
+      "genre": "tango",
+      "recorded_on": "1941-08-02",
+      "singer": "Carlos Acuña",
+      "composer": "Alfredo Malerba",
+      "lyricist": "Héctor Marcó",
+      "has_lyrics": true,
+      "links": {
+        "tangotube": "https://tangotube.tv/songs/cuando-el-amor-muere-carlos-di-sarli",
+        "spotify": "https://open.spotify.com/track/66jpnblQkPOngiFwEEyUW3",
+        "youtube_music": null,
+        "el_recodo": "https://www.el-recodo.com/music?T=cuando%20el%20amor%20muere"
+      }
+    },
+    "year": 1941,
+    "event": null,
+    "channel": "Afonso Duarte",
+    "youtube_views": 1656,
+    "links": {
+      "tangotube": "https://tangotube.tv/watch?v=2ByaUQXeAeo",
+      "youtube": "https://www.youtube.com/watch?v=2ByaUQXeAeo",
+      "channel": "https://www.youtube.com/channel/UChzdoUtSyc3M3Z8Zud6oPqg"
+    },
+    "uploaded_on": "2018-06-03",
+    "style": [
+      "salon"
+    ],
+    "techniques": [
+      "sacada"
+    ],
+    "clips_count": 1,
+    "related_video_ids": [
+      "BR1UJjzonxc",
+      "bbEt3ODkZzs",
+      "vUBQpkqqUNM",
+      "GB2_b25n3aY",
+      "Qvp7A1JgDvY",
+      "gwPGEva5wj4"
+    ],
+    "other_angles": [],
+    "performance": 72253
+  },
+  "summary": "Carlitos Espinoza & Noelia Hurtado · Cuando el amor muere · Carlos Di Sarli 1941",
+  "breadcrumbs": [
+    "tt open 2ByaUQXeAeo",
+    "tt clip list --video 2ByaUQXeAeo",
+    "tt dancer show carlitos-espinoza",
+    "tt video show BR1UJjzonxc"
+  ]
+}

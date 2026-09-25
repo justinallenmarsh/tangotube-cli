@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "data": {
+    "user": {
+      "name": "CLI Dancer",
+      "email": "dancer@tangotube.test"
+    },
+    "token": {
+      "name": "issued by rake",
+      "scopes": [
+        "read",
+        "write"
+      ],
+      "minted_by": "rake",
+      "created_at": "2026-09-24T14:43:20+02:00",
+      "last_used_at": "2026-09-24T15:18:59+02:00"
+    }
+  },
+  "summary": "Signed in as dancer@tangotube.test · read, write",
+  "breadcrumbs": [
+    "tt clip list --mine",
+    "tt search \"di sarli\""
+  ]
+}

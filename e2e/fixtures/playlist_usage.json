@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "--visibility is one of private, unlisted or public.",
+    "hint": null,
+    "retryable": false
+  }
+}

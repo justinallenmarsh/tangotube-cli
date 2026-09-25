@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "data": {
+    "title": "Volver a soñar",
+    "slug": "volver-a-sonar-carlos-di-sarli",
+    "genre": "tango",
+    "recorded_on": "1940-10-08",
+    "singer": "Roberto Rufino",
+    "composer": "Andrés Fraga",
+    "lyricist": "Francisco García Jiménez",
+    "has_lyrics": true,
+    "links": {
+      "tangotube": "https://tangotube.tv/songs/volver-a-sonar-carlos-di-sarli",
+      "spotify": "https://open.spotify.com/track/0a6ZIoZrFJPM9rDpyaCLhi",
+      "youtube_music": null,
+      "el_recodo": "https://www.el-recodo.com/music?T=volver%20a%20so%C3%B1ar"
+    },
+    "orchestra": {
+      "slug": "carlos-di-sarli",
+      "name": "Carlos Di Sarli"
+    },
+    "year": 1940,
+    "author": "Francisco García Jiménez",
+    "videos_count": 50,
+    "videos": [
+      {
+        "id": "uGwRPRusbC0",
+        "youtube_id": "uGwRPRusbC0",
+        "title": "Carlos Espinoza & Noelia Hurtado ❤ @ Lyon Tango Festival 2019 - Volver A Sonar (Carlos Di Sarli ...)",
+        "watch_url": "https://tangotube.tv/watch?v=uGwRPRusbC0",
+        "duration_s": 219,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Volver a soñar",
+          "slug": "volver-a-sonar-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1940-10-08",
+          "singer": "Roberto Rufino",
+          "composer": "Andrés Fraga",
+          "lyricist": "Francisco García Jiménez",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/volver-a-sonar-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/0a6ZIoZrFJPM9rDpyaCLhi",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=volver%20a%20so%C3%B1ar"
+          }
+        },
+        "year": 1940,
+        "event": {
+          "title": "Lyon Tango Festival",
+          "slug": "lyon-tango-festival",
+          "city": "Lyon",
+          "country": "France",
+          "start_date": "2019-05-09",
+          "end_date": "2019-05-14"
+        },
+        "channel": "Armelle tango",
+        "youtube_views": 23486,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=uGwRPRusbC0",
+          "youtube": "https://www.youtube.com/watch?v=uGwRPRusbC0",
+          "channel": "https://www.youtube.com/channel/UClmH-sr3jJH1i8tE6odtONQ"
+        },
+        "uploaded_on": "2019-05-11",
+        "style": [
+          "salon"
+        ],
+        "techniques": [
+          "sacada"
+        ],
+        "clips_count": 1,
+        "related_video_ids": null
+      },
+      {
+        "id": "RsRC_Z5rb7w",
+        "youtube_id": "RsRC_Z5rb7w",
+        "title": "Noelia Hurtado & Carlitos Espinoza 1/5- Volver A Sonar, Karlsruhe Tango Festival 2019, 9th June 2019",
+        "watch_url": "https://tangotube.tv/watch?v=RsRC_Z5rb7w",
+        "duration_s": 175,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Volver a soñar",
+          "slug": "volver-a-sonar-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1940-10-08",
+          "singer": "Roberto Rufino",
+          "composer": "Andrés Fraga",
+          "lyricist": "Francisco García Jiménez",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/volver-a-sonar-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/0a6ZIoZrFJPM9rDpyaCLhi",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=volver%20a%20so%C3%B1ar"
+          }
+        },
+        "year": 1940,
+        "event": null,
+        "channel": "Brigitte Siempre Tango",
+        "youtube_views": 15850,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=RsRC_Z5rb7w",
+          "youtube": "https://www.youtube.com/watch?v=RsRC_Z5rb7w",
+          "channel": "https://www.youtube.com/channel/UCcld5qB21_QmhSnCa1t6hhw"
+        },
+        "uploaded_on": "2019-06-23",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      }
+    ]
+  },
+  "summary": "Volver a soñar · Carlos Di Sarli 1940 · tango · 50 performances",
+  "breadcrumbs": [
+    "tt search --song volver-a-sonar-carlos-di-sarli",
+    "tt orchestra show carlos-di-sarli",
+    "tt video show uGwRPRusbC0"
+  ]
+}

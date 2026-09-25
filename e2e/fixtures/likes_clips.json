@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "data": {
+    "clips": [],
+    "total": 0,
+    "next_cursor": null
+  },
+  "summary": "No liked clips yet",
+  "breadcrumbs": [
+    "tt clip list --technique sacada"
+  ]
+}

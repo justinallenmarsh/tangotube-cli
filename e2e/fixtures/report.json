@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "data": {
+    "report": {
+      "kind": "not_tango",
+      "about": "video",
+      "dancer": null,
+      "weight": 1.0,
+      "hide_at": 3.0,
+      "status": "open"
+    }
+  },
+  "summary": "Thank you — we will look at it",
+  "breadcrumbs": [
+    "tt video show SkTQuLhQG9A --identity"
+  ]
+}

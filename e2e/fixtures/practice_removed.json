@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "data": {
+    "id": "sacada-3-volver-a-sonar",
+    "video_id": "uGwRPRusbC0",
+    "start_s": 50,
+    "end_s": 62,
+    "tags": [
+      "sacada",
+      "salon"
+    ],
+    "title": "Sacada 3 — Volver a soñar",
+    "visibility": "public",
+    "watch_url": "https://tangotube.tv/watch?v=uGwRPRusbC0&start=50&end=62",
+    "clip_url": "https://tangotube.tv/clips/sacada-3-volver-a-sonar",
+    "mine": true,
+    "practicing": false
+  },
+  "summary": "Took “Sacada 3 — Volver a soñar” off your practice list",
+  "breadcrumbs": [
+    "tt practice"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "code": "usage",
+    "message": "Search needs something to look for: words, or a filter like --dancer.",
+    "hint": "tt search \"di sarli\"",
+    "retryable": false
+  }
+}

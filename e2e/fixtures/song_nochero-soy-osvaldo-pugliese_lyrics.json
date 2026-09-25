@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "data": {
+    "title": "Nochero soy",
+    "slug": "nochero-soy-osvaldo-pugliese",
+    "genre": "tango",
+    "recorded_on": "1956-11-28",
+    "singer": null,
+    "composer": "Oscar Herrero",
+    "lyricist": null,
+    "has_lyrics": false,
+    "links": {
+      "tangotube": "https://tangotube.tv/songs/nochero-soy-osvaldo-pugliese",
+      "spotify": "https://open.spotify.com/track/2KKPTdu84oDW3wktGnk729",
+      "youtube_music": "https://music.youtube.com/watch?v=q5N0HesfwTo",
+      "el_recodo": "https://www.el-recodo.com/music?T=nochero%20soy"
+    },
+    "lyrics": {
+      "es": null,
+      "en": null
+    },
+    "orchestra": {
+      "slug": "osvaldo-pugliese",
+      "name": "Osvaldo Pugliese"
+    },
+    "year": 1956,
+    "author": null,
+    "videos_count": 348,
+    "videos": []
+  },
+  "summary": "Nochero soy · Osvaldo Pugliese 1956 · tango · 348 performances",
+  "breadcrumbs": [
+    "tt search --song nochero-soy-osvaldo-pugliese",
+    "tt orchestra show osvaldo-pugliese",
+    "tt video show sv4jAjMwnUU"
+  ]
+}

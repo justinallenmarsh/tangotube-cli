@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "data": {
+    "videos": [],
+    "total": 0,
+    "next_cursor": null,
+    "filters": {
+      "query": "zzqqxx",
+      "q": "zzqqxx"
+    }
+  },
+  "summary": "0 performances · “zzqqxx”",
+  "breadcrumbs": [
+    "tt search \"di sarli\""
+  ]
+}

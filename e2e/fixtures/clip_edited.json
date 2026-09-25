@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "data": {
+    "id": "sacada-into-the-cross",
+    "video_id": "n07s2yjCs-E",
+    "start_s": 62,
+    "end_s": 72,
+    "tags": [
+      "sacada",
+      "boleo"
+    ],
+    "title": "Sacada into the cross",
+    "description": "Watch the free leg wrap",
+    "visibility": "public",
+    "watch_url": "https://tangotube.tv/watch?v=n07s2yjCs-E&start=62&end=72",
+    "clip_url": "https://tangotube.tv/clips/sacada-into-the-cross",
+    "mine": true
+  },
+  "summary": "Saved “Sacada into the cross” · 1:02–1:12 · sacada, boleo",
+  "breadcrumbs": [
+    "tt open sacada-into-the-cross",
+    "tt video show n07s2yjCs-E",
+    "tt clip list --video n07s2yjCs-E"
+  ]
+}

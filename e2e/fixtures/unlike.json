@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "data": {
+    "liked": false,
+    "kind": "video",
+    "video": {
+      "id": "_zDlQzQA3-U",
+      "youtube_id": "_zDlQzQA3-U",
+      "title": "Vals “Rosamel”. Chicho Frumboli and Juana Sepulveda. Мариано Чичо Фрумболи и Хуана Сепульведа.",
+      "watch_url": "https://tangotube.tv/watch?v=_zDlQzQA3-U",
+      "duration_s": 193,
+      "dancers": [
+        {
+          "name": "Mariano Chicho Frúmboli",
+          "slug": "mariano-chicho-frumboli",
+          "role": "leader"
+        },
+        {
+          "name": "Juana Sepulveda",
+          "slug": "juana-sepulveda",
+          "role": "follower"
+        }
+      ],
+      "couple": {
+        "slug": "mariano-chicho-frumboli-juana-sepulveda",
+        "name": "Mariano Chicho Frúmboli & Juana Sepulveda"
+      },
+      "orchestra": {
+        "name": "Carlos Di Sarli",
+        "slug": "carlos-di-sarli"
+      },
+      "song": {
+        "title": "Rosamel",
+        "slug": "rosamel-carlos-di-sarli",
+        "genre": "vals",
+        "recorded_on": "1940-12-11",
+        "singer": "Roberto Rufino",
+        "composer": "Carlos Di Sarli",
+        "lyricist": "A. T. Oro",
+        "has_lyrics": true,
+        "links": {
+          "tangotube": "https://tangotube.tv/songs/rosamel-carlos-di-sarli",
+          "spotify": "https://open.spotify.com/track/2xmdNUZI7ybqbOvP1QyU7a",
+          "youtube_music": null,
+          "el_recodo": "https://www.el-recodo.com/music?T=rosamel"
+        }
+      },
+      "year": 1940,
+      "event": {
+        "title": "Planetango",
+        "slug": "planetango",
+        "city": "Moscow",
+        "country": "Russia",
+        "start_date": null,
+        "end_date": null
+      },
+      "channel": "Tengiz Mosidze channel",
+      "youtube_views": 201616,
+      "links": {
+        "tangotube": "https://tangotube.tv/watch?v=_zDlQzQA3-U",
+        "youtube": "https://www.youtube.com/watch?v=_zDlQzQA3-U",
+        "channel": "https://www.youtube.com/channel/UC2m7kza71x306eDN9t8AKMg"
+      },
+      "uploaded_on": "2020-05-15",
+      "style": [],
+      "techniques": [],
+      "clips_count": 0,
+      "related_video_ids": null
+    }
+  },
+  "summary": "Unliked: “Vals “Rosamel”. Chicho Frumboli and Juana Sepulveda. Мариано Чичо Фрумболи и Хуана Сепульведа.”",
+  "breadcrumbs": [
+    "tt likes"
+  ]
+}

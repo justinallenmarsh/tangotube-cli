@@ -1,0 +1,1 @@
+{"ok":true,"data":{"dry_run":true,"cron":{"key":"generate_sitemap","job":"GenerateSitemapJob","schedule":"0 1 * * *","enabled":true,"next_at":"2026-09-24T23:00:00+00:00"},"would":{"enabled":[true,false]},"undoable":true},"summary":"Would pause generate_sitemap.","breadcrumbs":["tt admin jobs"]}

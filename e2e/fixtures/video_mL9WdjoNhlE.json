@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "data": {
+    "id": "mL9WdjoNhlE",
+    "youtube_id": "mL9WdjoNhlE",
+    "title": "Noelia Hurtado and Carlitos Espinoza – Venganza #NoeliayCarlitos",
+    "watch_url": "https://tangotube.tv/watch?v=mL9WdjoNhlE",
+    "duration_s": 239,
+    "dancers": [
+      {
+        "name": "Carlitos Espinoza",
+        "slug": "carlitos-espinoza",
+        "role": "leader",
+        "titles": []
+      },
+      {
+        "name": "Noelia Hurtado",
+        "slug": "noelia-hurtado",
+        "role": "follower",
+        "titles": []
+      }
+    ],
+    "couple": {
+      "slug": "carlitos-espinoza-noelia-hurtado",
+      "name": "Carlitos Espinoza & Noelia Hurtado"
+    },
+    "orchestra": {
+      "name": "Anibal Troilo",
+      "slug": "anibal-troilo"
+    },
+    "song": {
+      "title": "Marinera",
+      "slug": "marinera-anibal-troilo",
+      "genre": "tango",
+      "recorded_on": "1959-06-04",
+      "singer": "Angel Cardenas",
+      "composer": "Pedro Laurenz",
+      "lyricist": "Carlos Marín",
+      "has_lyrics": true,
+      "links": {
+        "tangotube": "https://tangotube.tv/songs/marinera-anibal-troilo",
+        "spotify": "https://open.spotify.com/track/05LqaHWLREFKZwWB5l4q0i",
+        "youtube_music": null,
+        "el_recodo": "https://www.el-recodo.com/music?T=marinera"
+      }
+    },
+    "year": 1959,
+    "event": {
+      "title": "Lyon Tango Festival",
+      "slug": "lyon-tango-festival",
+      "city": "Lyon",
+      "country": "France",
+      "start_date": "2019-05-09",
+      "end_date": "2019-05-14"
+    },
+    "channel": "030tango",
+    "youtube_views": 8237,
+    "links": {
+      "tangotube": "https://tangotube.tv/watch?v=mL9WdjoNhlE",
+      "youtube": "https://www.youtube.com/watch?v=mL9WdjoNhlE",
+      "channel": "https://www.youtube.com/channel/UCtdgMR0bmogczrZNpPaO66Q"
+    },
+    "uploaded_on": "2018-03-28",
+    "style": [],
+    "techniques": [],
+    "clips_count": 0,
+    "related_video_ids": [
+      "rvyUaC7hqkM",
+      "118T6U1j8cc",
+      "6UF5LVjlubo"
+    ],
+    "other_angles": [],
+    "performance": 72071
+  },
+  "summary": "Carlitos Espinoza & Noelia Hurtado · Marinera · Anibal Troilo 1959 · Lyon Tango Festival",
+  "breadcrumbs": [
+    "tt open mL9WdjoNhlE",
+    "tt dancer show carlitos-espinoza",
+    "tt video show rvyUaC7hqkM"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "data": {
+    "applied": 0,
+    "pending": 2,
+    "reported": 0,
+    "withdrawn": 0,
+    "identity": [
+      {
+        "fact": "song",
+        "state": "proposed",
+        "value": "A mis viejos · Anibal Troilo",
+        "how": "proposed by the YouTube panel",
+        "proposal": {
+          "name": "A mis viejos · Anibal Troilo",
+          "slug": "a-mis-viejos-anibal-troilo"
+        },
+        "suggestion": null,
+        "disputable": false,
+        "credits": []
+      },
+      {
+        "fact": "dancers",
+        "state": "settled",
+        "value": "Miguel Angel Zotto",
+        "how": "matched automatically",
+        "proposal": null,
+        "suggestion": null,
+        "disputable": true,
+        "credits": [
+          {
+            "name": "Miguel Angel Zotto",
+            "slug": "miguel-angel-zotto",
+            "role": null
+          }
+        ]
+      },
+      {
+        "fact": "event",
+        "state": "missing",
+        "value": null,
+        "how": null,
+        "proposal": null,
+        "suggestion": null,
+        "disputable": false,
+        "credits": []
+      },
+      {
+        "fact": "kind",
+        "state": "settled",
+        "value": "Performance",
+        "how": "a person",
+        "proposal": null,
+        "suggestion": null,
+        "disputable": false,
+        "credits": []
+      }
+    ]
+  },
+  "summary": "Thank you — 2 waiting for somebody to agree",
+  "breadcrumbs": [
+    "tt video show k-shh3fWESA --identity"
+  ]
+}

@@ -1,0 +1,1 @@
+{"ok":false,"error":{"code":"usage","message":"Deleting “Parallel Cross, Sacada Turn, Linear Exit” by CLI Dancer cannot be undone. Say --yes to go ahead, or --dry-run to see it first.","hint":"tt admin clip delete parallel-cross-sacada-turn-linear-exit --yes","retryable":false}}

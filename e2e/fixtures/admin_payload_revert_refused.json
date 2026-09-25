@@ -1,0 +1,1 @@
+{"ok":false,"error":{"code":"usage","message":"Reverting payload 17 puts back what 4 applied rows overwrote, and a reverted row is never applied again. Say --yes to go ahead, or --dry-run to see it first.","hint":"tt admin payload revert 17 --yes","retryable":false}}

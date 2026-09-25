@@ -1,0 +1,678 @@
+{
+  "ok": true,
+  "data": {
+    "dancer": {
+      "name": "Sebastián Achaval",
+      "slug": "sebastian-achaval",
+      "videos_count": 1855
+    },
+    "depth": 2,
+    "partners_count": 9,
+    "nodes": [
+      {
+        "id": 1059,
+        "name": "Sebastián Achaval",
+        "slug": "sebastian-achaval",
+        "ring": 0,
+        "videos": 1817,
+        "career_videos": 1855
+      },
+      {
+        "id": 2396,
+        "name": "Roxana Suárez",
+        "slug": "roxana-suarez",
+        "ring": 1,
+        "videos": 1663,
+        "career_videos": 2450,
+        "couple": "sebastian-achaval-roxana-suarez"
+      },
+      {
+        "id": 2072,
+        "name": "Cecilia Berra",
+        "slug": "cecilia-berra",
+        "ring": 1,
+        "videos": 124,
+        "career_videos": 582,
+        "couple": "sebastian-achaval-cecilia-berra"
+      },
+      {
+        "id": 1267,
+        "name": "Valeria Maside",
+        "slug": "valeria-maside",
+        "ring": 1,
+        "videos": 7,
+        "career_videos": 216,
+        "couple": "sebastian-achaval-valeria-maside"
+      },
+      {
+        "id": 17464,
+        "name": "BTFM Rosana Suarez",
+        "slug": "btfm-rosana-suarez",
+        "ring": 1,
+        "videos": 7,
+        "career_videos": 7,
+        "couple": "sebastian-achaval-btfm-rosana-suarez"
+      },
+      {
+        "id": 2066,
+        "name": "Milena Plebs",
+        "slug": "milena-plebs",
+        "ring": 1,
+        "videos": 4,
+        "career_videos": 445,
+        "couple": "sebastian-achaval-milena-plebs"
+      },
+      {
+        "id": 2089,
+        "name": "Selen Sürek",
+        "slug": "selen-surek",
+        "ring": 1,
+        "videos": 4,
+        "career_videos": 340,
+        "couple": "sebastian-achaval-selen-surek"
+      },
+      {
+        "id": 1765,
+        "name": "Gisela Graef",
+        "slug": "gisela-graef",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 11,
+        "couple": "sebastian-achaval-gisela-graef"
+      },
+      {
+        "id": 2302,
+        "name": "María Ximena Gallicchio",
+        "slug": "maria-ximena-gallicchio",
+        "ring": 1,
+        "videos": 3,
+        "career_videos": 10,
+        "couple": "sebastian-achaval-maria-ximena-gallicchio"
+      },
+      {
+        "id": 8839,
+        "name": "Marisa Van Andel",
+        "slug": "marisa-van-andel",
+        "ring": 1,
+        "videos": 2,
+        "career_videos": 8,
+        "couple": "sebastian-achaval-marisa-van-andel"
+      },
+      {
+        "id": 539,
+        "name": "Horacio Pebete Godoy",
+        "slug": "horacio-pebete-godoy",
+        "ring": 2,
+        "videos": 375,
+        "career_videos": 1065
+      },
+      {
+        "id": 741,
+        "name": "Anibal Lautaro",
+        "slug": "anibal-lautaro",
+        "ring": 2,
+        "videos": 173,
+        "career_videos": 201
+      },
+      {
+        "id": 1068,
+        "name": "Carlitos Espinoza",
+        "slug": "carlitos-espinoza",
+        "ring": 2,
+        "videos": 57,
+        "career_videos": 2720
+      },
+      {
+        "id": 1036,
+        "name": "Javier Rodríguez",
+        "slug": "javier-rodriguez",
+        "ring": 2,
+        "videos": 36,
+        "career_videos": 1898
+      },
+      {
+        "id": 641,
+        "name": "Sergio Molini",
+        "slug": "sergio-molini",
+        "ring": 2,
+        "videos": 13,
+        "career_videos": 41
+      },
+      {
+        "id": 1050,
+        "name": "Facundo Piñero",
+        "slug": "facundo-pinero",
+        "ring": 2,
+        "videos": 1164,
+        "career_videos": 1224
+      },
+      {
+        "id": 1051,
+        "name": "Fernando Carrasco",
+        "slug": "fernando-carrasco",
+        "ring": 2,
+        "videos": 16,
+        "career_videos": 478
+      },
+      {
+        "id": 1127,
+        "name": "Pancho Martinez Pey",
+        "slug": "pancho-martinez-pey",
+        "ring": 2,
+        "videos": 12,
+        "career_videos": 850
+      },
+      {
+        "id": 498,
+        "name": "Germán Ballejo",
+        "slug": "german-ballejo",
+        "ring": 2,
+        "videos": 6,
+        "career_videos": 554
+      },
+      {
+        "id": 251,
+        "name": "Alper Ergökmen",
+        "slug": "alper-ergokmen",
+        "ring": 2,
+        "videos": 334,
+        "career_videos": 346
+      },
+      {
+        "id": 318,
+        "name": "Dante Sánchez",
+        "slug": "dante-sanchez",
+        "ring": 2,
+        "videos": 135,
+        "career_videos": 479
+      },
+      {
+        "id": 563,
+        "name": "David Palo",
+        "slug": "david-palo",
+        "ring": 2,
+        "videos": 72,
+        "career_videos": 250
+      },
+      {
+        "id": 444,
+        "name": "Demian García",
+        "slug": "demian-garcia",
+        "ring": 2,
+        "videos": 41,
+        "career_videos": 330
+      },
+      {
+        "id": 7460,
+        "name": "Fabian Belmonte VideoTango",
+        "slug": "fabian-belmonte-videotango",
+        "ring": 2,
+        "videos": 37,
+        "career_videos": 41
+      },
+      {
+        "id": 438,
+        "name": "Ozgur Demir",
+        "slug": "ozgur-demir",
+        "ring": 2,
+        "videos": 56,
+        "career_videos": 174
+      },
+      {
+        "id": 8134,
+        "name": "Roxana Umpierre",
+        "slug": "roxana-umpierre",
+        "ring": 2,
+        "videos": 37,
+        "career_videos": 30
+      },
+      {
+        "id": 1099,
+        "name": "Mariano Chicho Frúmboli",
+        "slug": "mariano-chicho-frumboli",
+        "ring": 2,
+        "videos": 21,
+        "career_videos": 3221
+      },
+      {
+        "id": 183,
+        "name": "Miguel Angel Zotto",
+        "slug": "miguel-angel-zotto",
+        "ring": 2,
+        "videos": 19,
+        "career_videos": 655
+      },
+      {
+        "id": 1433,
+        "name": "Lautaro Cancela",
+        "slug": "lautaro-cancela",
+        "ring": 2,
+        "videos": 19,
+        "career_videos": 171
+      },
+      {
+        "id": 10119,
+        "name": "Cacu Lucero",
+        "slug": "cacu-lucero",
+        "ring": 2,
+        "videos": 31,
+        "career_videos": 48
+      },
+      {
+        "id": 248,
+        "name": "Ezequiel Farfaro",
+        "slug": "ezequiel-farfaro",
+        "ring": 2,
+        "videos": 15,
+        "career_videos": 149
+      },
+      {
+        "id": 984,
+        "name": "Fernando Galera",
+        "slug": "fernando-galera",
+        "ring": 2,
+        "videos": 20,
+        "career_videos": 444
+      },
+      {
+        "id": 5290,
+        "name": "Ozgur El Turquito",
+        "slug": "ozgur-el-turquito",
+        "ring": 2,
+        "videos": 44,
+        "career_videos": 67
+      },
+      {
+        "id": 115,
+        "name": "Luis Bruni",
+        "slug": "luis-bruni",
+        "ring": 2,
+        "videos": 14,
+        "career_videos": 39
+      },
+      {
+        "id": 2046,
+        "name": "Guillermina Quiroga",
+        "slug": "guillermina-quiroga",
+        "ring": 2,
+        "videos": 27,
+        "career_videos": 459
+      },
+      {
+        "id": 5426,
+        "name": "Indio Benavente",
+        "slug": "indio-benavente",
+        "ring": 2,
+        "videos": 10,
+        "career_videos": 19
+      },
+      {
+        "id": 759,
+        "name": "Neri Piliu",
+        "slug": "neri-piliu",
+        "ring": 2,
+        "videos": 9,
+        "career_videos": 1260
+      },
+      {
+        "id": 813,
+        "name": "Pablo Pugliese",
+        "slug": "pablo-pugliese",
+        "ring": 2,
+        "videos": 9,
+        "career_videos": 110
+      },
+      {
+        "id": 1038,
+        "name": "Rainier Pereira",
+        "slug": "rainier-pereira",
+        "ring": 2,
+        "videos": 9,
+        "career_videos": 85
+      },
+      {
+        "id": 2448,
+        "name": "Vanesa Villalba",
+        "slug": "vanesa-villalba",
+        "ring": 2,
+        "videos": 1163,
+        "career_videos": 1207
+      },
+      {
+        "id": 701,
+        "name": "Sergey Sokhnenko",
+        "slug": "sergey-sokhnenko",
+        "ring": 2,
+        "videos": 8,
+        "career_videos": 81
+      },
+      {
+        "id": 774,
+        "name": "Julio Balmaceda",
+        "slug": "julio-balmaceda",
+        "ring": 2,
+        "videos": 8,
+        "career_videos": 652
+      },
+      {
+        "id": 985,
+        "name": "Pablo Rodriguez",
+        "slug": "pablo-rodriguez",
+        "ring": 2,
+        "videos": 8,
+        "career_videos": 1134
+      },
+      {
+        "id": 1042,
+        "name": "Fernando Sanchez",
+        "slug": "fernando-sanchez",
+        "ring": 2,
+        "videos": 8,
+        "career_videos": 1552
+      }
+    ],
+    "edges": [
+      {
+        "a": 1050,
+        "b": 2396,
+        "videos": 11
+      },
+      {
+        "a": 1059,
+        "b": 2302,
+        "videos": 3
+      },
+      {
+        "a": 741,
+        "b": 1267,
+        "videos": 170
+      },
+      {
+        "a": 1051,
+        "b": 2046,
+        "videos": 3
+      },
+      {
+        "a": 1059,
+        "b": 2066,
+        "videos": 4
+      },
+      {
+        "a": 1036,
+        "b": 2396,
+        "videos": 8
+      },
+      {
+        "a": 115,
+        "b": 2066,
+        "videos": 14
+      },
+      {
+        "a": 1038,
+        "b": 2396,
+        "videos": 9
+      },
+      {
+        "a": 1068,
+        "b": 1267,
+        "videos": 3
+      },
+      {
+        "a": 1099,
+        "b": 2396,
+        "videos": 21
+      },
+      {
+        "a": 2396,
+        "b": 8134,
+        "videos": 23
+      },
+      {
+        "a": 2396,
+        "b": 10119,
+        "videos": 17
+      },
+      {
+        "a": 2396,
+        "b": 2448,
+        "videos": 9
+      },
+      {
+        "a": 444,
+        "b": 2066,
+        "videos": 41
+      },
+      {
+        "a": 1059,
+        "b": 8839,
+        "videos": 2
+      },
+      {
+        "a": 318,
+        "b": 2396,
+        "videos": 135
+      },
+      {
+        "a": 1059,
+        "b": 1267,
+        "videos": 7
+      },
+      {
+        "a": 438,
+        "b": 5290,
+        "videos": 29
+      },
+      {
+        "a": 1036,
+        "b": 2046,
+        "videos": 7
+      },
+      {
+        "a": 539,
+        "b": 2072,
+        "videos": 366
+      },
+      {
+        "a": 1036,
+        "b": 2066,
+        "videos": 21
+      },
+      {
+        "a": 1042,
+        "b": 2396,
+        "videos": 8
+      },
+      {
+        "a": 1051,
+        "b": 1267,
+        "videos": 3
+      },
+      {
+        "a": 539,
+        "b": 2066,
+        "videos": 6
+      },
+      {
+        "a": 563,
+        "b": 2066,
+        "videos": 72
+      },
+      {
+        "a": 641,
+        "b": 1765,
+        "videos": 8
+      },
+      {
+        "a": 641,
+        "b": 1267,
+        "videos": 5
+      },
+      {
+        "a": 701,
+        "b": 2066,
+        "videos": 8
+      },
+      {
+        "a": 774,
+        "b": 2066,
+        "videos": 8
+      },
+      {
+        "a": 813,
+        "b": 2066,
+        "videos": 9
+      },
+      {
+        "a": 985,
+        "b": 2072,
+        "videos": 8
+      },
+      {
+        "a": 741,
+        "b": 2396,
+        "videos": 3
+      },
+      {
+        "a": 2072,
+        "b": 5290,
+        "videos": 15
+      },
+      {
+        "a": 2396,
+        "b": 5426,
+        "videos": 10
+      },
+      {
+        "a": 1068,
+        "b": 2396,
+        "videos": 54
+      },
+      {
+        "a": 498,
+        "b": 2072,
+        "videos": 3
+      },
+      {
+        "a": 759,
+        "b": 2396,
+        "videos": 9
+      },
+      {
+        "a": 498,
+        "b": 2396,
+        "videos": 3
+      },
+      {
+        "a": 1059,
+        "b": 2072,
+        "videos": 124
+      },
+      {
+        "a": 1127,
+        "b": 2396,
+        "videos": 9
+      },
+      {
+        "a": 2046,
+        "b": 2396,
+        "videos": 12
+      },
+      {
+        "a": 8134,
+        "b": 10119,
+        "videos": 14
+      },
+      {
+        "a": 2396,
+        "b": 7460,
+        "videos": 37
+      },
+      {
+        "a": 1050,
+        "b": 2448,
+        "videos": 1151
+      },
+      {
+        "a": 1433,
+        "b": 2066,
+        "videos": 19
+      },
+      {
+        "a": 1050,
+        "b": 2066,
+        "videos": 2
+      },
+      {
+        "a": 1059,
+        "b": 1765,
+        "videos": 3
+      },
+      {
+        "a": 1059,
+        "b": 2089,
+        "videos": 4
+      },
+      {
+        "a": 1059,
+        "b": 17464,
+        "videos": 7
+      },
+      {
+        "a": 438,
+        "b": 2072,
+        "videos": 27
+      },
+      {
+        "a": 183,
+        "b": 2066,
+        "videos": 19
+      },
+      {
+        "a": 248,
+        "b": 2066,
+        "videos": 15
+      },
+      {
+        "a": 251,
+        "b": 2089,
+        "videos": 334
+      },
+      {
+        "a": 539,
+        "b": 2448,
+        "videos": 3
+      },
+      {
+        "a": 984,
+        "b": 2046,
+        "videos": 5
+      },
+      {
+        "a": 984,
+        "b": 2066,
+        "videos": 15
+      },
+      {
+        "a": 1051,
+        "b": 2066,
+        "videos": 10
+      },
+      {
+        "a": 1059,
+        "b": 2396,
+        "videos": 1663
+      },
+      {
+        "a": 1127,
+        "b": 2066,
+        "videos": 3
+      }
+    ]
+  },
+  "summary": "Sebastián Achaval · 9 partners · most often Roxana Suárez (1,663 videos)",
+  "breadcrumbs": [
+    "tt couple show sebastian-achaval-roxana-suarez",
+    "tt partners roxana-suarez",
+    "tt dancer show sebastian-achaval"
+  ]
+}

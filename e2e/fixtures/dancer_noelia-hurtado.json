@@ -1,0 +1,222 @@
+{
+  "ok": true,
+  "data": {
+    "slug": "noelia-hurtado",
+    "name": "Noelia Hurtado",
+    "nickname": null,
+    "role": null,
+    "videos_count": 2719,
+    "titles": [],
+    "active": {
+      "from": 2006,
+      "to": 2026
+    },
+    "top_orchestras": [
+      {
+        "name": "Juan D'Arienzo",
+        "slug": "juan-d-arienzo",
+        "count": 478
+      },
+      {
+        "name": "Osvaldo Pugliese",
+        "slug": "osvaldo-pugliese",
+        "count": 216
+      },
+      {
+        "name": "Anibal Troilo",
+        "slug": "anibal-troilo",
+        "count": 186
+      },
+      {
+        "name": "Carlos Di Sarli",
+        "slug": "carlos-di-sarli",
+        "count": 60
+      },
+      {
+        "name": "Rodolfo Biagi",
+        "slug": "rodolfo-biagi",
+        "count": 50
+      }
+    ],
+    "links": {
+      "tangotube": "https://tangotube.tv/dancers/noelia-hurtado"
+    },
+    "couples": [
+      {
+        "slug": "carlitos-espinoza-noelia-hurtado",
+        "name": "Carlitos Espinoza & Noelia Hurtado",
+        "videos_count": 1562,
+        "partner": {
+          "slug": "carlitos-espinoza",
+          "name": "Carlitos Espinoza"
+        }
+      },
+      {
+        "slug": "pablo-rodriguez-noelia-hurtado",
+        "name": "Pablo Rodriguez & Noelia Hurtado",
+        "videos_count": 264,
+        "partner": {
+          "slug": "pablo-rodriguez",
+          "name": "Pablo Rodriguez"
+        }
+      },
+      {
+        "slug": "facundo-de-la-cruz-noelia-hurtado",
+        "name": "Facundo de la Cruz & Noelia Hurtado",
+        "videos_count": 202,
+        "partner": {
+          "slug": "facundo-de-la-cruz",
+          "name": "Facundo de la Cruz"
+        }
+      },
+      {
+        "slug": "gaston-torelli-noelia-hurtado",
+        "name": "Gaston Torelli & Noelia Hurtado",
+        "videos_count": 41,
+        "partner": {
+          "slug": "gaston-torelli",
+          "name": "Gaston Torelli"
+        }
+      },
+      {
+        "slug": "aoniken-quiroga-noelia-hurtado",
+        "name": "Aoniken Quiroga & Noelia Hurtado",
+        "videos_count": 24,
+        "partner": {
+          "slug": "aoniken-quiroga",
+          "name": "Aoniken Quiroga"
+        }
+      },
+      {
+        "slug": "sebastian-arce-noelia-hurtado",
+        "name": "Sebastián Arce & Noelia Hurtado",
+        "videos_count": 22,
+        "partner": {
+          "slug": "sebastian-arce",
+          "name": "Sebastián Arce"
+        }
+      },
+      {
+        "slug": "juan-david-vargas-noelia-hurtado",
+        "name": "Juan David Vargas & Noelia Hurtado",
+        "videos_count": 20,
+        "partner": {
+          "slug": "juan-david-vargas",
+          "name": "Juan David Vargas"
+        }
+      },
+      {
+        "slug": "octavio-fernandez-noelia-hurtado",
+        "name": "Octavio Fernández & Noelia Hurtado",
+        "videos_count": 18,
+        "partner": {
+          "slug": "octavio-fernandez",
+          "name": "Octavio Fernández"
+        }
+      },
+      {
+        "slug": "noelia-hurtado-oscar-arce",
+        "name": "Noelia Hurtado & OSCAR ARCE",
+        "videos_count": 14,
+        "partner": {
+          "slug": "oscar-arce",
+          "name": "OSCAR ARCE"
+        }
+      },
+      {
+        "slug": "pablo-giorgini-noelia-hurtado",
+        "name": "Pablo Giorgini & Noelia Hurtado",
+        "videos_count": 13,
+        "partner": {
+          "slug": "pablo-giorgini",
+          "name": "Pablo Giorgini"
+        }
+      }
+    ],
+    "videos": [
+      {
+        "id": "FIxm6mQf9zE",
+        "youtube_id": "FIxm6mQf9zE",
+        "title": "Noelia - Como Duele (Barrera de Amor)",
+        "watch_url": "https://tangotube.tv/watch?v=FIxm6mQf9zE",
+        "duration_s": 238,
+        "dancers": [
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": null,
+        "orchestra": null,
+        "song": null,
+        "year": null,
+        "event": null,
+        "channel": "NoeliaVEVO",
+        "youtube_views": 7795022,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=FIxm6mQf9zE",
+          "youtube": "https://www.youtube.com/watch?v=FIxm6mQf9zE",
+          "channel": "https://www.youtube.com/channel/UC4xjc-l6rjlwE8MSIz1pwZQ"
+        },
+        "uploaded_on": "2009-02-26",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "AvPg6x6ox4o",
+        "youtube_id": "AvPg6x6ox4o",
+        "title": "Pure Beauty - Carlitos Espinoza y Noelia Hurtado @ Belgrade Tango Encuentro 2017 1/5",
+        "watch_url": "https://tangotube.tv/watch?v=AvPg6x6ox4o",
+        "duration_s": 293,
+        "dancers": [
+          {
+            "name": "Carlitos Espinoza",
+            "slug": "carlitos-espinoza",
+            "role": "leader"
+          },
+          {
+            "name": "Noelia Hurtado",
+            "slug": "noelia-hurtado",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "carlitos-espinoza-noelia-hurtado",
+          "name": "Carlitos Espinoza & Noelia Hurtado"
+        },
+        "orchestra": null,
+        "song": null,
+        "year": null,
+        "event": {
+          "title": "Belgrade Tango Encuentro",
+          "slug": "belgrade-tango-encuentro",
+          "city": "Belgrade",
+          "country": "Serbia",
+          "start_date": "2016-04-20",
+          "end_date": "2016-04-26"
+        },
+        "channel": "Tango Natural",
+        "youtube_views": 1139521,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=AvPg6x6ox4o",
+          "youtube": "https://www.youtube.com/watch?v=AvPg6x6ox4o",
+          "channel": "https://www.youtube.com/channel/UCOrxTg3siBOMD0XwoDKWC5A"
+        },
+        "uploaded_on": "2017-04-28",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      }
+    ]
+  },
+  "summary": "Noelia Hurtado · 2,719 videos · most often with Carlitos Espinoza",
+  "breadcrumbs": [
+    "tt search --dancer noelia-hurtado",
+    "tt couple show carlitos-espinoza-noelia-hurtado",
+    "tt video show FIxm6mQf9zE"
+  ]
+}

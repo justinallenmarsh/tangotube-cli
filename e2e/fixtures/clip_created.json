@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "data": {
+    "id": "sacada-at-1-12",
+    "video_id": "2ByaUQXeAeo",
+    "start_s": 72,
+    "end_s": 78,
+    "tags": [
+      "sacada"
+    ],
+    "title": "Sacada at 1:12",
+    "visibility": "private",
+    "watch_url": "https://tangotube.tv/watch?v=2ByaUQXeAeo&start=72&end=78",
+    "clip_url": "https://tangotube.tv/clips/sacada-at-1-12",
+    "mine": true
+  },
+  "summary": "Saved “Sacada at 1:12” · 1:12–1:18 · sacada",
+  "breadcrumbs": [
+    "tt open sacada-at-1-12",
+    "tt video show 2ByaUQXeAeo",
+    "tt clip list --video 2ByaUQXeAeo"
+  ]
+}

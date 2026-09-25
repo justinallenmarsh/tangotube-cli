@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "data": {
+    "kind": "dancer",
+    "id": "noelia-hurtado",
+    "name": "Noelia Hurtado",
+    "following": true,
+    "level": "muted",
+    "since": "2026-09-24T16:57:35Z",
+    "url": "https://tangotube.tv/dancers/noelia-hurtado"
+  },
+  "summary": "Already following Noelia Hurtado",
+  "breadcrumbs": [
+    "tt following --feed",
+    "tt follow dancer noelia-hurtado --level all_activity"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "data": {
+    "id": 80786,
+    "dancers": [
+      {
+        "name": "Sebastián Arce",
+        "slug": "sebastian-arce",
+        "role": "leader"
+      },
+      {
+        "name": "Noelia Hurtado",
+        "slug": "noelia-hurtado",
+        "role": "follower"
+      }
+    ],
+    "couple": {
+      "slug": "sebastian-arce-noelia-hurtado",
+      "name": "Sebastián Arce & Noelia Hurtado"
+    },
+    "occasion": {
+      "event": null,
+      "kind": "performance",
+      "date": "2014-08-26"
+    },
+    "dance": {
+      "position": 1,
+      "song": {
+        "title": "Color cielo",
+        "slug": "color-cielo-juan-d-arienzo",
+        "genre": "tango",
+        "recorded_on": "1944-12-26",
+        "singer": "Armando Laborde",
+        "composer": "Antonio Bonavena",
+        "lyricist": "Antonio Bonavena",
+        "has_lyrics": true,
+        "links": {
+          "tangotube": "https://tangotube.tv/songs/color-cielo-juan-d-arienzo",
+          "spotify": "https://open.spotify.com/track/1WeSZP1pPujdwJsjFGGxsA",
+          "youtube_music": null,
+          "el_recodo": "https://www.el-recodo.com/music?T=color%20cielo"
+        }
+      },
+      "orchestra": {
+        "name": "Juan D'Arienzo",
+        "slug": "juan-d-arienzo"
+      },
+      "year": 1944,
+      "videos": [
+        {
+          "id": "VS9oOa4zCoU",
+          "title": "Noelia Hurtado y Sebastián Arce en Milonga El Abrazo (1/5)",
+          "channel": "El Abrazo Milonga",
+          "duration_s": 202,
+          "youtube_views": 58746,
+          "uploaded_on": "2014-08-26",
+          "watch_url": "https://tangotube.tv/watch?v=VS9oOa4zCoU",
+          "youtube_url": "https://www.youtube.com/watch?v=VS9oOa4zCoU",
+          "current": true
+        },
+        {
+          "id": "6aQKP1wnWRk",
+          "title": "Noelia Hurtado y Sebastián Arce en Milonga El Abrazo (1/5)",
+          "channel": "El Abrazo Milonga",
+          "duration_s": 202,
+          "youtube_views": 17167,
+          "uploaded_on": "2014-08-26",
+          "watch_url": "https://tangotube.tv/watch?v=6aQKP1wnWRk",
+          "youtube_url": "https://www.youtube.com/watch?v=6aQKP1wnWRk",
+          "current": false
+        }
+      ]
+    },
+    "session": [
+      {
+        "position": 1,
+        "id": "VS9oOa4zCoU",
+        "song": "Color cielo",
+        "orchestra": "Juan D'Arienzo",
+        "videos_count": 2,
+        "current": true
+      },
+      {
+        "position": 2,
+        "id": "Rc9B7816SpQ",
+        "song": "Tango intimo",
+        "orchestra": "Domingo Federico",
+        "videos_count": 2,
+        "current": false
+      },
+      {
+        "position": 3,
+        "id": "LAmhzBlOuGE",
+        "song": "Acquaforte",
+        "orchestra": "Osvaldo Pugliese",
+        "videos_count": 1,
+        "current": false
+      }
+    ]
+  },
+  "summary": "Sebastián Arce & Noelia Hurtado · Color cielo · 2 videos",
+  "breadcrumbs": [
+    "tt open 6aQKP1wnWRk",
+    "tt performance show Rc9B7816SpQ",
+    "tt video show VS9oOa4zCoU"
+  ]
+}

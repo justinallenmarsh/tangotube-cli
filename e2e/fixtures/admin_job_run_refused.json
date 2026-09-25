@@ -1,0 +1,1 @@
+{"ok":false,"error":{"code":"usage","message":"Reindex full rebuilds the whole video search index from scratch (about 204,434 videos), as the 03:30 run does; search reads the old index until the new one is ready. Say --yes to go ahead, or --dry-run to see it first.","hint":"tt admin job run reindex --arg mode=full --yes","retryable":false}}

@@ -1,0 +1,206 @@
+{
+  "ok": true,
+  "data": {
+    "videos": [
+      {
+        "id": "b2GrLTAoyDU",
+        "youtube_id": "b2GrLTAoyDU",
+        "title": "Istanbul Tango Fiesta 2017 - Exhibitions of Gabriel Misse & Carla Espinoza",
+        "watch_url": "https://tangotube.tv/watch?v=b2GrLTAoyDU",
+        "duration_s": 914,
+        "dancers": [
+          {
+            "name": "Gabriel Missé",
+            "slug": "gabriel-misse",
+            "role": "leader"
+          },
+          {
+            "name": "Carla Espinoza",
+            "slug": "carla-espinoza",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "gabriel-misse-carla-espinoza",
+          "name": "Gabriel Missé & Carla Espinoza"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Soñemos",
+          "slug": "sonemos-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1957-04-25",
+          "singer": "Roberto Florio",
+          "composer": "Roberto Caló y Roberto Rufino",
+          "lyricist": "Reinaldo Yiso",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/sonemos-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/2JU6LD8ppnHo4ebDoUWNk5",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=so%C3%B1emos"
+          }
+        },
+        "year": 1957,
+        "event": {
+          "title": "Istanbul Tango Fiesta",
+          "slug": "istanbul-tango-fiesta",
+          "city": "İstanbul",
+          "country": "Turkey",
+          "start_date": "2020-06-18",
+          "end_date": "2020-06-22"
+        },
+        "channel": "Istanbul Tango Fiesta",
+        "youtube_views": 111049,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=b2GrLTAoyDU",
+          "youtube": "https://www.youtube.com/watch?v=b2GrLTAoyDU",
+          "channel": "https://www.youtube.com/channel/UC8SgGl5oyleAX5bMqwpEZsA"
+        },
+        "uploaded_on": "2018-02-23",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "JxNPcHQcHDI",
+        "youtube_id": "JxNPcHQcHDI",
+        "title": "Argentine tango workshop -Torsion, Pivot: Roxana Suárez & Sebastián Achaval - Mañana Zarpa un Barco",
+        "watch_url": "https://tangotube.tv/watch?v=JxNPcHQcHDI",
+        "duration_s": 137,
+        "dancers": [
+          {
+            "name": "Sebastián Achaval",
+            "slug": "sebastian-achaval",
+            "role": "leader"
+          },
+          {
+            "name": "Roxana Suárez",
+            "slug": "roxana-suarez",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "sebastian-achaval-roxana-suarez",
+          "name": "Sebastián Achaval & Roxana Suárez"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Mañana zarpa un barco",
+          "slug": "manana-zarpa-un-barco-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1942-08-12",
+          "singer": "Roberto Rufino",
+          "composer": "Lucio Demare",
+          "lyricist": "Homero Manzi",
+          "has_lyrics": true,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/manana-zarpa-un-barco-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/7kHLcnEsjSdO1aemCPzjRl",
+            "youtube_music": null,
+            "el_recodo": "https://www.el-recodo.com/music?T=ma%C3%B1ana%20zarpa%20un%20barco"
+          }
+        },
+        "year": 1942,
+        "event": {
+          "title": "Lisbon Tango Festival",
+          "slug": "lisbon-tango-festival",
+          "city": "Lisboa",
+          "country": "Portugal",
+          "start_date": "2016-06-01",
+          "end_date": "2016-06-06"
+        },
+        "channel": "Tangobro",
+        "youtube_views": 10821,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=JxNPcHQcHDI",
+          "youtube": "https://www.youtube.com/watch?v=JxNPcHQcHDI",
+          "channel": "https://www.youtube.com/channel/UCXz0zoMnL7Ilfz1kIBEobKg"
+        },
+        "uploaded_on": "2023-06-07",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      },
+      {
+        "id": "n07s2yjCs-E",
+        "youtube_id": "n07s2yjCs-E",
+        "title": "Roxana Suarez and Sebastian Achaval – Indio manso",
+        "watch_url": "https://tangotube.tv/watch?v=n07s2yjCs-E",
+        "duration_s": 193,
+        "dancers": [
+          {
+            "name": "Sebastián Achaval",
+            "slug": "sebastian-achaval",
+            "role": "leader"
+          },
+          {
+            "name": "Roxana Suárez",
+            "slug": "roxana-suarez",
+            "role": "follower"
+          }
+        ],
+        "couple": {
+          "slug": "sebastian-achaval-roxana-suarez",
+          "name": "Sebastián Achaval & Roxana Suárez"
+        },
+        "orchestra": {
+          "name": "Carlos Di Sarli",
+          "slug": "carlos-di-sarli"
+        },
+        "song": {
+          "title": "Indio manso",
+          "slug": "indio-manso-carlos-di-sarli",
+          "genre": "tango",
+          "recorded_on": "1958-11-01",
+          "singer": null,
+          "composer": "Héctor Quesada",
+          "lyricist": null,
+          "has_lyrics": false,
+          "links": {
+            "tangotube": "https://tangotube.tv/songs/indio-manso-carlos-di-sarli",
+            "spotify": "https://open.spotify.com/track/6J2FI9SSJk2llREV6EDX07",
+            "youtube_music": "https://music.youtube.com/watch?v=HBRyE_huGPA",
+            "el_recodo": "https://www.el-recodo.com/music?T=indio%20manso"
+          }
+        },
+        "year": 1958,
+        "event": {
+          "title": "Lisbon Tango Festival",
+          "slug": "lisbon-tango-festival",
+          "city": "Lisboa",
+          "country": "Portugal",
+          "start_date": "2016-06-01",
+          "end_date": "2016-06-06"
+        },
+        "channel": "030tango",
+        "youtube_views": 42508,
+        "links": {
+          "tangotube": "https://tangotube.tv/watch?v=n07s2yjCs-E",
+          "youtube": "https://www.youtube.com/watch?v=n07s2yjCs-E",
+          "channel": "https://www.youtube.com/channel/UCtdgMR0bmogczrZNpPaO66Q"
+        },
+        "uploaded_on": "2022-06-10",
+        "style": [],
+        "techniques": [],
+        "clips_count": 0,
+        "related_video_ids": null
+      }
+    ],
+    "total": 3,
+    "next_cursor": null
+  },
+  "summary": "3 liked videos",
+  "breadcrumbs": [
+    "tt video show b2GrLTAoyDU",
+    "tt likes --clips"
+  ]
+}

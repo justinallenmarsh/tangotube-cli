@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "data": {
+    "id": "scratch",
+    "title": "Scratch",
+    "description": null,
+    "visibility": "private",
+    "videos_count": 0,
+    "owner": "CLI Dancer",
+    "mine": true,
+    "url": "https://tangotube.tv/playlists/scratch",
+    "updated_at": "2026-09-24T16:54:00Z",
+    "videos": [],
+    "next_cursor": null,
+    "total": 0
+  },
+  "summary": "Took “[Slow] Ariadna Naveira & Fernando Sanchez - Tu...El Cielo y Tu 2-2 - Belgrade Tango Encuentro #tango” out of Scratch",
+  "breadcrumbs": [
+    "tt playlist add scratch VIDEO",
+    "tt playlist list"
+  ]
+}

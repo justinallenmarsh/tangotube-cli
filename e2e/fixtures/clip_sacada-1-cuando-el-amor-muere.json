@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "data": {
+    "id": "sacada-1-cuando-el-amor-muere",
+    "video_id": "2ByaUQXeAeo",
+    "start_s": 30,
+    "end_s": 42,
+    "tags": [
+      "sacada",
+      "salon"
+    ],
+    "title": "Sacada 1 — Cuando el amor muere",
+    "visibility": "public",
+    "watch_url": "https://tangotube.tv/watch?v=2ByaUQXeAeo&start=30&end=42",
+    "clip_url": "https://tangotube.tv/clips/sacada-1-cuando-el-amor-muere",
+    "mine": false
+  },
+  "summary": "“Sacada 1 — Cuando el amor muere” · 0:30–0:42 · sacada, salon",
+  "breadcrumbs": [
+    "tt open sacada-1-cuando-el-amor-muere",
+    "tt video show 2ByaUQXeAeo",
+    "tt clip list --video 2ByaUQXeAeo"
+  ]
+}

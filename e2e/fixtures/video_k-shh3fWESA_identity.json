@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "data": {
+    "id": "k-shh3fWESA",
+    "youtube_id": "k-shh3fWESA",
+    "title": "Miguel Angel Zotto _Diana Guspero Golden  Tango Viterbo 28 maggio 2017",
+    "watch_url": "https://tangotube.tv/watch?v=k-shh3fWESA",
+    "duration_s": 650,
+    "dancers": [
+      {
+        "name": "Miguel Angel Zotto",
+        "slug": "miguel-angel-zotto",
+        "role": "leader",
+        "titles": []
+      },
+      {
+        "name": "Daiana Guspero",
+        "slug": "daiana-guspero",
+        "role": "follower",
+        "titles": []
+      }
+    ],
+    "couple": null,
+    "orchestra": null,
+    "song": null,
+    "year": null,
+    "event": null,
+    "channel": "Rossana Capogna",
+    "youtube_views": 359483,
+    "links": {
+      "tangotube": "https://tangotube.tv/watch?v=k-shh3fWESA",
+      "youtube": "https://www.youtube.com/watch?v=k-shh3fWESA",
+      "channel": "https://www.youtube.com/channel/UC3ueHE5iYhpB33YwO03mDgA"
+    },
+    "uploaded_on": "2017-05-28",
+    "style": [],
+    "techniques": [],
+    "clips_count": 0,
+    "related_video_ids": [
+      "C8YTNUgSz98",
+      "VpvBXWThxI8",
+      "i4al3Y84un8",
+      "gr6DYqElZPg",
+      "9LlcM70KBvw",
+      "eSiy61VrFSs"
+    ],
+    "other_angles": [],
+    "performance_session": null,
+    "identity": [
+      {
+        "fact": "song",
+        "state": "proposed",
+        "value": "A mis viejos · Anibal Troilo",
+        "how": "proposed by the YouTube panel",
+        "proposal": {
+          "name": "A mis viejos · Anibal Troilo",
+          "slug": "a-mis-viejos-anibal-troilo"
+        },
+        "suggestion": null,
+        "disputable": false,
+        "credits": []
+      },
+      {
+        "fact": "dancers",
+        "state": "settled",
+        "value": "Miguel Angel Zotto",
+        "how": "matched automatically",
+        "proposal": null,
+        "suggestion": null,
+        "disputable": true,
+        "credits": [
+          {
+            "name": "Miguel Angel Zotto",
+            "slug": "miguel-angel-zotto",
+            "role": null
+          }
+        ]
+      },
+      {
+        "fact": "event",
+        "state": "missing",
+        "value": null,
+        "how": null,
+        "proposal": null,
+        "suggestion": null,
+        "disputable": false,
+        "credits": []
+      },
+      {
+        "fact": "kind",
+        "state": "settled",
+        "value": "Performance",
+        "how": "a person",
+        "proposal": null,
+        "suggestion": null,
+        "disputable": false,
+        "credits": []
+      }
+    ],
+    "ask": [
+      "song",
+      "event"
+    ],
+    "performance": null
+  },
+  "summary": "Miguel Angel Zotto & Daiana Guspero",
+  "breadcrumbs": [
+    "tt open k-shh3fWESA",
+    "tt dancer show miguel-angel-zotto",
+    "tt video show C8YTNUgSz98"
+  ]
+}

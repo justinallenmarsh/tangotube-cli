@@ -1,0 +1,1 @@
+{"ok":true,"data":{"dry_run":true,"would":{"editions":46,"champions":92,"new_titles":27,"dancers_to_create":[],"unresolved":["Paola Florencia Sanz -> paola-florencia-sanz"]},"undoable":false},"summary":"Would load 46 editions and 92 champions: 27 new titles, 0 dancers to create, and 1 unresolved champion, which would stop it.","breadcrumbs":["tt admin championships load"]}

@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "data": {
+    "clips": [
+      {
+        "id": "sacada-into-the-cross",
+        "video_id": "n07s2yjCs-E",
+        "start_s": 62,
+        "end_s": 70,
+        "tags": [
+          "sacada"
+        ],
+        "title": "Sacada into the cross",
+        "visibility": "public",
+        "watch_url": "https://tangotube.tv/watch?v=n07s2yjCs-E&start=62&end=70",
+        "clip_url": "https://tangotube.tv/clips/sacada-into-the-cross",
+        "mine": true
+      },
+      {
+        "id": "sacada-3-volver-a-sonar",
+        "video_id": "uGwRPRusbC0",
+        "start_s": 50,
+        "end_s": 62,
+        "tags": [
+          "sacada",
+          "salon"
+        ],
+        "title": "Sacada 3 — Volver a soñar",
+        "visibility": "public",
+        "watch_url": "https://tangotube.tv/watch?v=uGwRPRusbC0&start=50&end=62",
+        "clip_url": "https://tangotube.tv/clips/sacada-3-volver-a-sonar",
+        "mine": true
+      },
+      {
+        "id": "sacada-1-cuando-el-amor-muere",
+        "video_id": "2ByaUQXeAeo",
+        "start_s": 30,
+        "end_s": 42,
+        "tags": [
+          "sacada",
+          "salon"
+        ],
+        "title": "Sacada 1 — Cuando el amor muere",
+        "visibility": "public",
+        "watch_url": "https://tangotube.tv/watch?v=2ByaUQXeAeo&start=30&end=42",
+        "clip_url": "https://tangotube.tv/clips/sacada-1-cuando-el-amor-muere",
+        "mine": true
+      }
+    ],
+    "total": 3,
+    "next_cursor": null
+  },
+  "summary": "3 clips to practice",
+  "breadcrumbs": [
+    "tt clip show sacada-into-the-cross"
+  ]
+}

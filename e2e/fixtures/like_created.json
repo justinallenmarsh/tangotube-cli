@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "data": {
+    "liked": true,
+    "kind": "video",
+    "video": {
+      "id": "n07s2yjCs-E",
+      "youtube_id": "n07s2yjCs-E",
+      "title": "Roxana Suarez and Sebastian Achaval – Indio manso",
+      "watch_url": "https://tangotube.tv/watch?v=n07s2yjCs-E",
+      "duration_s": 193,
+      "dancers": [
+        {
+          "name": "Sebastián Achaval",
+          "slug": "sebastian-achaval",
+          "role": "leader"
+        },
+        {
+          "name": "Roxana Suárez",
+          "slug": "roxana-suarez",
+          "role": "follower"
+        }
+      ],
+      "couple": {
+        "slug": "sebastian-achaval-roxana-suarez",
+        "name": "Sebastián Achaval & Roxana Suárez"
+      },
+      "orchestra": {
+        "name": "Carlos Di Sarli",
+        "slug": "carlos-di-sarli"
+      },
+      "song": {
+        "title": "Indio manso",
+        "slug": "indio-manso-carlos-di-sarli",
+        "genre": "tango",
+        "recorded_on": "1958-11-01",
+        "singer": null,
+        "composer": "Héctor Quesada",
+        "lyricist": null,
+        "has_lyrics": false,
+        "links": {
+          "tangotube": "https://tangotube.tv/songs/indio-manso-carlos-di-sarli",
+          "spotify": "https://open.spotify.com/track/6J2FI9SSJk2llREV6EDX07",
+          "youtube_music": "https://music.youtube.com/watch?v=HBRyE_huGPA",
+          "el_recodo": "https://www.el-recodo.com/music?T=indio%20manso"
+        }
+      },
+      "year": 1958,
+      "event": {
+        "title": "Lisbon Tango Festival",
+        "slug": "lisbon-tango-festival",
+        "city": "Lisboa",
+        "country": "Portugal",
+        "start_date": "2016-06-01",
+        "end_date": "2016-06-06"
+      },
+      "channel": "030tango",
+      "youtube_views": 42508,
+      "links": {
+        "tangotube": "https://tangotube.tv/watch?v=n07s2yjCs-E",
+        "youtube": "https://www.youtube.com/watch?v=n07s2yjCs-E",
+        "channel": "https://www.youtube.com/channel/UCtdgMR0bmogczrZNpPaO66Q"
+      },
+      "uploaded_on": "2022-06-10",
+      "style": [],
+      "techniques": [],
+      "clips_count": 0,
+      "related_video_ids": null
+    }
+  },
+  "summary": "Liked “Roxana Suarez and Sebastian Achaval – Indio manso”",
+  "breadcrumbs": [
+    "tt likes",
+    "tt video show n07s2yjCs-E"
+  ]
+}

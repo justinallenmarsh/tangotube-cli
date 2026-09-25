@@ -1,0 +1,1 @@
+{"ok":false,"error":{"code":"usage","message":"Rebuild partnerships recomputes every partnership from every pairing in one query, then prunes the stale ones. Say --yes to go ahead, or --dry-run to see it first.","hint":"tt admin rebuild partnerships --yes","retryable":false}}

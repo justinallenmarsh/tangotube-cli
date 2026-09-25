@@ -1,0 +1,1 @@
+{"ok":false,"error":{"code":"usage","message":"Taking down picture 2 (portrait of Noelia Hurtado) keeps it on the record and off the page; picture 1 is shown instead. Say --yes to go ahead, or --dry-run to see it first.","hint":"tt admin image takedown 2 --yes","retryable":false}}
