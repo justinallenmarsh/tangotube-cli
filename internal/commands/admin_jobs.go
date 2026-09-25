@@ -45,7 +45,7 @@ func newAdminJobRun(a *App) *cobra.Command {
 		Use:   "run NAME",
 		Short: "Start one allowlisted job now, its cost stated first.",
 		Long: `Start one allowlisted job now, in the background: channel-sync, place-new-videos,
-reindex, refresh-couples, harvest-descriptions, harvest-panels, audio-sweep,
+reindex, refresh-couples, link-singers, harvest-descriptions, harvest-panels, audio-sweep,
 fingerprint, sitemap or availability-check. --list says what each does and the
 --arg each takes. Recorded; not undoable (tt admin job discard takes a job off
 the queue before it starts).`,

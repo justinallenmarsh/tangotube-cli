@@ -21,7 +21,7 @@ func adminPipelineTools() []mcpTool {
 		{
 			Name: "admin_job",
 			Description: "Operator only. Background jobs (admin_report jobs shows the queues, schedule and failures). runs: the allowlist, each with what it does and its args. " +
-				"run: start one (name channel-sync|place-new-videos|reindex|refresh-couples|harvest-descriptions|harvest-panels|audio-sweep|fingerprint|sitemap|availability-check; " +
+				"run: start one (name channel-sync|place-new-videos|reindex|refresh-couples|link-singers|harvest-descriptions|harvest-panels|audio-sweep|fingerprint|sitemap|availability-check; " +
 				"args like {\"mode\":\"full\"}); the answer states its cost. Every channel, a full placement walk, a full or listings reindex and the audio sweep need confirm, which only the person may give. " +
 				"retry: run a failed job again (id from jobs failures). discard: take a waiting job off the queue (needs confirm). Recorded; not undoable. dry_run first.",
 			InputSchema: schema([]string{"verb"}, map[string]any{

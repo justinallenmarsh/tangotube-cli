@@ -616,7 +616,7 @@ tt admin rebuild partnerships --yes
 `job run` starts one job from an allowlist, in the background: channel-sync
 (one channel with `--arg channel=ID`, else every active, reviewed channel due),
 place-new-videos (`full=true` for the nightly walk), reindex (`mode` recent,
-full or listings), refresh-couples, harvest-descriptions, harvest-panels,
+full or listings), refresh-couples, link-singers, harvest-descriptions, harvest-panels,
 audio-sweep, fingerprint (`video=ID`, `force=true`), sitemap and
 availability-check (`batch` 1 to 1000). Nothing else runs. Each answer says
 what the job costs; every channel, the full placement walk, a full or
